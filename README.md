@@ -1,4 +1,4 @@
-# Anonymous FederatedRAG Release
+# Anonymous STUN-Bench Release
 
 This repository is a one-commit anonymous artifact release for the submitted
 paper. It contains the evaluation harness, provenance records, sanitized result
