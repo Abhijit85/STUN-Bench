@@ -1,0 +1,126 @@
+{
+  "aggregate": {
+    "concat": {
+      "accuracy": 0.43072702331961593,
+      "recall_at_5": 0.5185185185185185,
+      "stratum_metrics": {
+        "heldout": {
+          "accuracy": 0.30097087378640774,
+          "n": 309,
+          "recall_at_5": 0.35275080906148865
+        },
+        "other_labeled": {
+          "accuracy": 0.5095057034220533,
+          "n": 263,
+          "recall_at_5": 0.6197718631178707
+        },
+        "tx_one_owner": {
+          "accuracy": 0.554140127388535,
+          "n": 157,
+          "recall_at_5": 0.6751592356687898
+        }
+      }
+    },
+    "docs_only": {
+      "accuracy": 0.5281207133058985,
+      "recall_at_5": 0.6721536351165981,
+      "stratum_metrics": {
+        "heldout": {
+          "accuracy": 0.5339805825242718,
+          "n": 309,
+          "recall_at_5": 0.6893203883495146
+        },
+        "other_labeled": {
+          "accuracy": 0.5285171102661597,
+          "n": 263,
+          "recall_at_5": 0.6730038022813688
+        },
+        "tx_one_owner": {
+          "accuracy": 0.5159235668789809,
+          "n": 157,
+          "recall_at_5": 0.6369426751592356
+        }
+      }
+    },
+    "local_only": {
+      "accuracy": 0.3830275229357798,
+      "recall_at_5": 0.4673165137614679,
+      "stratum_metrics": {
+        "heldout": {
+          "accuracy": 0.41359223300970877,
+          "n": 1545,
+          "recall_at_5": 0.49385113268608416
+        },
+        "other_labeled": {
+          "accuracy": 0.3520912547528517,
+          "n": 1315,
+          "recall_at_5": 0.43650190114068443
+        },
+        "tx_one_owner": {
+          "accuracy": 0.37261146496815284,
+          "n": 628,
+          "recall_at_5": 0.46656050955414013
+        }
+      }
+    },
+    "synapse": {
+      "accuracy": 0.43621399176954734,
+      "recall_at_5": 0.5212620027434842,
+      "stratum_metrics": {
+        "heldout": {
+          "accuracy": 0.30097087378640774,
+          "n": 309,
+          "recall_at_5": 0.34951456310679613
+        },
+        "other_labeled": {
+          "accuracy": 0.5171102661596958,
+          "n": 263,
+          "recall_at_5": 0.623574144486692
+        },
+        "tx_one_owner": {
+          "accuracy": 0.5668789808917197,
+          "n": 157,
+          "recall_at_5": 0.6878980891719745
+        }
+      }
+    },
+    "two_index": {
+      "accuracy": 0.5294924554183813,
+      "recall_at_5": 0.6790123456790124,
+      "stratum_metrics": {
+        "heldout": {
+          "accuracy": 0.49838187702265374,
+          "n": 309,
+          "recall_at_5": 0.6116504854368932
+        },
+        "other_labeled": {
+          "accuracy": 0.5703422053231939,
+          "n": 263,
+          "recall_at_5": 0.7490494296577946
+        },
+        "tx_one_owner": {
+          "accuracy": 0.5222929936305732,
+          "n": 157,
+          "recall_at_5": 0.6942675159235668
+        }
+      }
+    }
+  },
+  "config": {
+    "arms": [
+      "concat",
+      "docs_only",
+      "local_only",
+      "synapse",
+      "two_index"
+    ],
+    "input_dir": "<REPO_ROOT>/artifacts/results/stabletoolbench_cross_client_e8_inputs_r2",
+    "merge_policy": "conflict_log",
+    "retrieval_mode": "distinct_tool_topk",
+    "retrieval_pool_size": 200
+  },
+  "input_repo_commit": "a63756535d3ab3e9a18e606dd70dcf9fa5489add",
+  "paper_eligible": true,
+  "repo_commit": "9e16221576acb5d93cdf83dd451c9331042818e6",
+  "seed": 42
+}

@@ -1,0 +1,2506 @@
+{
+  "generated_at": "2026-09-14T12:10:33-07:00",
+  "repo_root": "<REPO_ROOT>",
+  "superseded": {
+    "gsm8k": "Historical GSM8K tables are superseded and are never required by make_tables."
+  },
+  "tables": {
+    "benchmarks": {
+      "details": {
+        "arms": [
+          "synapse",
+          "centralized",
+          "local_only",
+          "flat_pool",
+          "query_classifier"
+        ],
+        "candidate_rule": "distinct5_walkdown",
+        "cells": {
+          "centralized:123": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_123/centralized.json",
+          "centralized:42": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_42/centralized.json",
+          "centralized:456": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_456/centralized.json",
+          "flat_pool:123": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_123/flat_pool.json",
+          "flat_pool:42": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_42/flat_pool.json",
+          "flat_pool:456": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_456/flat_pool.json",
+          "local_only:123": "artifacts/verification/stabletoolbench_benchmark_localonly_distinct5_r3/seed_123/local_only.json",
+          "local_only:42": "artifacts/verification/stabletoolbench_benchmark_localonly_distinct5_r3/seed_42/local_only.json",
+          "local_only:456": "artifacts/verification/stabletoolbench_benchmark_localonly_distinct5_r3/seed_456/local_only.json",
+          "synapse:123": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_123/synapse.json",
+          "synapse:42": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_42/synapse.json",
+          "synapse:456": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_456/synapse.json"
+        },
+        "clean_classifier_summary_path": "artifacts/verification/stabletoolbench_query_classifier_clean_r1/combined_summary.json",
+        "concat_control_summary_path": "artifacts/results/stabletoolbench_concat_control_distinct5_r2/summary.json",
+        "group_labels": {
+          "G1_category": "G1-Category",
+          "G1_instruction": "G1-Instruction",
+          "G1_tool": "G1-Tool",
+          "G2_category": "G2-Category",
+          "G2_instruction": "G2-Instruction",
+          "G3_instruction": "G3-Instruction"
+        },
+        "groups": [
+          "G1_instruction",
+          "G1_tool",
+          "G1_category",
+          "G2_instruction",
+          "G2_category",
+          "G3_instruction"
+        ],
+        "source": "corrected_distinct5_replay"
+      },
+      "inputs": [
+        {
+          "arm": "synapse",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "181292064977ff0bbc1ef175776723a44a754f6d416b3d5555460e9e8e61ba4e",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_42/synapse.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 42,
+          "sha256": "662fd358da142180d27ad45d3e0cfc0e8afc35e385a5c62a1e0bbfdc29fd2d95"
+        },
+        {
+          "arm": "synapse",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "d73d6f97fd84d39be14510b12591246b3ac817dc744add3a2b79676706fa29b6",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_123/synapse.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 123,
+          "sha256": "018f43ff1a249b6e8f36b91f0fa66805d432808493ecd8ba54bcc62224a60cd2"
+        },
+        {
+          "arm": "synapse",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "a1aeb1bc95766f1df47c3dfc109571a3ea56747b96fba4b3e4324dff70170eeb",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_456/synapse.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 456,
+          "sha256": "5cf83e597846e5a998296a00473078b8028b072e87703f47ac980d88ee750c1b"
+        },
+        {
+          "arm": "centralized",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "82cf70591f999c3e8999b17425743043c67ae940e1f64b4ace9b3a47504c388c",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_42/centralized.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 42,
+          "sha256": "f01f9246d8a2bf8d875ec2c30285f8f1ed4ad85109fd3d264b77cb0a649010c8"
+        },
+        {
+          "arm": "centralized",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "227f4110774edb00eea057a62de8502457c9270efcb06b0a96571a257b9e5d49",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_123/centralized.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 123,
+          "sha256": "6e8916e4cc55a1a65d1df8f470661c2e1d96a0445ba09670b116f78525711e46"
+        },
+        {
+          "arm": "centralized",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "c87f228da144e124f5899ce5252fc264dfc8a46e664a74f2111b4514f1d72a13",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_456/centralized.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 456,
+          "sha256": "b4c28ca2002e7056109caad365204a98a5781d639a03bed2d7904624e185e51e"
+        },
+        {
+          "arm": "local_only",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": null,
+          "path": "artifacts/verification/stabletoolbench_benchmark_localonly_distinct5_r3/seed_42/local_only.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 3645,
+          "seed": 42,
+          "sha256": "28aa0a3223142012a1eda524fa02800e4e4cbbe3d295ad59c22ccc669350ec85"
+        },
+        {
+          "arm": "local_only",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": null,
+          "path": "artifacts/verification/stabletoolbench_benchmark_localonly_distinct5_r3/seed_123/local_only.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 3645,
+          "seed": 123,
+          "sha256": "99bc3a1f8a3b0bb4007b644cc301f35998a032961cc0d8973cfb3932a8685fcf"
+        },
+        {
+          "arm": "local_only",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": null,
+          "path": "artifacts/verification/stabletoolbench_benchmark_localonly_distinct5_r3/seed_456/local_only.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 3645,
+          "seed": 456,
+          "sha256": "75fd1b0955ad680e942131b7a82dd3638de6fe9f4eb5c058911c400abc0cf0fd"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "849af3db0c6a77f1bcdae19ede631d093b698ec57eda5c8459b64cf74d2fb6fb",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_42/flat_pool.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 42,
+          "sha256": "53e10cafa689294c606b7f469501e1eef2b195be9937ece084bfd184783f3778"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "849af3db0c6a77f1bcdae19ede631d093b698ec57eda5c8459b64cf74d2fb6fb",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_123/flat_pool.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 123,
+          "sha256": "dc8f5d569b0d02bcb6cb3ef8b3c36baa7c7262292196b6c047687bc976a88a58"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "package_sha256": "849af3db0c6a77f1bcdae19ede631d093b698ec57eda5c8459b64cf74d2fb6fb",
+          "path": "artifacts/verification/stabletoolbench_benchmark_cached_replay_r2/seed_456/flat_pool.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "retrieval_pool_size": 200,
+          "role": "benchmark_distinct5_replay_cell",
+          "row_count": 729,
+          "seed": 456,
+          "sha256": "4d19edca14d396309bfa38643f8f5a5753e6fd645fe98d4f935e286d078e71c8"
+        },
+        {
+          "path": "artifacts/verification/stabletoolbench_query_classifier_clean_r1/combined_summary.json",
+          "repo_commit": null,
+          "repo_commit_is_ancestor_of_head": null,
+          "sha256": "8fde500692f34b390e1acd04acfeb713089adaaced12a9ffee35c03f3b7b293e"
+        },
+        {
+          "candidate_rule": "distinct5_walkdown",
+          "path": "artifacts/results/stabletoolbench_concat_control_distinct5_r2/summary.json",
+          "repo_commit": "1a4ecbeb9cc3e1cffdcfea847fd119640fa9154b",
+          "repo_commit_is_ancestor_of_head": false,
+          "sha256": "06c212784664e8be8addaad793123a10ad854517e23cb6020e1704169b7ec89f"
+        }
+      ],
+      "output": "paper/tables/generated/benchmarks.tex",
+      "status": "built"
+    },
+    "bounded_oracle": {
+      "details": {
+        "config": {
+          "arms": [
+            "synapse",
+            "flat_pool"
+          ],
+          "candidate_rule": "distinct5_walkdown",
+          "embed_model": "jina-embeddings-v2-base-en",
+          "local_embedder": {
+            "device": "cuda:0",
+            "local_only": "1",
+            "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+            "revision": "unknown"
+          },
+          "model_path": "<HF_CACHE>/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+          "oracle_distractor_source": "arm_own_index",
+          "oracle_insertion_rule": "replace-lowest-ranked-non-gold-preserve-k5",
+          "repo_commit": "d47d43be4f0eac574f908c4379c61b033e3c1440",
+          "reranker_variant": "V3",
+          "retrieval_mode": "distinct_tool_topk",
+          "retrieval_pool_size": 200,
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "top_k": 5
+        }
+      },
+      "inputs": [
+        {
+          "path": "artifacts/results/stabletoolbench_heldout_oracle_distinct5_r2/summary.json",
+          "repo_commit": "d47d43be4f0eac574f908c4379c61b033e3c1440",
+          "repo_commit_is_ancestor_of_head": false,
+          "sha256": "a9cfb67155b99d742ddaaa2eb667e132e8f95dd56a6e100cf09b8e7680db0d5c"
+        }
+      ],
+      "output": "paper/tables/generated/bounded_oracle.tex",
+      "status": "built"
+    },
+    "c1_robustness": {
+      "details": {
+        "classifier_fit_n": 25000,
+        "classifier_fit_pool_sha256": "d08eb025f9f8aa58b2a723bc0158037bf0f4844843ab6cde7bdda3208d95209b",
+        "classifier_fit_refusal_check": {
+          "checked_item_count": 25000,
+          "exact_overlap_count": 0,
+          "near_duplicate_count": 0,
+          "stage": "seed_42_classifier_fit_set"
+        },
+        "cos090_classifier_accuracy": 0.7544581618655692,
+        "cos095_classifier_accuracy": 0.8166438042981252,
+        "docs_only_accuracy": 0.5281207133058985,
+        "docs_only_source": "artifacts/verification/stabletoolbench_c1_cos090_seed42_r1/combined_summary.json",
+        "experience_arms_source": "artifacts/verification/stabletoolbench_c1_cos090_distinct5_seed42_r4/combined_summary.json",
+        "filtered_pool_sha256": "29bf7fe1cb00833e940e0fb83ba7dca71eb81fa8863c93801370612b38842ebe",
+        "threshold": 0.9
+      },
+      "inputs": [
+        {
+          "path": "artifacts/verification/stabletoolbench_c1_cos090_seed42_r1/combined_summary.json",
+          "repo_commit": "cf1d02b16376dd5edf72adb9ce93ff48f380d9d3",
+          "repo_commit_is_ancestor_of_head": false,
+          "role": "c1_docs_only_reference",
+          "sha256": "e428b78616cc6a111eb97bc240b12aa11aa613557c396cc3acc396769a5cfb0c"
+        },
+        {
+          "candidate_rule": "distinct5_walkdown",
+          "path": "artifacts/verification/stabletoolbench_c1_cos090_distinct5_seed42_r4/combined_summary.json",
+          "repo_commit": "1a4ecbeb9cc3e1cffdcfea847fd119640fa9154b",
+          "repo_commit_is_ancestor_of_head": false,
+          "role": "c1_distinct5_experience_arms",
+          "sha256": "65586f8039420fc3fb3886e146b2e2ad538788d200356edf0cc21df559663f9d"
+        },
+        {
+          "path": "artifacts/verification/stabletoolbench_c1_query_classifier_cos090_seed42_clientdraw_r1/combined_summary.json",
+          "repo_commit": "cf1d02b16376dd5edf72adb9ce93ff48f380d9d3",
+          "repo_commit_is_ancestor_of_head": false,
+          "role": "c1_classifier_refit",
+          "sha256": "ed72f82c9dee3ab1f26ed327b23fce14cbc3701d086524beceef261e1bd320c4"
+        },
+        {
+          "path": "artifacts/verification/stabletoolbench_c1_query_classifier_cos090_seed42_clientdraw_r1/seed_42.json",
+          "repo_commit": "cf1d02b16376dd5edf72adb9ce93ff48f380d9d3",
+          "repo_commit_is_ancestor_of_head": false,
+          "role": "c1_classifier_refit_seed",
+          "sha256": "7035d61b153400a42840e1b063232811b7d36f4262ea1af583ced92e1b980658"
+        },
+        {
+          "path": "artifacts/verification/stabletoolbench_query_classifier_clean_r1/combined_summary.json",
+          "repo_commit": "22f84b328354b8c867df2925f8bef0690a05f83c",
+          "repo_commit_is_ancestor_of_head": true,
+          "role": "cos095_classifier_reference",
+          "sha256": "8fde500692f34b390e1acd04acfeb713089adaaced12a9ffee35c03f3b7b293e"
+        }
+      ],
+      "output": "paper/tables/generated/c1_robustness.tex",
+      "status": "built"
+    },
+    "concat_control": {
+      "details": {
+        "config": {
+          "full_rates": [
+            0,
+            60
+          ],
+          "git_commit": "1a4ecbeb9cc3e1cffdcfea847fd119640fa9154b",
+          "local_embedder": {
+            "device": "cuda",
+            "local_only": "1",
+            "model_path": "/tmp/fedrag_launch_b978562e/external_models/jinaai/jina-embeddings-v2-base-en",
+            "revision": "unknown"
+          },
+          "model_path": "<HF_CACHE>/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+          "packages_roots": {
+            "123": "<REPO_ROOT>/artifacts/verification/stabletoolbench_clean_anchor_seed123_r4/packages",
+            "42": "<REPO_ROOT>/artifacts/verification/stabletoolbench_clean_anchor_seed42_r4/packages",
+            "456": "<REPO_ROOT>/artifacts/verification/stabletoolbench_clean_anchor_seed456_r4/packages"
+          },
+          "rates": [
+            0,
+            60
+          ],
+          "reranker_variant": "V3",
+          "retrieval_mode": "distinct_tool_topk",
+          "retrieval_pool_size": 200,
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "top_k": 5
+        },
+        "source": "artifacts/results/stabletoolbench_concat_control_distinct5_r2/summary.json"
+      },
+      "inputs": [
+        {
+          "candidate_rule": "distinct5_walkdown",
+          "path": "artifacts/results/stabletoolbench_concat_control_distinct5_r2/summary.json",
+          "repo_commit": "1a4ecbeb9cc3e1cffdcfea847fd119640fa9154b",
+          "repo_commit_is_ancestor_of_head": false,
+          "sha256": "06c212784664e8be8addaad793123a10ad854517e23cb6020e1704169b7ec89f"
+        }
+      ],
+      "output": "paper/tables/generated/concat_control.tex",
+      "status": "built"
+    },
+    "conflict_2x2": {
+      "details": {
+        "contradiction_hash_verified": true,
+        "refusals": [],
+        "seeds_common": {
+          "0": [
+            123,
+            456
+          ],
+          "20": [
+            123,
+            456
+          ],
+          "40": [
+            123,
+            456
+          ],
+          "60": [
+            123,
+            456
+          ]
+        },
+        "seeds_used_for_headline": [
+          42,
+          123,
+          456
+        ],
+        "targeted_subset_conflict40": {
+          "123": {
+            "by_arm": {
+              "flat_majority": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.5232558139534884
+              },
+              "typed_conflictlog": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.5775193798449613
+              },
+              "typed_majority": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.562015503875969
+              },
+              "typed_round_delayed": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.5813953488372093
+              }
+            },
+            "contradicted_count": 16318,
+            "distinct_gold_tools": 322,
+            "reached": 0,
+            "rows": 258,
+            "targeted": 0
+          },
+          "42": {
+            "by_arm": {
+              "flat_majority": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.5155038759689923
+              },
+              "typed_conflictlog": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.5581395348837209
+              },
+              "typed_majority": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.5465116279069767
+              }
+            },
+            "contradicted_count": 16244,
+            "distinct_gold_tools": 322,
+            "reached": 0,
+            "rows": 258,
+            "targeted": 0
+          },
+          "456": {
+            "by_arm": {
+              "flat_majority": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.47674418604651164
+              },
+              "typed_conflictlog": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.6162790697674418
+              },
+              "typed_majority": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.5968992248062015
+              },
+              "typed_round_delayed": {
+                "targeted_accuracy": null,
+                "untargeted_accuracy": 0.5775193798449613
+              }
+            },
+            "contradicted_count": 16016,
+            "distinct_gold_tools": 322,
+            "reached": 0,
+            "rows": 258,
+            "targeted": 0
+          }
+        },
+        "warnings": []
+      },
+      "inputs": [
+        {
+          "path": "<REPO_ROOT>_runs/paper/tables/generated/conflict_2x2.tex",
+          "sha256": "72c170e69fe04bf6d0aa3d3a4542b04935b3ac0a61eb8d40cdc7d0a288876f53"
+        },
+        {
+          "path": "<REPO_ROOT>_runs/paper/tables/generated/numbers_conflict.tex",
+          "sha256": "9b1fd21647a7c23e24b2a8e45ff6e61ecfe55061219a563b34967bee30a352b0"
+        },
+        {
+          "path": "<REPO_ROOT>_runs/paper/tables/generated/conflict_manifest.json",
+          "sha256": "5a8b2f2818e6f07f9bd78619537741a6835c06248509c3d697b1984f84c7ed42"
+        },
+        {
+          "arms": [
+            "typed_conflictlog",
+            "typed_majority",
+            "flat_majority"
+          ],
+          "path": "artifacts/results/stabletoolbench_2x2_seed42_r3b/summary.json",
+          "rates": [
+            0,
+            40,
+            60
+          ],
+          "repo_commit": "8afdda9887ec511b0caa0e56f610de5161eddb26",
+          "repo_commit_is_ancestor_of_head": true,
+          "sha256": "c8238297aef04d3a23797710bfd85be5e42f9ddfb65d85b896a3c2d2fc48d5ce"
+        },
+        {
+          "arms": [
+            "typed_conflictlog",
+            "typed_round_delayed",
+            "typed_majority",
+            "flat_majority"
+          ],
+          "path": "<REPO_ROOT>_runs/artifacts/results/stabletoolbench_2x2_seed123_r5/summary.json",
+          "rates": [
+            0,
+            20,
+            40,
+            60
+          ],
+          "repo_commit": "8afdda9887ec511b0caa0e56f610de5161eddb26",
+          "repo_commit_is_ancestor_of_head": true,
+          "sha256": "8e27916c3eae89674cd92882e0822c18399943806e96cc5e8a0331ffcd1b8824"
+        },
+        {
+          "arms": [
+            "typed_conflictlog",
+            "typed_round_delayed",
+            "typed_majority",
+            "flat_majority"
+          ],
+          "path": "artifacts/results/stabletoolbench_2x2_seed456_r2/summary.json",
+          "rates": [
+            0,
+            20,
+            40,
+            60
+          ],
+          "repo_commit": "0cacf52c63dfb6e60317b4d1a3138911b3f75599",
+          "repo_commit_is_ancestor_of_head": true,
+          "sha256": "ab35b36245312dcb360deef592b7e314e5fc0a66342bbde457a17b9a9a0f0390"
+        }
+      ],
+      "output": "paper/tables/generated/conflict_2x2.tex",
+      "status": "built"
+    },
+    "d3_symmetric_expansion": {
+      "details": {
+        "arm_done_rows": 27,
+        "generation_mode": "template_from_description",
+        "summary_status": "failed_after_cells_posixpath_json"
+      },
+      "inputs": [
+        {
+          "generation_mode": "template_from_description",
+          "path": "artifacts/results/stabletoolbench_symmetric_expansion_d3_r2/progress.jsonl",
+          "repo_commit": "9711213d3a77ab683b55ce3380759a3964adddd7",
+          "repo_commit_is_ancestor_of_head": false,
+          "role": "d3_progress",
+          "sha256": "6f5cee6aaaa1d5aef0533423ad08467897e2c3afce80fc39bc3c17f579431fdb"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_symmetric_expansion_d3_r2.launch.log",
+          "role": "d3_launch_log",
+          "sha256": "9455b06767d172ec7eca73f9ec13516e50b33b985b7c30f2dfcd42d6a384d90d",
+          "summary_write_failure": "PosixPath not JSON serializable"
+        }
+      ],
+      "output": "paper/tables/generated/d3_symmetric_expansion.tex",
+      "status": "built"
+    },
+    "d4_split_sensitivity": {
+      "details": {
+        "arms": [
+          "docs_only",
+          "shared"
+        ],
+        "modes": [
+          "strict",
+          "label_only",
+          "mention_only"
+        ],
+        "seeds": [
+          42,
+          123,
+          456
+        ]
+      },
+      "inputs": [
+        {
+          "arm": "docs_only",
+          "filter_mode": "strict",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/strict/seed_42/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 42,
+          "sha256": "8dc8e12a414d669d863fc549d76b747e620ca33eefcef3f98f756772cf25a5f3"
+        },
+        {
+          "arm": "docs_only",
+          "filter_mode": "strict",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/strict/seed_123/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 123,
+          "sha256": "a419eccb13b63ca3a15b7050289a7caf0cc990abd0e5ebaf8f580637609f9240"
+        },
+        {
+          "arm": "docs_only",
+          "filter_mode": "strict",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/strict/seed_456/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 456,
+          "sha256": "ef849c09dfc7804df6cd1b5c1ec7fddafcee6620ee37065e750cc5ebf79b8bc9"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "strict",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/strict/seed_42/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 42,
+          "sha256": "cfe6d495cafe7d4f9fb2d4913196d21793b898d46dd9b62bbe3f595c75dbe1fa"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "strict",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/strict/seed_123/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 123,
+          "sha256": "6d84d864b90de383bbd7e30ed56c1d0a7f0297f5d24b9e3caa6e464887511823"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "strict",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/strict/seed_456/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 456,
+          "sha256": "df62ed0afab1f009d83bef296ce2ff959eede39739d82b85ed39678790a6f962"
+        },
+        {
+          "arm": "docs_only",
+          "filter_mode": "label_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/label_only/seed_42/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 42,
+          "sha256": "ed7604a7445f2d38c4dfd9390dbbf03eac4019fa62ce72589d63461680a0e535"
+        },
+        {
+          "arm": "docs_only",
+          "filter_mode": "label_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/label_only/seed_123/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 123,
+          "sha256": "ddf56ebceb844c4968b5752b5478e948b29494bba73f64b545535e03276fe82c"
+        },
+        {
+          "arm": "docs_only",
+          "filter_mode": "label_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/label_only/seed_456/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 456,
+          "sha256": "d3caada6be2cdcae8775a9fe3d1f059341b10e4a9c3e7986d6596acbaa8dff80"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "label_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/label_only/seed_42/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 42,
+          "sha256": "561653be5788b18ec77cf99dd699cf6382e6fb4f49cd57bf1c4c7524ba3fe4e6"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "label_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/label_only/seed_123/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 123,
+          "sha256": "406ba512c2dc01db2ddeff6c487e21312ebe621c42baea946fabeb865ee8b521"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "label_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/label_only/seed_456/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 456,
+          "sha256": "d293fb3e3efb0b43f1c30dcff93c0ee198cff48b6829bcd4b9fd6fca974020af"
+        },
+        {
+          "arm": "docs_only",
+          "filter_mode": "mention_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/mention_only/seed_42/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 42,
+          "sha256": "ca6ffa717d136ee20cc2c3e4512faa33f22a4d2e9bc80e7369085d596fdde067"
+        },
+        {
+          "arm": "docs_only",
+          "filter_mode": "mention_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/mention_only/seed_123/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 123,
+          "sha256": "37d8ffd0d95a60669b3692b28425c26f8db4755405da89972ed4dcc8ee41fd41"
+        },
+        {
+          "arm": "docs_only",
+          "filter_mode": "mention_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/mention_only/seed_456/docs_only.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 456,
+          "sha256": "cb88711117fe98f59ba88ec475575f4447bbb002dbd04b834d6dcf56f412696d"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "mention_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/mention_only/seed_42/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 42,
+          "sha256": "b37aca78618fdffe356947a60330a59ff7db5e5795b5d9a0d6d121feeaaa55de"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "mention_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/mention_only/seed_123/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 123,
+          "sha256": "79dc9c2add6a0aaa803ac2e6c95284b9b554dbff143787456cd8ac447edeb6ab"
+        },
+        {
+          "arm": "shared",
+          "filter_mode": "mention_only",
+          "path": "artifacts/results/stabletoolbench_split_sensitivity_d4_r3/mention_only/seed_456/shared.json",
+          "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+          "repo_commit_is_ancestor_of_head": false,
+          "seed": 456,
+          "sha256": "1fd10f4bedd7fb3bd7f1d2a84d2f4a6aea679b4de94914c62e734f22273b46f4"
+        }
+      ],
+      "output": "paper/tables/generated/d4_split_sensitivity.tex",
+      "status": "built"
+    },
+    "d5_paired_stats": {
+      "details": {
+        "test_count": 139
+      },
+      "inputs": [
+        {
+          "path": "artifacts/verification/d5_paired_tests_r3/summary.json",
+          "sha256": "07325c10f9f030559bab9b2597a6b748f2dd2d4ddbee7aea520aa5076c6f8125"
+        }
+      ],
+      "output": "paper/tables/generated/d5_paired_stats.tex",
+      "status": "built"
+    },
+    "d6_fusion": {
+      "details": {
+        "config": {
+          "bge_model_path": "<HF_CACHE>/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+          "e6_dirs": {
+            "123": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed123_r4",
+            "42": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_r4",
+            "456": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed456_r4"
+          },
+          "heldout_dev_tools_sha256": "98a1bba6b3832cea667cd278f43d6d08f51de5af3e60a043892a3dd11f9f9ec8",
+          "heldout_test_tools_sha256": "79a8adcb48c4f5bb319d7886e510136c3b1a2790c37b4aff6bc5bb2c94351be2",
+          "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+          "local_embedder": {
+            "device": "cuda:0",
+            "local_only": "1",
+            "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+            "revision": "unknown"
+          },
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "reranker_variant": "V3",
+          "retrieval_pool_size": 200,
+          "retrievers": [
+            "jina",
+            "bm25",
+            "bge"
+          ],
+          "rrf_k": 60,
+          "rules": [
+            "union_rrf",
+            "weighted_score_fusion",
+            "docs_plus_experience_backfill"
+          ],
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "top_k": 5
+        },
+        "rrf_note": "With retrieval_pool_size=200, additive RRF fills held-out top-5 slots with docs+experience tools and held-out recall is zero.",
+        "weighted_fusion_weights": [
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.7397260273972602,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "jina",
+            "seed": 42
+          },
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.7397260273972602,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "jina",
+            "seed": 123
+          },
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.7397260273972602,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "jina",
+            "seed": 456
+          },
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.7054794520547946,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "bm25",
+            "seed": 42
+          },
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.7054794520547946,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "bm25",
+            "seed": 123
+          },
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.7054794520547946,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "bm25",
+            "seed": 456
+          },
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.8013698630136986,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "bge",
+            "seed": 42
+          },
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.8013698630136986,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "bge",
+            "seed": 123
+          },
+          {
+            "fusion_tuning": {
+              "n": 146,
+              "recall_at_5": 0.8013698630136986,
+              "weight": 0.0
+            },
+            "fusion_weight": 0.0,
+            "retriever": "bge",
+            "seed": 456
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/summary.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "role": "d6_summary",
+          "sha256": "01b2837a9ecccd90e5eea5f3b929bae16b2e2526fdaeddbbc25a9cb96f0eb8bd"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/jina/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 42,
+          "sha256": "ce46eaab95c7e777709e71892a02ef94147ece7cb24d797f84d7e9070fd1d2ee"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/jina/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 123,
+          "sha256": "21251a71a25c71170c87986fbb20a9716858e2f70cc0ed83ee68e9aea57e3008"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/jina/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 456,
+          "sha256": "63909e3efa98fc01f942c248723f72cef2de1c53b7e4bf68aa481d99c097d5e7"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/jina/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 42,
+          "sha256": "35a82fc4a1d7d6ba17bbda4e99ed2d7f0af2574fb1646146579ee01a0899142b"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/jina/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 123,
+          "sha256": "093f9fe6791091e9250c0a1bb5c8d46649411fdbe3f8e073cd343b75438fe7d3"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/jina/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 456,
+          "sha256": "de1747e184c8644a69cc1b024b7c06f88698989e21d13bee41a623df82b4025c"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/jina/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 42,
+          "sha256": "cb2eb979a9dd8d0cc23d20f8e2781aba83a720f239a3f8e17c51f3ced55b2d14"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/jina/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 123,
+          "sha256": "bea5ac6d3931522477f711657cbdc4a5219b0dc6edf6c35d0e43fb720def3bea"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/jina/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "jina",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 456,
+          "sha256": "c0b7ad7ec9af97b14e060ee08dbd9f1968d788035925994c4eef938bdf5b8c2a"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/bm25/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 42,
+          "sha256": "d8cbd59dac64aabcd6fa6b24fb2003b6ff88efbef77247e701ac2fc0a97604c2"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/bm25/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 123,
+          "sha256": "8b162842ebf2f13b82d92d9c01733f7ddbb7966a32a8ca3f45efeac7a6f05353"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/bm25/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 456,
+          "sha256": "bf593ad4aa508f66f50d1ff994b3fad5e89247f464658943008fe386e28683db"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/bm25/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 42,
+          "sha256": "27e8091c63501ec3a9ea1c5912cb0dd3d58cdefcb5b269ad499eddcea05bf69f"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/bm25/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 123,
+          "sha256": "08f0e578badefd32d0225fbb50e8afece04f7792414a8e39a76716f6aa16e01a"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/bm25/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 456,
+          "sha256": "9d0ede5983dab5b0e9084680a84309e976cdd755928ff170225c1590c54389fb"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/bm25/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 42,
+          "sha256": "a0846b0fbb4e84606180fee5612ab5d8a303a4ec08ace7508c8723bd6cca3e4c"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/bm25/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 123,
+          "sha256": "9648c52f54862acf85c0ac8ef69368f45f440ad7e03470059f78ba32d2e5eecf"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/bm25/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bm25",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 456,
+          "sha256": "b4c5d025327e33ebb1a2fcd1bd75d628c48f1d024510133a47659b0268e30001"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/bge/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 42,
+          "sha256": "2256a3a8c4c577a0370029e51d3e556f92391530eb6e06fc754a09ae8bc016eb"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/bge/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 123,
+          "sha256": "4e9f26c80977c65f6122f8b727cd3bc099e25adde9fab302d4db81281a335ada"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/bge/weighted_score_fusion.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "weighted_score_fusion",
+          "seed": 456,
+          "sha256": "059b3d516ce5213c3fce4e979f5dc59b5b49b7bee9918b287e29dceb0c52ffef"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/bge/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 42,
+          "sha256": "093d5c6266f67de6108bf49c3a1a1f98190f136ea0b1fc7ae9950234305e72b1"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/bge/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 123,
+          "sha256": "b49cd21100454492b63749f79afb40bc1d49e21f937fdb9741a6e9eabaf4ef33"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/bge/docs_plus_experience_backfill.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "docs_plus_experience_backfill",
+          "seed": 456,
+          "sha256": "f561df326c14b71a9882fbeba7bbef1b6bbbbbbe8218a2b5afe427c0aee18eac"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_42/bge/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 42,
+          "sha256": "b63391468de28fad4e34c8e9c74a3521aa8d0ffc2708355079659bfe674be34a"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_123/bge/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 123,
+          "sha256": "1c690dacc644e78508c3b3c36bfa3045141615d23bd8cb2bc46a24b9ca042918"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_fusion_comparison_d6_r2/seed_456/bge/union_rrf.json",
+          "repo_commit": "a306bdbfd5d65ed49378f9dcb089afec73268832",
+          "repo_commit_is_ancestor_of_head": false,
+          "retriever": "bge",
+          "role": "d6_cell",
+          "rule": "union_rrf",
+          "seed": 456,
+          "sha256": "720d432cbde6f61d903fd531ec77bc3d3ac8d01d95feab5d9cef60682c89417a"
+        }
+      ],
+      "output": "paper/tables/generated/d6_fusion.tex",
+      "status": "built"
+    },
+    "e5_heldout": {
+      "details": {
+        "candidate_rule": "distinct5_walkdown",
+        "config": {
+          "arms": [
+            "synapse",
+            "centralized",
+            "local_only",
+            "flat_pool",
+            "query_classifier"
+          ],
+          "client_count": 5,
+          "groups": [
+            "G1_instruction",
+            "G1_tool",
+            "G1_category",
+            "G2_instruction",
+            "G2_category",
+            "G3_instruction"
+          ],
+          "heldout_groups": [
+            "G1_tool",
+            "G1_category"
+          ],
+          "heldout_tools_path": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_r3b/heldout_tools.json",
+          "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+          "local_embedder": {
+            "device": "cuda",
+            "local_only": "1",
+            "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+            "revision": "unknown"
+          },
+          "max_items_per_client": 5000,
+          "merge_policy": "conflict_log",
+          "oracle_arms": [
+            "synapse",
+            "flat_pool"
+          ],
+          "partition_mode": "category",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "reranker_variant": "V3",
+          "retrieval_mode": "distinct_tool_topk",
+          "retrieval_pool_size": 5,
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "top_k": 5
+        },
+        "d1b_route_arm_metrics": {
+          "centralized": {
+            "heldout_accuracy": 0.2837108953613808,
+            "heldout_accuracy_sd": 0.006736783169793292,
+            "heldout_n": [
+              309,
+              309,
+              309
+            ],
+            "heldout_recall_at_5": 0.3354908306364617,
+            "heldout_recall_at_5_sd": 0.006736783169793292,
+            "labeled_accuracy": 0.523015873015873,
+            "labeled_accuracy_sd": 0.019245008972987518,
+            "labeled_n": [
+              420,
+              420,
+              420
+            ],
+            "labeled_recall_at_5": 0.6579365079365079,
+            "labeled_recall_at_5_sd": 0.015307382160306287,
+            "seeds": [
+              42,
+              123,
+              456
+            ]
+          },
+          "flat_pool": {
+            "heldout_accuracy": 0.5339805825242718,
+            "heldout_accuracy_sd": 0.0,
+            "heldout_n": [
+              309,
+              309,
+              309
+            ],
+            "heldout_recall_at_5": 0.6893203883495146,
+            "heldout_recall_at_5_sd": 0.0,
+            "labeled_accuracy": 0.5238095238095238,
+            "labeled_accuracy_sd": 0.0,
+            "labeled_n": [
+              420,
+              420,
+              420
+            ],
+            "labeled_recall_at_5": 0.6595238095238095,
+            "labeled_recall_at_5_sd": 0.0,
+            "seeds": [
+              42,
+              123,
+              456
+            ]
+          },
+          "local_only": {
+            "heldout_accuracy": 0.4103559870550162,
+            "heldout_accuracy_sd": 0.008238137256542282,
+            "heldout_n": [
+              1545,
+              1545
+            ],
+            "heldout_recall_at_5": 0.49255663430420715,
+            "heldout_recall_at_5_sd": 0.01006883442466281,
+            "labeled_accuracy": 0.39809523809523806,
+            "labeled_accuracy_sd": 0.000673435029701495,
+            "labeled_n": [
+              2100,
+              2100
+            ],
+            "labeled_recall_at_5": 0.4930952380952381,
+            "labeled_recall_at_5_sd": 0.00437732769305958,
+            "seeds": [
+              42,
+              456
+            ]
+          },
+          "synapse": {
+            "heldout_accuracy": 0.2783171521035599,
+            "heldout_accuracy_sd": 0.00647249190938512,
+            "heldout_n": [
+              309,
+              309,
+              309
+            ],
+            "heldout_recall_at_5": 0.3333333333333333,
+            "heldout_recall_at_5_sd": 0.0056053424193167525,
+            "labeled_accuracy": 0.5277777777777778,
+            "labeled_accuracy_sd": 0.009014140231428974,
+            "labeled_n": [
+              420,
+              420,
+              420
+            ],
+            "labeled_recall_at_5": 0.6587301587301587,
+            "labeled_recall_at_5_sd": 0.009014140231428974,
+            "seeds": [
+              42,
+              123,
+              456
+            ]
+          }
+        },
+        "docs_only_recall_reconciliation": {
+          "c1_seed42_flat_pool": {
+            "all_candidate_top5_recall": 0.6721536351165981,
+            "all_recorded_recall_at_5": 0.8271604938271605,
+            "all_retrieval_pool_hit": 0.8271604938271605,
+            "arm": "flat_pool",
+            "candidate_distinct_mean": 5.0,
+            "candidate_distinct_share_lt5": 0.0,
+            "groups": {
+              "G1_category": {
+                "accuracy": 0.5373134328358209,
+                "n": 134,
+                "recall_at_5": 0.8656716417910447
+              },
+              "G1_instruction": {
+                "accuracy": 0.5620915032679739,
+                "n": 153,
+                "recall_at_5": 0.869281045751634
+              },
+              "G1_tool": {
+                "accuracy": 0.5460526315789473,
+                "n": 152,
+                "recall_at_5": 0.8157894736842105
+              },
+              "G2_category": {
+                "accuracy": 0.4596774193548387,
+                "n": 124,
+                "recall_at_5": 0.7338709677419355
+              },
+              "G2_instruction": {
+                "accuracy": 0.5333333333333333,
+                "n": 105,
+                "recall_at_5": 0.8666666666666667
+              },
+              "G3_instruction": {
+                "accuracy": 0.5081967213114754,
+                "n": 61,
+                "recall_at_5": 0.7868852459016393
+              }
+            },
+            "heldout_recorded_recall_at_5": null,
+            "labeled_recorded_recall_at_5": null,
+            "path": "artifacts/verification/stabletoolbench_c1_cos090_seed42_r1/seed_42/flat_pool.json",
+            "retrieval_mode": "distinct_tool_topk",
+            "retrieval_pool_size": 20,
+            "retriever": null,
+            "top_level_recall_at_5": 0.8271604938271605
+          },
+          "e5_seed42_flat_pool": {
+            "all_candidate_top5_recall": 0.6721536351165981,
+            "all_recorded_recall_at_5": 0.6721536351165981,
+            "all_retrieval_pool_hit": 0.6721536351165981,
+            "arm": "flat_pool",
+            "candidate_distinct_mean": 5.0,
+            "candidate_distinct_share_lt5": 0.0,
+            "groups": {
+              "G1_category": {
+                "accuracy": 0.5373134328358209,
+                "n": 134,
+                "recall_at_5": 0.7089552238805971
+              },
+              "G1_instruction": {
+                "accuracy": 0.5620915032679739,
+                "n": 153,
+                "recall_at_5": 0.7058823529411765
+              },
+              "G1_tool": {
+                "accuracy": 0.5460526315789473,
+                "n": 152,
+                "recall_at_5": 0.6907894736842105
+              },
+              "G2_category": {
+                "accuracy": 0.4596774193548387,
+                "n": 124,
+                "recall_at_5": 0.5645161290322581
+              },
+              "G2_instruction": {
+                "accuracy": 0.5333333333333333,
+                "n": 105,
+                "recall_at_5": 0.6952380952380952
+              },
+              "G3_instruction": {
+                "accuracy": 0.5081967213114754,
+                "n": 61,
+                "recall_at_5": 0.639344262295082
+              }
+            },
+            "heldout_recorded_recall_at_5": 0.6893203883495146,
+            "labeled_recorded_recall_at_5": 0.6595238095238095,
+            "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_42/flat_pool.json",
+            "retrieval_mode": "distinct_tool_topk",
+            "retrieval_pool_size": 5,
+            "retriever": null,
+            "top_level_recall_at_5": 0.6721536351165981
+          },
+          "explanation": "E5 reports candidate top-5 hit at retrieval_pool_size=5. C1 reports retrieval-pool hit over a 20-item pool, while its candidate top-5 list matches E5 and has the same candidate-top5 recall."
+        },
+        "docs_only_zero_sd_note": "Docs-only has no seed-dependent client experience; D1b reproduces exactly across seeds.",
+        "heldout_filter": {
+          "dropped_heldout_query_ids_sample": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "30",
+            "33",
+            "100",
+            "101",
+            "102",
+            "103",
+            "104",
+            "105",
+            "106",
+            "107",
+            "108",
+            "109",
+            "140",
+            "141",
+            "142",
+            "143"
+          ],
+          "eval_queries_removed": 0,
+          "experience_entries_dropped_heldout": 103403,
+          "experience_entries_dropped_heldout_mentions": 83114,
+          "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+          "pool_items_after": 90704,
+          "pool_items_before": 194107,
+          "pool_items_dropped_heldout": 20289,
+          "pool_sha256": "87934661c9a4db8219a5d76bf78d0ba084a946e6712724e1602abc641cb01b06",
+          "remaining_items_with_heldout_label": 0
+        },
+        "heldout_sanity": {
+          "G1_category": {
+            "distinct_gold_tools": 77,
+            "queries_with_gold_in_heldout": 134,
+            "query_count": 134
+          },
+          "G1_tool": {
+            "distinct_gold_tools": 95,
+            "queries_with_gold_in_heldout": 152,
+            "query_count": 152
+          }
+        },
+        "local_only_seed123": {
+          "log": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed123_missing_r1/launch.log",
+          "reason": "coverage_shortfall_under_cap_200",
+          "status": "refused"
+        },
+        "retrieval_depth_used": 200,
+        "superseded_depth5_diagnostics": {
+          "retrieval_depth_used": 5,
+          "shared_index_distinct_candidate_tools": {
+            "docs_only_mean": 5.0,
+            "docs_only_share_lt5": 0.0,
+            "synapse_mean": 2.66986739826246,
+            "synapse_share_lt5": 0.9195244627343393
+          }
+        }
+      },
+      "inputs": [
+        {
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/summary.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "role": "e5_superseded_depth5_summary",
+          "sha256": "562e6f9fd8936a6f085780fab9da42e9737b36ce0a89ec4b4603030388734d4a"
+        },
+        {
+          "path": "artifacts/verification/d1_d2_candidate_underfill_r1/summary.json",
+          "role": "d1_d2_candidate_underfill",
+          "sha256": "f81f14a7f63e3dbd3632814214401dce27f5fbe92187ffb1ad1d09fa5a527804"
+        },
+        {
+          "arm": "synapse",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_r9/seed_42/synapse.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 42,
+          "sha256": "aaef3b0c87b59132c7d09312b5388ac17f3d49826ab76b1bb6030ec9c86ca6c2"
+        },
+        {
+          "arm": "synapse",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed123_r1/seed_123/synapse.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 123,
+          "sha256": "8a8fc24d54b590ae8cffd025f0090bc7b550b4ec620852a2cfb32309af599d16"
+        },
+        {
+          "arm": "synapse",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed456_r1/seed_456/synapse.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 456,
+          "sha256": "6ee453c0ebf8cf0cfa2ea529ae2110e5a889f13714e17fa490180ed2b6a46701"
+        },
+        {
+          "arm": "centralized",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_r9/seed_42/centralized.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 42,
+          "sha256": "822de47c6a84caccfc5531c3fa5b6ed7c64c6d2e4098b1049e3aae33d587a86c"
+        },
+        {
+          "arm": "centralized",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed123_r1/seed_123/centralized.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 123,
+          "sha256": "1693bcdfbe3b157ff02baaf0cfacf8aa2ef25a7389d63dd413801e6789b41f93"
+        },
+        {
+          "arm": "centralized",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed456_r1/seed_456/centralized.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 456,
+          "sha256": "020a70a7c45e22b1e355cafbd5436a595cd8b2a4010e2cbbb7276de84feb2a32"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_r9/seed_42/flat_pool.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 42,
+          "sha256": "7aa18e3e2925222b2695d64aae62a2e5514230008ee504054d76a38da9becf39"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed123_flatonly_r1/seed_123/flat_pool.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 123,
+          "sha256": "df5c067b530ab3d751d6df2a76c3ee5e84cdbfd19e55a5416aabb3a9843244f7"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed456_r1/seed_456/flat_pool.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 456,
+          "sha256": "92cb08c6f350052a7587372f502e0c6dd710a9ffd197e001fc7254c28cbd40d5"
+        },
+        {
+          "arm": "local_only",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_r9/seed_42/local_only.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 42,
+          "sha256": "49158d1b96c68e73b0f8dff55fd20ba8e1145d0054f8d01cab5672d7a78c5c53"
+        },
+        {
+          "arm": "local_only",
+          "candidate_rule": "distinct5_walkdown",
+          "candidate_shortfall_count": 0,
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed456_r1/seed_456/local_only.json",
+          "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 200,
+          "role": "d1b_distinct5_cell",
+          "seed": 456,
+          "sha256": "b49da842d34719a8c791790f1991284d7cf451800f8d801ab49cc69f499b9ad7"
+        },
+        {
+          "candidate_rule": "distinct5_walkdown",
+          "path": "artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed123_missing_r1/launch.log",
+          "reason": "coverage_shortfall_under_cap_200",
+          "role": "d1b_local_only_seed123_refusal",
+          "sha256": "5edebafdf298bb080e11b8a8ca107f9ab32af9142222f21f167e03cf319681f5"
+        },
+        {
+          "arm": "synapse",
+          "candidate_distinct_mean": 2.728395061728395,
+          "candidate_distinct_share_lt5": 0.9080932784636488,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_42/synapse.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "0831125aa30048d2b8316ee5dfb7b158357dd3dfb50d2fc48e71db7b2d1172f2"
+        },
+        {
+          "arm": "centralized",
+          "candidate_distinct_mean": 2.588477366255144,
+          "candidate_distinct_share_lt5": 0.9231824417009602,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_42/centralized.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "979e91b6fc8a45916df4fdc857bad76ab52559594f79e25aaa8b882ce377fc8a"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_distinct_mean": 5.0,
+          "candidate_distinct_share_lt5": 0.0,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_42/flat_pool.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "6211e6dac4851cfebf514b07a729299c75cb945b94696532c2a70d587140b7dc"
+        },
+        {
+          "arm": "local_only",
+          "candidate_distinct_mean": 3.134979423868313,
+          "candidate_distinct_share_lt5": 0.7755829903978052,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_42/local_only.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "db80c889012bbc9f6bf839e9aca561b163f33a5244fcf0e4b5fa70ac68bf684b"
+        },
+        {
+          "arm": "synapse",
+          "candidate_distinct_mean": 2.6598079561042525,
+          "candidate_distinct_share_lt5": 0.9286694101508917,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_123/synapse.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "b9e052c33cabbb9ad9dba84a5e5a8b1f9bf07c708891ce4ba837db6081389f35"
+        },
+        {
+          "arm": "centralized",
+          "candidate_distinct_mean": 2.541838134430727,
+          "candidate_distinct_share_lt5": 0.9410150891632373,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_123/centralized.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "2777ffd86a4ec42832e4e6814186362178097271d6fdac63b86f173ac3f27b29"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_distinct_mean": 5.0,
+          "candidate_distinct_share_lt5": 0.0,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_123/flat_pool.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "b3e548e94d9bb59ccdb6cc48d771242ccaeffba57bdf769b896e93fdb6b97b75"
+        },
+        {
+          "arm": "local_only",
+          "candidate_distinct_mean": 3.128395061728395,
+          "candidate_distinct_share_lt5": 0.7717421124828532,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_123/local_only.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "61bc57d4654c1d1da3fbefed7f9fb29fb0b0bc6451cdab8b376bb01a31306ae7"
+        },
+        {
+          "arm": "synapse",
+          "candidate_distinct_mean": 2.6213991769547325,
+          "candidate_distinct_share_lt5": 0.9218106995884774,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_456/synapse.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "c32878fe930a38d7c6bb182c331c2a30eb00129ac4f61f6301c39f08dbf92311"
+        },
+        {
+          "arm": "centralized",
+          "candidate_distinct_mean": 2.511659807956104,
+          "candidate_distinct_share_lt5": 0.9423868312757202,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_456/centralized.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "12730165cdbf79a25d23c91958a8e64444105b14a52ff7e1deb548fb4b70214a"
+        },
+        {
+          "arm": "flat_pool",
+          "candidate_distinct_mean": 5.0,
+          "candidate_distinct_share_lt5": 0.0,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_456/flat_pool.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "38cdb05a3ccf8d92eb8edbbaca6992e1f00f30d226d9689deef1cc412a5534c9"
+        },
+        {
+          "arm": "local_only",
+          "candidate_distinct_mean": 3.200548696844993,
+          "candidate_distinct_share_lt5": 0.7415637860082305,
+          "path": "artifacts/results/stabletoolbench_heldout_r3b/seed_456/local_only.json",
+          "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+          "repo_commit_is_ancestor_of_head": true,
+          "retrieval_pool_size": 5,
+          "role": "e5_row_file",
+          "sha256": "17a0cf760f6946e83afdbae78b8790bab74b14cee56c274d74bae1e0a868f4dd"
+        }
+      ],
+      "output": "paper/tables/generated/e5_heldout.tex",
+      "status": "built"
+    },
+    "e5b_separate_index": {
+      "details": {
+        "sources": [
+          {
+            "path": "artifacts/results/stabletoolbench_heldout_e5b_seed42_r2/summary.json",
+            "seeds": [
+              42
+            ]
+          },
+          {
+            "path": "artifacts/results/stabletoolbench_heldout_e5b_seeds123456_r3/summary.json",
+            "seeds": [
+              123,
+              456
+            ]
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "path": "artifacts/results/stabletoolbench_heldout_e5b_seed42_r2/summary.json",
+          "repo_commit": "c40f4b4b00b79ede0711ccfe3a489754aae9391b",
+          "repo_commit_is_ancestor_of_head": true,
+          "sha256": "eb1ef5aa71c8c985f5474b5b41f442b0bc7de849b1a5c4d23508f08b4d3dc728"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_heldout_e5b_seeds123456_r3/summary.json",
+          "repo_commit": "deb14424f825a796ddfe3426f9538191d689bfb4",
+          "repo_commit_is_ancestor_of_head": false,
+          "sha256": "2d71885706dcefa3e56f43ee868817144c2392262fa6564bbfbd5c0a9df2f7f3"
+        }
+      ],
+      "output": "paper/tables/generated/e5b_separate_index.tex",
+      "status": "built"
+    },
+    "e8_two_index": {
+      "details": {
+        "budgeted_cells": {
+          "bge": {
+            "overall_accuracy": 0.6017375400091449,
+            "overall_recall_at_5": 0.7640603566529492,
+            "paths": [
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_42/bge/docs_plus_experience_backfill.json",
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_123/bge/docs_plus_experience_backfill.json",
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_456/bge/docs_plus_experience_backfill.json"
+            ]
+          },
+          "bm25": {
+            "overall_accuracy": 0.5843621399176955,
+            "overall_recall_at_5": 0.7544581618655692,
+            "paths": [
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_42/bm25/docs_plus_experience_backfill.json",
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_123/bm25/docs_plus_experience_backfill.json",
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_456/bm25/docs_plus_experience_backfill.json"
+            ]
+          },
+          "jina": {
+            "overall_accuracy": 0.5390946502057613,
+            "overall_recall_at_5": 0.6771833561957019,
+            "paths": [
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_42/jina/docs_plus_experience_backfill.json",
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_123/jina/docs_plus_experience_backfill.json",
+              "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_456/jina/docs_plus_experience_backfill.json"
+            ]
+          }
+        },
+        "budgeted_config": {
+          "bge_model_path": "<HF_CACHE>/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+          "e6_dirs": {
+            "123": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed123_r4",
+            "42": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_r4",
+            "456": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed456_r4"
+          },
+          "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+          "local_embedder": {
+            "device": "cuda",
+            "local_only": "1",
+            "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+            "revision": "unknown"
+          },
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "reranker_variant": "V3",
+          "retrieval_pool_size": 20,
+          "retrievers": [
+            "jina",
+            "bm25",
+            "bge"
+          ],
+          "rrf_k": 60,
+          "rules": [
+            "docs_plus_experience_backfill"
+          ],
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "top_k": 5
+        },
+        "rrf_summary": "artifacts/results/stabletoolbench_two_index_router_e8_r1/summary.json"
+      },
+      "inputs": [
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/summary.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "role": "e8_budgeted_summary",
+          "sha256": "79f2a3bd0384005a45194d3af6ab7c4fce35d80b135b215e339b3adc3c88a6ac"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_r1/summary.json",
+          "repo_commit": "afc51b9efeb644f0b848860f0c9f53342d9f2136",
+          "repo_commit_is_ancestor_of_head": false,
+          "role": "e8_rrf_summary",
+          "sha256": "146b36354379d0f17a53439259f26dca10e7e7a364cf1b7c5cba5172fe5f3b29"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_42/jina/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "jina",
+          "role": "e8_budgeted_cell",
+          "seed": 42,
+          "sha256": "78dcd50ea11dd1d6daa1ecd9143ed62a22483b1945d3b9a4d192728dc015aab5"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_123/jina/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "jina",
+          "role": "e8_budgeted_cell",
+          "seed": 123,
+          "sha256": "2cf4aad178e6de66f9d5359ecd25a999c405a55b1b0559ae8c5f3dfbc04db918"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_456/jina/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "jina",
+          "role": "e8_budgeted_cell",
+          "seed": 456,
+          "sha256": "62c99591ffe570f9c4afc42d198a5dc3edd94b89f4b5553b853d7dc9d8228025"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_42/bm25/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "bm25",
+          "role": "e8_budgeted_cell",
+          "seed": 42,
+          "sha256": "d497b0925b12b1d2bdf4db0cca964cdb88e324b59e90368e76dc6dbfe0af4e92"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_123/bm25/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "bm25",
+          "role": "e8_budgeted_cell",
+          "seed": 123,
+          "sha256": "2d08762385d23f893726224ae43e045c7dc21df0f00ed37fc2a300f70dba1c5b"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_456/bm25/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "bm25",
+          "role": "e8_budgeted_cell",
+          "seed": 456,
+          "sha256": "5fbdde972a2ea710f2b5b7503614291089cf4cb6c070f6a63d44216d8a12b01a"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_42/bge/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "bge",
+          "role": "e8_budgeted_cell",
+          "seed": 42,
+          "sha256": "b980ba1d9a17396f558ae656a811f41c914971da45f0ff20d2b24002e413eb09"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_123/bge/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "bge",
+          "role": "e8_budgeted_cell",
+          "seed": 123,
+          "sha256": "295edc96604675d443d8f409ae34bdd72a4cc5ffb3d0af09950fe631135fbce2"
+        },
+        {
+          "path": "artifacts/results/stabletoolbench_two_index_router_e8_budgeted_distinct5_r2/seed_456/bge/docs_plus_experience_backfill.json",
+          "repo_commit": "b978562e97da207c69522be40e2f032d8f3e456a",
+          "repo_commit_is_ancestor_of_head": true,
+          "retriever": "bge",
+          "role": "e8_budgeted_cell",
+          "seed": 456,
+          "sha256": "26fdc0e100bc3c1b99e8699d40efbc64d0e023b9e5753c4303a9caac898e4bdb"
+        }
+      ],
+      "output": "paper/tables/generated/e8_two_index.tex",
+      "status": "built"
+    },
+    "lessons": {
+      "details": {
+        "clean_classifier_summary": {
+          "path": "artifacts/verification/stabletoolbench_query_classifier_clean_r1/combined_summary.json",
+          "sha256": "8fde500692f34b390e1acd04acfeb713089adaaced12a9ffee35c03f3b7b293e"
+        },
+        "contamination_source": "artifacts/verification/stabletoolbench_clean_anchor_seed42_r4/progress.jsonl",
+        "r11_reproduces_r4_counts": {
+          "status": "pending"
+        },
+        "r4_counts": {
+          "eval_queries_removed": 0,
+          "eval_queries_with_exact_match_in_pool": 729,
+          "eval_queries_with_near_dup_in_pool": 319,
+          "pool_items_removed_exact": 745,
+          "pool_items_removed_near_dup": 1171,
+          "pool_items_removed_total": 1916
+        },
+        "truly_unseen_analysis": {
+          "path": "artifacts/verification/stabletoolbench_truly_unseen_analysis.json",
+          "sha256": "d974c551ba5d7267d70bcd606e2214d0c6c08bc89aa00b2a6edf4b51b19d9a2e"
+        }
+      },
+      "inputs": [
+        {
+          "path": "artifacts/verification/stb_precondition_smoke_classifier/combined_summary.json",
+          "sha256": "50058d72442fc044ff6764183119732eafc0c91dbf49a7fab5aa1fa8a5f5fd39"
+        },
+        {
+          "path": "artifacts/verification/stabletoolbench_query_classifier_clean_r1/combined_summary.json",
+          "sha256": "8fde500692f34b390e1acd04acfeb713089adaaced12a9ffee35c03f3b7b293e"
+        },
+        {
+          "path": "artifacts/verification/stabletoolbench_truly_unseen_analysis.json",
+          "sha256": "d974c551ba5d7267d70bcd606e2214d0c6c08bc89aa00b2a6edf4b51b19d9a2e"
+        },
+        {
+          "path": "artifacts/verification/stabletoolbench_clean_anchor_seed42_r4/progress.jsonl",
+          "sha256": "338399386fe72c97c62d129b69af036ccc4841fa9713552a86b3ffbf46a73467"
+        }
+      ],
+      "output": "paper/tables/generated/lessons.tex",
+      "status": "built"
+    },
+    "p1_candidate_render": {
+      "details": {
+        "config": {
+          "candidate_list_size": 20,
+          "e6_dirs": {
+            "123": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed123_r4",
+            "42": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_r4",
+            "456": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed456_r4"
+          },
+          "embed_model": "jina-embeddings-v2-base-en",
+          "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+          "local_embedder": {
+            "device": "cuda",
+            "local_only": "1",
+            "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+            "revision": "unknown"
+          },
+          "oracle_insertion_rule": "replace_lowest_ranked_non_gold_preserve_k5",
+          "repo_commit": "6c22fe25266cda88e69c61c12afc16bba7b813d3",
+          "reranker_variant": "V3",
+          "retrieval_cap": 200,
+          "seeds": [
+            42,
+            123,
+            456
+          ],
+          "top_k": 5
+        }
+      },
+      "inputs": [
+        {
+          "path": "artifacts/results/stabletoolbench_candidate_render_interaction_p1_r3/summary.json",
+          "repo_commit": "6c22fe25266cda88e69c61c12afc16bba7b813d3",
+          "repo_commit_is_ancestor_of_head": false,
+          "sha256": "a93744bd483b1d56cd0f62b93a9000aa03d777bf9f792f5d477440bc13fc45e4"
+        }
+      ],
+      "output": "paper/tables/generated/p1_candidate_render.tex",
+      "status": "built"
+    },
+    "toolret_audit": {
+      "details": {
+        "dense_categories": [
+          "Music",
+          "News_Media",
+          "Tools"
+        ],
+        "sparse_configs": [
+          "apibank",
+          "appbench",
+          "autotools-food",
+          "autotools-music",
+          "autotools-weather",
+          "craft-math-algebra",
+          "craft-tabmwp",
+          "craft-vqa",
+          "gorilla-huggingface",
+          "gorilla-pytorch",
+          "gorilla-tensor",
+          "gpt4tools",
+          "gta",
+          "metatool",
+          "mnms",
+          "restgpt-spotify",
+          "restgpt-tmdb",
+          "reversechain",
+          "rotbench",
+          "t-eval-dialog",
+          "t-eval-step",
+          "taskbench-daily",
+          "taskbench-huggingface",
+          "taskbench-multimedia",
+          "tool-be-honest",
+          "toolace",
+          "toolalpaca",
+          "toolemu",
+          "tooleyes",
+          "toolink",
+          "toollens",
+          "ultratool"
+        ]
+      },
+      "inputs": [
+        {
+          "path": "artifacts/verification/toolret_provenance_audit_r1/summary.json",
+          "sha256": "9f8abccaa961376e161b489e48b6e8477fb089ed96e1f7d7a10c3a056b3009f1"
+        },
+        {
+          "path": "artifacts/verification/toolret_sparse_provenance_audit_r1/summary.json",
+          "sha256": "8cb02c5648ecd42e21acd562f0c0795e551117fbc925640a0f245ccddec1c360"
+        },
+        {
+          "path": "artifacts/verification/toolret_stabletoolbench_overlap_exact_r1/summary_729_exact.json",
+          "sha256": "a101d17d08b734347b2c7fb5baaf85e10c6c7500fc1bcf74d7397a424721a6f8"
+        },
+        {
+          "path": "artifacts/verification/toolret_stabletoolbench_overlap_r1/summary_729.json",
+          "sha256": "cd05990c0dec45fdb26bdee7265b4378cf003bc61530e8c83df86a604775b252"
+        }
+      ],
+      "output": "paper/tables/generated/toolret_audit.tex",
+      "status": "built"
+    },
+    "transfer": {
+      "details": {
+        "arms": [
+          "plain",
+          "docs_only",
+          "synapse",
+          "centralized"
+        ],
+        "harness_mix_evidence": {
+          "accepted_unreachable_harness_diff": true,
+          "diff_files": [
+            "external_datasets/tau_bench/tau-bench-main/tau_bench/local_completion.py"
+          ],
+          "diffstat": ".../tau-bench-main/tau_bench/local_completion.py   | 102 ++++++++++++++++++---\n 1 file changed, 87 insertions(+), 15 deletions(-)",
+          "local_completion_provider_gate": {
+            "file": "external_datasets/tau_bench/tau-bench-main/tau_bench/local_completion.py",
+            "lines": [
+              "provider = kwargs.get(\"custom_llm_provider\")",
+              "if provider == LOCAL_PROVIDER:",
+              "    return _local_completion(*args, **kwargs)"
+            ]
+          },
+          "providers": [
+            {
+              "agent_provider": "openai",
+              "arm": "centralized",
+              "seed": "1",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "centralized",
+              "seed": "2",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "centralized",
+              "seed": "3",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "docs_only",
+              "seed": "1",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "docs_only",
+              "seed": "2",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "docs_only",
+              "seed": "3",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "plain",
+              "seed": "1",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "plain",
+              "seed": "2",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "plain",
+              "seed": "3",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "synapse",
+              "seed": "1",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "synapse",
+              "seed": "2",
+              "simulator_provider": "openai"
+            },
+            {
+              "agent_provider": "openai",
+              "arm": "synapse",
+              "seed": "3",
+              "simulator_provider": "openai"
+            }
+          ],
+          "repo_commits": [
+            "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+            "b379c6b16fe4667768c65518bf8b3d505f0ded84"
+          ],
+          "tau_bench_harness_commits": [
+            "07ec25f055ab3c33de4df71dfed08e54770d51ba",
+            "bb344928284eaf0a0cd44809e8d1b432aa263901"
+          ]
+        },
+        "repo_commit_equivalence": [
+          {
+            "baseline": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+            "diffstat": "",
+            "equivalent": true,
+            "other": "b379c6b16fe4667768c65518bf8b3d505f0ded84",
+            "paths": [
+              "scripts/run_synapse_tau_retail.py",
+              "scripts/evaluate_tau_bench_toolcall_accuracy.py",
+              "scripts/extract_tau_bench_experience.py",
+              "scripts/build_tau_bench_global_packages.py",
+              "synapse",
+              "requirements.txt",
+              "requirements-dev.txt",
+              "requirements.lock",
+              "pyproject.toml"
+            ]
+          }
+        ],
+        "repo_commits": [
+          "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "b379c6b16fe4667768c65518bf8b3d505f0ded84"
+        ],
+        "table_dependency_paths": [
+          "scripts/run_synapse_tau_retail.py",
+          "scripts/evaluate_tau_bench_toolcall_accuracy.py",
+          "scripts/extract_tau_bench_experience.py",
+          "scripts/build_tau_bench_global_packages.py",
+          "synapse",
+          "requirements.txt",
+          "requirements-dev.txt",
+          "requirements.lock",
+          "pyproject.toml"
+        ],
+        "tau_bench_harness_commit": "07ec25f055ab3c33de4df71dfed08e54770d51ba",
+        "tau_bench_upstream_repo": "sierra-research/tau-bench"
+      },
+      "inputs": [
+        {
+          "path": "artifacts/results/tau_bench_a5_sidecars_canonical.json",
+          "sha256": "0e4cc0dd7190c5e333004d2179569bb5766bef2da6009b3f39f49aaef7eaee8c"
+        },
+        {
+          "arm": "centralized",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_centralized_holdout55_seed1_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 1,
+          "sha256": "453da97b31c219889d528c61420e29dbc4a681229a0a4cc43699a7171d98e809",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "centralized",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_centralized_holdout55_seed1_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 1,
+          "sha256": "6faca842117ed20c9260242a1dad02df83501a5e75ef16ad8554ea1b94d4f351",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "centralized",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_centralized_holdout55_seed2_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 2,
+          "sha256": "44d77866e2823bebb6a496d4e370bda3cc3df53fcd86f7662ae5fe789e7d32fa",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "centralized",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_centralized_holdout55_seed2_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 2,
+          "sha256": "f87177a58274362f085192c38b8193b4e6349755b3bbac90dd063325ea2feefa",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "centralized",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_centralized_holdout55_seed3_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 3,
+          "sha256": "42008c35a1020f109747e840d603face5b27b92688129458327d7d425571e81a",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "centralized",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_centralized_holdout55_seed3_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 3,
+          "sha256": "fcd8da1005934e977bdf2554c107b107f5a6e77e1468916bb686f2da8a2a2709",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "docs_only",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_docs_only_holdout55_seed1_clean_r2/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901215000_toolcall_metrics.json",
+          "repo_commit": "b379c6b16fe4667768c65518bf8b3d505f0ded84",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 1,
+          "sha256": "7884cd39a5f3602bfa2dab7181b7fd5556bad6f83a0da638d705d603fd47722f",
+          "tau_bench_harness_commit": "07ec25f055ab3c33de4df71dfed08e54770d51ba"
+        },
+        {
+          "arm": "docs_only",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_docs_only_holdout55_seed1_clean_r2/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901215000_run_metadata.json",
+          "repo_commit": "b379c6b16fe4667768c65518bf8b3d505f0ded84",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 1,
+          "sha256": "acc4ebf7c54a2e08e5a4f9585fe95d41ce08808da2e6f72fe2e7bcb477fea703",
+          "tau_bench_harness_commit": "07ec25f055ab3c33de4df71dfed08e54770d51ba"
+        },
+        {
+          "arm": "docs_only",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_docs_only_holdout55_seed2_clean_r1/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901211420_toolcall_metrics.json",
+          "repo_commit": "b379c6b16fe4667768c65518bf8b3d505f0ded84",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 2,
+          "sha256": "9cb60c4822b253b458dd58a1ec613daef1e6b7b30f3febcf973e5f899db60988",
+          "tau_bench_harness_commit": "07ec25f055ab3c33de4df71dfed08e54770d51ba"
+        },
+        {
+          "arm": "docs_only",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_docs_only_holdout55_seed2_clean_r1/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901211420_run_metadata.json",
+          "repo_commit": "b379c6b16fe4667768c65518bf8b3d505f0ded84",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 2,
+          "sha256": "02ef39298df5aba65d0eb6484f6465ad8fa061f8a05987bcd65becd7b111d0aa",
+          "tau_bench_harness_commit": "07ec25f055ab3c33de4df71dfed08e54770d51ba"
+        },
+        {
+          "arm": "docs_only",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_docs_only_holdout55_seed3_clean_r1/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901211420_toolcall_metrics.json",
+          "repo_commit": "b379c6b16fe4667768c65518bf8b3d505f0ded84",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 3,
+          "sha256": "71219ba5f948c251747748c0d53ee756a0ea463d0d45fd441fac0a545b5bc581",
+          "tau_bench_harness_commit": "07ec25f055ab3c33de4df71dfed08e54770d51ba"
+        },
+        {
+          "arm": "docs_only",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_docs_only_holdout55_seed3_clean_r1/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901211420_run_metadata.json",
+          "repo_commit": "b379c6b16fe4667768c65518bf8b3d505f0ded84",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 3,
+          "sha256": "7c8422ef0acae4b5bd1c918ac165502cfd12141f8a54dc1094662d73495494ef",
+          "tau_bench_harness_commit": "07ec25f055ab3c33de4df71dfed08e54770d51ba"
+        },
+        {
+          "arm": "plain",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_plain_holdout55_seed1_matched_r3/tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224537_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 1,
+          "sha256": "7fa710ec8bbb9c33120f9c64051fe12075c6eba99f6c34101e2f57e8ef7eda0c",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "plain",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_plain_holdout55_seed1_matched_r3/tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224537_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 1,
+          "sha256": "7263708265e77d88f0786f389e849e352c5554d7075b4614925694b1e9ca0ed8",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "plain",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_plain_holdout55_seed2_matched_r3/tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 2,
+          "sha256": "25869d4292e8abe49b8cb1a90c4338a8d3c1b03375688a1c030c118f9da26768",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "plain",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_plain_holdout55_seed2_matched_r3/tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 2,
+          "sha256": "0c3bb86464c021e64fc2bde909fdf735a63ed2c4c74b999b137a9267d2270710",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "plain",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_plain_holdout55_seed3_matched_r3/tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 3,
+          "sha256": "c771817a7c02b5d35e47df94032127a11dba9d0d21befe8ccfde293bd9510eb7",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "plain",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_plain_holdout55_seed3_matched_r3/tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 3,
+          "sha256": "d28bf2febe7a0bdda920f89f646a6ff3862f691bf2b8f6d01ffe13e4c943d2c6",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "synapse",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_synapse_holdout55_seed1_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 1,
+          "sha256": "bd5154b2014acfdcd02e62d77744fe92e15b6b59d28cef56c8374151ff15084d",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "synapse",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_synapse_holdout55_seed1_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 1,
+          "sha256": "af4b40a8536339f42d4da91c0d8b8865281d11f3384194d2130f830b5c99de7d",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "synapse",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_synapse_holdout55_seed2_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 2,
+          "sha256": "f4ed46b97ce8d15461c0abf80371bb1949c6c8c9ac289d8b0d1738cbb6a7ca52",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "synapse",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_synapse_holdout55_seed2_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 2,
+          "sha256": "369f71635df7d6dc180ff7dd86c1c46f7f5f373d38be025217d7c938b22058a2",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "synapse",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_synapse_holdout55_seed3_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_toolcall_metrics.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 3,
+          "sha256": "c6d602da86dab21aa1bed71c52227dbc4880d87896c4041a679401f79ea4576f",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        },
+        {
+          "arm": "synapse",
+          "path": "artifacts/verification/tau_bench_cross_model_gpt4o_synapse_holdout55_seed3_matched_r3/synapse-tool-calling-gpt-4o-2024-08-06-0.0_range_0--1_user-gpt-4o-2024-08-06-llm_0901224536_run_metadata.json",
+          "repo_commit": "6fd43ecec0a893c2e868b84b4f388cb72cd54e3b",
+          "repo_commit_is_ancestor_of_head": true,
+          "seed": 3,
+          "sha256": "dc9ca171e1e91c9ac3a1b615ca2b0c32699d98b028bd0f22bb6b2a5b9bb22e98",
+          "tau_bench_harness_commit": "bb344928284eaf0a0cd44809e8d1b432aa263901"
+        }
+      ],
+      "output": "paper/tables/generated/transfer.tex",
+      "status": "built"
+    }
+  }
+}

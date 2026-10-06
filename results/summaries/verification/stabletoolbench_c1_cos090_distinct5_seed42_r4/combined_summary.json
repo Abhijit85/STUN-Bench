@@ -1,0 +1,290 @@
+{
+  "arms": {
+    "centralized": {
+      "group_metrics": {
+        "G1_category": {
+          "count": 134,
+          "mean_accuracy": 0.582089552238806,
+          "mean_recall_at_5": 0.7014925373134329,
+          "sd_accuracy": 0.0
+        },
+        "G1_instruction": {
+          "count": 153,
+          "mean_accuracy": 0.5490196078431373,
+          "mean_recall_at_5": 0.738562091503268,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "count": 152,
+          "mean_accuracy": 0.506578947368421,
+          "mean_recall_at_5": 0.6710526315789473,
+          "sd_accuracy": 0.0
+        },
+        "G2_category": {
+          "count": 124,
+          "mean_accuracy": 0.3629032258064516,
+          "mean_recall_at_5": 0.5564516129032258,
+          "sd_accuracy": 0.0
+        },
+        "G2_instruction": {
+          "count": 105,
+          "mean_accuracy": 0.42857142857142855,
+          "mean_recall_at_5": 0.6190476190476191,
+          "sd_accuracy": 0.0
+        },
+        "G3_instruction": {
+          "count": 61,
+          "mean_accuracy": 0.32786885245901637,
+          "mean_recall_at_5": 0.47540983606557374,
+          "sd_accuracy": 0.0
+        }
+      },
+      "mean_accuracy": 0.4787379972565158,
+      "mean_recall_at_5": 0.6474622770919067,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.4787379972565158,
+          "sd": 0.0
+        },
+        "per_group": {
+          "G1_category": {
+            "accuracy": {
+              "mean": 0.582089552238806,
+              "sd": 0.0
+            },
+            "n": 134,
+            "recall_at_5": {
+              "mean": 0.7014925373134329,
+              "sd": 0.0
+            }
+          },
+          "G1_instruction": {
+            "accuracy": {
+              "mean": 0.5490196078431373,
+              "sd": 0.0
+            },
+            "n": 153,
+            "recall_at_5": {
+              "mean": 0.738562091503268,
+              "sd": 0.0
+            }
+          },
+          "G1_tool": {
+            "accuracy": {
+              "mean": 0.506578947368421,
+              "sd": 0.0
+            },
+            "n": 152,
+            "recall_at_5": {
+              "mean": 0.6710526315789473,
+              "sd": 0.0
+            }
+          },
+          "G2_category": {
+            "accuracy": {
+              "mean": 0.3629032258064516,
+              "sd": 0.0
+            },
+            "n": 124,
+            "recall_at_5": {
+              "mean": 0.5564516129032258,
+              "sd": 0.0
+            }
+          },
+          "G2_instruction": {
+            "accuracy": {
+              "mean": 0.42857142857142855,
+              "sd": 0.0
+            },
+            "n": 105,
+            "recall_at_5": {
+              "mean": 0.6190476190476191,
+              "sd": 0.0
+            }
+          },
+          "G3_instruction": {
+            "accuracy": {
+              "mean": 0.32786885245901637,
+              "sd": 0.0
+            },
+            "n": 61,
+            "recall_at_5": {
+              "mean": 0.47540983606557374,
+              "sd": 0.0
+            }
+          }
+        },
+        "recall_at_5": {
+          "mean": 0.6474622770919067,
+          "sd": 0.0
+        }
+      },
+      "sd_accuracy": 0.0,
+      "sd_recall_at_5": 0.0
+    },
+    "synapse": {
+      "group_metrics": {
+        "G1_category": {
+          "count": 134,
+          "mean_accuracy": 0.5671641791044776,
+          "mean_recall_at_5": 0.6940298507462687,
+          "sd_accuracy": 0.0
+        },
+        "G1_instruction": {
+          "count": 153,
+          "mean_accuracy": 0.5555555555555556,
+          "mean_recall_at_5": 0.7450980392156863,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "count": 152,
+          "mean_accuracy": 0.5,
+          "mean_recall_at_5": 0.6710526315789473,
+          "sd_accuracy": 0.0
+        },
+        "G2_category": {
+          "count": 124,
+          "mean_accuracy": 0.3709677419354839,
+          "mean_recall_at_5": 0.5725806451612904,
+          "sd_accuracy": 0.0
+        },
+        "G2_instruction": {
+          "count": 105,
+          "mean_accuracy": 0.44761904761904764,
+          "mean_recall_at_5": 0.6095238095238096,
+          "sd_accuracy": 0.0
+        },
+        "G3_instruction": {
+          "count": 61,
+          "mean_accuracy": 0.32786885245901637,
+          "mean_recall_at_5": 0.47540983606557374,
+          "sd_accuracy": 0.0
+        }
+      },
+      "mean_accuracy": 0.48010973936899864,
+      "mean_recall_at_5": 0.6488340192043895,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.48010973936899864,
+          "sd": 0.0
+        },
+        "per_group": {
+          "G1_category": {
+            "accuracy": {
+              "mean": 0.5671641791044776,
+              "sd": 0.0
+            },
+            "n": 134,
+            "recall_at_5": {
+              "mean": 0.6940298507462687,
+              "sd": 0.0
+            }
+          },
+          "G1_instruction": {
+            "accuracy": {
+              "mean": 0.5555555555555556,
+              "sd": 0.0
+            },
+            "n": 153,
+            "recall_at_5": {
+              "mean": 0.7450980392156863,
+              "sd": 0.0
+            }
+          },
+          "G1_tool": {
+            "accuracy": {
+              "mean": 0.5,
+              "sd": 0.0
+            },
+            "n": 152,
+            "recall_at_5": {
+              "mean": 0.6710526315789473,
+              "sd": 0.0
+            }
+          },
+          "G2_category": {
+            "accuracy": {
+              "mean": 0.3709677419354839,
+              "sd": 0.0
+            },
+            "n": 124,
+            "recall_at_5": {
+              "mean": 0.5725806451612904,
+              "sd": 0.0
+            }
+          },
+          "G2_instruction": {
+            "accuracy": {
+              "mean": 0.44761904761904764,
+              "sd": 0.0
+            },
+            "n": 105,
+            "recall_at_5": {
+              "mean": 0.6095238095238096,
+              "sd": 0.0
+            }
+          },
+          "G3_instruction": {
+            "accuracy": {
+              "mean": 0.32786885245901637,
+              "sd": 0.0
+            },
+            "n": 61,
+            "recall_at_5": {
+              "mean": 0.47540983606557374,
+              "sd": 0.0
+            }
+          }
+        },
+        "recall_at_5": {
+          "mean": 0.6488340192043895,
+          "sd": 0.0
+        }
+      },
+      "sd_accuracy": 0.0,
+      "sd_recall_at_5": 0.0
+    }
+  },
+  "config": {
+    "allow_dirty": false,
+    "arms": [
+      "synapse",
+      "centralized"
+    ],
+    "build_only": false,
+    "client_count": 5,
+    "data_mode": "toolbench_train",
+    "dirty_entries_sample": [],
+    "dirty_entry_count": 0,
+    "embed_model": "jina-embeddings-v2-base-en",
+    "git_commit": "1a4ecbeb9cc3e1cffdcfea847fd119640fa9154b",
+    "groups": [
+      "G1_instruction",
+      "G1_tool",
+      "G1_category",
+      "G2_instruction",
+      "G2_category",
+      "G3_instruction"
+    ],
+    "junk_filter": true,
+    "local_embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "/tmp/fedrag_launch_b978562e/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "unknown"
+    },
+    "merge_policy": "conflict_log",
+    "partition_mode": "category",
+    "reranker_variant": "V3",
+    "retrieval_mode": "distinct_tool_topk",
+    "retrieval_pool_size": 200,
+    "seeds": [
+      42
+    ],
+    "top_k": 5
+  },
+  "paper_eligible": true,
+  "synapse_hashes": [
+    "2107cb7f03c475aa6992f2d45b692f871d36b292d5cba94e16d28215ae568f67"
+  ]
+}

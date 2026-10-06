@@ -1,0 +1,133 @@
+{
+  "eval_queries_with_near_duplicate_in_pool": 319,
+  "exact_removed": 745,
+  "near_duplicate_removed_count_if_threshold_0_90": 11055,
+  "note": "The release includes sanitized ids/scores only; raw query and neighbor text are intentionally excluded.",
+  "removed_at_cos_ge_0.95": 1171,
+  "sample_eval_query_ids": [
+    "10277",
+    "1073",
+    "10770",
+    "11644",
+    "11653",
+    "11686",
+    "12034",
+    "12671",
+    "12688",
+    "12742",
+    "12770",
+    "12790",
+    "12819",
+    "12884",
+    "13384",
+    "13385",
+    "13517",
+    "13533",
+    "13537",
+    "13639"
+  ],
+  "sample_removed_pairs": [
+    {
+      "eval_query_id": "25344",
+      "score": 0.976058,
+      "train_query_id": "19"
+    },
+    {
+      "eval_query_id": "25344",
+      "score": 0.955585,
+      "train_query_id": "20"
+    },
+    {
+      "eval_query_id": "25344",
+      "score": 0.972867,
+      "train_query_id": "21"
+    },
+    {
+      "eval_query_id": "25344",
+      "score": 0.96212,
+      "train_query_id": "22"
+    },
+    {
+      "eval_query_id": "25344",
+      "score": 0.97269,
+      "train_query_id": "23"
+    },
+    {
+      "eval_query_id": "25344",
+      "score": 0.958637,
+      "train_query_id": "24"
+    },
+    {
+      "eval_query_id": "25344",
+      "score": 0.966584,
+      "train_query_id": "25"
+    },
+    {
+      "eval_query_id": "25344",
+      "score": 0.964743,
+      "train_query_id": "26"
+    },
+    {
+      "eval_query_id": "25344",
+      "score": 0.971446,
+      "train_query_id": "27"
+    },
+    {
+      "eval_query_id": "29",
+      "score": 0.974743,
+      "train_query_id": "31"
+    },
+    {
+      "eval_query_id": "28",
+      "score": 0.964324,
+      "train_query_id": "32"
+    },
+    {
+      "eval_query_id": "29",
+      "score": 0.978552,
+      "train_query_id": "34"
+    },
+    {
+      "eval_query_id": "76740",
+      "score": 0.951761,
+      "train_query_id": "546"
+    },
+    {
+      "eval_query_id": "692",
+      "score": 0.987927,
+      "train_query_id": "687"
+    },
+    {
+      "eval_query_id": "26698",
+      "score": 0.963223,
+      "train_query_id": "1239"
+    },
+    {
+      "eval_query_id": "26698",
+      "score": 0.951734,
+      "train_query_id": "1240"
+    },
+    {
+      "eval_query_id": "26698",
+      "score": 0.959013,
+      "train_query_id": "1242"
+    },
+    {
+      "eval_query_id": "26698",
+      "score": 0.965664,
+      "train_query_id": "1243"
+    },
+    {
+      "eval_query_id": "26698",
+      "score": 0.952301,
+      "train_query_id": "1244"
+    },
+    {
+      "eval_query_id": "26698",
+      "score": 0.961803,
+      "train_query_id": "1246"
+    }
+  ],
+  "schema": "stunbench.leak_report_cos090.v1",
+  "threshold": 0.9
+}

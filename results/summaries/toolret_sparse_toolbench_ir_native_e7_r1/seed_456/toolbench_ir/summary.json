@@ -1,0 +1,78 @@
+{
+  "docs_doc_count": 5140,
+  "docs_native": {
+    "heldout": {
+      "n": 1917,
+      "recall_at_5": 0.003129890453834116,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0005216484089723526
+    },
+    "labeled": {
+      "n": 2946,
+      "recall_at_5": 0.006788866259334691,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0006788866259334691
+    },
+    "overall": {
+      "n": 4863,
+      "recall_at_5": 0.005346493933785729,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0006169031462060457
+    }
+  },
+  "docs_only": {
+    "heldout": {
+      "n": 1917,
+      "recall_at_5": 0.005216484089723527,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0026082420448617634
+    },
+    "labeled": {
+      "n": 2946,
+      "recall_at_5": 0.00746775288526816,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.00033944331296673454
+    },
+    "overall": {
+      "n": 4863,
+      "recall_at_5": 0.00658030022619782,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0012338062924120913
+    }
+  },
+  "eval_query_count": 4863,
+  "heldout_eval_query_count": 1917,
+  "heldout_tools_sha256": "35cc351d6a5a4b382b6f776a0f82c72cdf8af8c4f6720514b30edf42165b47aa",
+  "labeled_eval_query_count": 2946,
+  "seed": 456,
+  "shared": {
+    "heldout": {
+      "n": 1917,
+      "recall_at_5": 0.0,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0
+    },
+    "labeled": {
+      "n": 2946,
+      "recall_at_5": 0.4881194840461643,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.17175831636116767
+    },
+    "overall": {
+      "n": 4863,
+      "recall_at_5": 0.29570224141476453,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.10405099732675303
+    }
+  },
+  "shared_doc_count": 5957,
+  "shared_minus_docs_heldout_recall": -0.005216484089723527,
+  "shared_vs_docs_mcnemar_heldout_recall": {
+    "compared": 1917,
+    "docs_only": 10,
+    "method": "exact_binomial",
+    "p_value": 0.001953125,
+    "shared_only": 0
+  },
+  "visible_heldout_tools_sha256": "a1919f6ddc0ce78935ba858f1d588c5f3763c44a5923ff3f696ed64dd3e70738"
+}

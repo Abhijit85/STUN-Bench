@@ -1,0 +1,58 @@
+{
+  "docs_doc_count": 5140,
+  "docs_only": {
+    "heldout": {
+      "n": 2085,
+      "recall_at_5": 0.0057553956834532375,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.002398081534772182
+    },
+    "labeled": {
+      "n": 2918,
+      "recall_at_5": 0.0075394105551747775,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.001028101439342015
+    },
+    "overall": {
+      "n": 5003,
+      "recall_at_5": 0.006795922446532081,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0015990405756546072
+    }
+  },
+  "eval_query_count": 5003,
+  "heldout_eval_query_count": 2085,
+  "heldout_tools_sha256": "f7db2e21ad9f6074a9b255073b74f4ce38246060cd756d148da4221f212612f2",
+  "labeled_eval_query_count": 2918,
+  "seed": 123,
+  "shared": {
+    "heldout": {
+      "n": 2085,
+      "recall_at_5": 0.0,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0
+    },
+    "labeled": {
+      "n": 2918,
+      "recall_at_5": 0.4105551747772447,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.17340644276901987
+    },
+    "overall": {
+      "n": 5003,
+      "recall_at_5": 0.23945632620427743,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.1011393164101539
+    }
+  },
+  "shared_doc_count": 5957,
+  "shared_minus_docs_heldout_recall": -0.0057553956834532375,
+  "shared_vs_docs_mcnemar_heldout_recall": {
+    "compared": 2085,
+    "docs_only": 12,
+    "method": "exact_binomial",
+    "p_value": 0.00048828125,
+    "shared_only": 0
+  },
+  "visible_heldout_tools_sha256": "6559a79a9558795230461c6e001bf4d136b91bf13c8fca0376e70e0efed5dd8a"
+}

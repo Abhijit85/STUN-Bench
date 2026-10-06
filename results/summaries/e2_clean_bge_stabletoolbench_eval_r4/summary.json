@@ -1,0 +1,124 @@
+{
+  "aggregate": {
+    "docs_only": {
+      "all": {
+        "candidate_shortfall_count_total": 0,
+        "mean_n": 729,
+        "mean_recall_at_5": 0.9080932784636488,
+        "mean_retrieval_top1": 0.7247370827617742,
+        "sd_recall_at_5": 0.002743484224965731,
+        "sd_retrieval_top1": 0.007554966457182565
+      },
+      "heldout": {
+        "candidate_shortfall_count_total": 0,
+        "mean_n": 309,
+        "mean_recall_at_5": 0.878101402373247,
+        "mean_retrieval_top1": 0.697950377562028,
+        "sd_recall_at_5": 0.00373689494621119,
+        "sd_retrieval_top1": 0.009342237365527943
+      },
+      "labeled": {
+        "candidate_shortfall_count_total": 0,
+        "mean_n": 420,
+        "mean_recall_at_5": 0.9301587301587302,
+        "mean_retrieval_top1": 0.7444444444444445,
+        "sd_recall_at_5": 0.00549857399228213,
+        "sd_retrieval_top1": 0.007653691080153111
+      }
+    },
+    "synapse_shared": {
+      "all": {
+        "candidate_shortfall_count_total": 6,
+        "mean_n": 729,
+        "mean_recall_at_5": 0.8742569730224051,
+        "mean_retrieval_top1": 0.6817558299039781,
+        "sd_recall_at_5": 0.004409533955643812,
+        "sd_retrieval_top1": 0.012345679012345678
+      },
+      "heldout": {
+        "candidate_shortfall_count_total": 0,
+        "mean_n": 309,
+        "mean_recall_at_5": 0.8069039913700108,
+        "mean_retrieval_top1": 0.6040992448759439,
+        "sd_recall_at_5": 0.0018684474731056268,
+        "sd_retrieval_top1": 0.017823852903838474
+      },
+      "labeled": {
+        "candidate_shortfall_count_total": 6,
+        "mean_n": 420,
+        "mean_recall_at_5": 0.9238095238095237,
+        "mean_retrieval_top1": 0.7388888888888889,
+        "sd_recall_at_5": 0.00858464589396191,
+        "sd_retrieval_top1": 0.008361629962581562
+      }
+    }
+  },
+  "config": {
+    "candidate_rule": "distinct5_walkdown",
+    "checkpoint_dirs": {
+      "123": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed123_dropa3_r1",
+      "42": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed42_dropa3_r1",
+      "456": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed456_dropa3_r1"
+    },
+    "eval_filter": {
+      "dropped_query_count": 36,
+      "pruned_gold_tool_refs": 56
+    },
+    "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+    "junk_filter": {
+      "dropped_tool_count": 44,
+      "dropped_tools_sample": [
+        "31events_-_send_native_calendar_invites",
+        "aqls-b2c-system",
+        "arespass",
+        "asdfadsf",
+        "aspose.cells_cloud",
+        "aspose.diagram_cloud",
+        "aspose.imaging_cloud",
+        "bart",
+        "cakemail",
+        "dailycred",
+        "fancy_text",
+        "forward_&_reverse_geocoding_by_googlemap_api",
+        "full-text_rss_us",
+        "groupdocs.annotation_cloud",
+        "groupdocs.comparison_cloud",
+        "gs1parser",
+        "guid_generator",
+        "image",
+        "image_service",
+        "indian_fuel"
+      ],
+      "enabled": true
+    },
+    "retrieval_pool_size": 200,
+    "retriever": "e2_clean_bge",
+    "seed_dirs": {
+      "123": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed123_r4",
+      "42": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_r4",
+      "456": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed456_r4"
+    },
+    "top_k": 5
+  },
+  "inputs": [
+    {
+      "checkpoint_dir": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed42_dropa3_r1",
+      "package_dir": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_r4/seed_42/packages",
+      "run_dir": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_r4",
+      "seed": 42
+    },
+    {
+      "checkpoint_dir": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed123_dropa3_r1",
+      "package_dir": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed123_r4/seed_123/packages",
+      "run_dir": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed123_r4",
+      "seed": 123
+    },
+    {
+      "checkpoint_dir": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed456_dropa3_r1",
+      "package_dir": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed456_r4/seed_456/packages",
+      "run_dir": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed456_r4",
+      "seed": 456
+    }
+  ],
+  "paper_eligible": true
+}

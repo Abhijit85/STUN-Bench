@@ -1,0 +1,245 @@
+{
+  "aggregate": {
+    "label_only": {
+      "docs_only": {
+        "all": {
+          "mean_recall_at_5": 0.6721536351165981,
+          "mean_retrieval_top1": 0.4224965706447188,
+          "n_per_seed": [
+            729,
+            729,
+            729
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        },
+        "heldout": {
+          "mean_recall_at_5": 0.6893203883495146,
+          "mean_retrieval_top1": 0.44660194174757284,
+          "n_per_seed": [
+            309,
+            309,
+            309
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        },
+        "labeled": {
+          "mean_recall_at_5": 0.6595238095238095,
+          "mean_retrieval_top1": 0.40476190476190477,
+          "n_per_seed": [
+            420,
+            420,
+            420
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        }
+      },
+      "shared": {
+        "all": {
+          "mean_recall_at_5": 0.5249199817101051,
+          "mean_retrieval_top1": 0.31641518061271146,
+          "n_per_seed": [
+            729,
+            729,
+            729
+          ],
+          "sd_recall_at_5": 0.013740264473083385,
+          "sd_retrieval_top1": 0.005711017831182804
+        },
+        "heldout": {
+          "mean_recall_at_5": 0.3214670981661273,
+          "mean_retrieval_top1": 0.18446601941747573,
+          "n_per_seed": [
+            309,
+            309,
+            309
+          ],
+          "sd_recall_at_5": 0.008144373716581188,
+          "sd_retrieval_top1": 0.0056053424193167525
+        },
+        "labeled": {
+          "mean_recall_at_5": 0.6746031746031745,
+          "mean_retrieval_top1": 0.4134920634920635,
+          "n_per_seed": [
+            420,
+            420,
+            420
+          ],
+          "sd_recall_at_5": 0.01802828046285801,
+          "sd_retrieval_top1": 0.013113263207824034
+        }
+      }
+    },
+    "mention_only": {
+      "docs_only": {
+        "all": {
+          "mean_recall_at_5": 0.6721536351165981,
+          "mean_retrieval_top1": 0.4224965706447188,
+          "n_per_seed": [
+            729,
+            729,
+            729
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        },
+        "heldout": {
+          "mean_recall_at_5": 0.6893203883495146,
+          "mean_retrieval_top1": 0.44660194174757284,
+          "n_per_seed": [
+            309,
+            309,
+            309
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        },
+        "labeled": {
+          "mean_recall_at_5": 0.6595238095238095,
+          "mean_retrieval_top1": 0.40476190476190477,
+          "n_per_seed": [
+            420,
+            420,
+            420
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        }
+      },
+      "shared": {
+        "all": {
+          "mean_recall_at_5": 0.7187928669410151,
+          "mean_retrieval_top1": 0.49154092363968904,
+          "n_per_seed": [
+            729,
+            729,
+            729
+          ],
+          "sd_recall_at_5": 0.010713648389446696,
+          "sd_retrieval_top1": 0.0174773798386981
+        },
+        "heldout": {
+          "mean_recall_at_5": 0.7745415318230853,
+          "mean_retrieval_top1": 0.5490830636461704,
+          "n_per_seed": [
+            309,
+            309,
+            309
+          ],
+          "sd_recall_at_5": 0.014947579784844695,
+          "sd_retrieval_top1": 0.0307585273557352
+        },
+        "labeled": {
+          "mean_recall_at_5": 0.6777777777777778,
+          "mean_retrieval_top1": 0.4492063492063492,
+          "n_per_seed": [
+            420,
+            420,
+            420
+          ],
+          "sd_recall_at_5": 0.007653691080153175,
+          "sd_retrieval_top1": 0.014547859349066161
+        }
+      }
+    },
+    "strict": {
+      "docs_only": {
+        "all": {
+          "mean_recall_at_5": 0.6721536351165981,
+          "mean_retrieval_top1": 0.4224965706447188,
+          "n_per_seed": [
+            729,
+            729,
+            729
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        },
+        "heldout": {
+          "mean_recall_at_5": 0.6893203883495146,
+          "mean_retrieval_top1": 0.44660194174757284,
+          "n_per_seed": [
+            309,
+            309,
+            309
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        },
+        "labeled": {
+          "mean_recall_at_5": 0.6595238095238095,
+          "mean_retrieval_top1": 0.40476190476190477,
+          "n_per_seed": [
+            420,
+            420,
+            420
+          ],
+          "sd_recall_at_5": 0.0,
+          "sd_retrieval_top1": 0.0
+        }
+      },
+      "shared": {
+        "all": {
+          "mean_recall_at_5": 0.5208047553726566,
+          "mean_retrieval_top1": 0.3429355281207133,
+          "n_per_seed": [
+            729,
+            729,
+            729
+          ],
+          "sd_recall_at_5": 0.006904283891422728,
+          "sd_retrieval_top1": 0.008343981523042837
+        },
+        "heldout": {
+          "mean_recall_at_5": 0.3333333333333333,
+          "mean_retrieval_top1": 0.21143473570658036,
+          "n_per_seed": [
+            309,
+            309,
+            309
+          ],
+          "sd_recall_at_5": 0.0056053424193167525,
+          "sd_retrieval_top1": 0.01040307525457709
+        },
+        "labeled": {
+          "mean_recall_at_5": 0.6587301587301587,
+          "mean_retrieval_top1": 0.4396825396825397,
+          "n_per_seed": [
+            420,
+            420,
+            420
+          ],
+          "sd_recall_at_5": 0.009014140231428974,
+          "sd_retrieval_top1": 0.021994295969128587
+        }
+      }
+    }
+  },
+  "config": {
+    "candidate_rule": "distinct5_walkdown",
+    "filter_modes": [
+      "strict",
+      "label_only",
+      "mention_only"
+    ],
+    "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+    "local_embedder": {
+      "device": "cuda:0",
+      "local_only": "1",
+      "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "unknown"
+    },
+    "repo_commit": "fee6e0b49d0aa5ed33aaf5a4ef3552a0e6cfeb56",
+    "retrieval_pool_size": 200,
+    "retriever": "jina",
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "top_k": 5
+  },
+  "paper_eligible": true
+}

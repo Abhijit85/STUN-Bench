@@ -1,0 +1,34 @@
+{
+  "criteria": [
+    "empty or malformed catalog entry",
+    "missing or unusable routing description",
+    "evaluation query loses all usable gold tools after catalog pruning"
+  ],
+  "dropped_eval_queries": 36,
+  "junk_tool_count": 192,
+  "note": "The sanitized summary contains count and sample; scripts rebuild the full list from public source catalogs.",
+  "pruned_gold_tool_refs": 56,
+  "sample_junk_tools": [
+    "1800_printing_test",
+    "27coupons",
+    "31events_-_send_native_calendar_invites",
+    "about_my_ip",
+    "active",
+    "agrofitdata",
+    "air_quality_demo_1",
+    "aliexpress_unofficial",
+    "another_rapid_test",
+    "apievangelist",
+    "aqls-b2c-system",
+    "arespass",
+    "argentina_movie_theatres",
+    "asdfadsf",
+    "aspose.cells_cloud",
+    "aspose.diagram_cloud",
+    "aspose.imaging_cloud",
+    "aspose.pdf_cloud",
+    "aspose.tasks_cloud",
+    "aspose_email_cloud"
+  ],
+  "schema": "stunbench.junk_tools.v1"
+}

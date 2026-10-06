@@ -1,0 +1,121 @@
+{
+  "aggregate": {
+    "docs_only": {
+      "heldout": {
+        "recall_at_5": {
+          "mean": 0.21937356821626847,
+          "sd": 0.0394574908253274
+        },
+        "top1_accuracy": {
+          "mean": 0.10675130584042315,
+          "sd": 0.03541066319332501
+        }
+      },
+      "labeled": {
+        "recall_at_5": {
+          "mean": 0.23731747927899194,
+          "sd": 0.022318628974650506
+        },
+        "top1_accuracy": {
+          "mean": 0.09772828438169424,
+          "sd": 0.011229776376539598
+        }
+      },
+      "overall": {
+        "recall_at_5": {
+          "mean": 0.22900511802623838,
+          "sd": 0.0023920084880955125
+        },
+        "top1_accuracy": {
+          "mean": 0.1001203379961577,
+          "sd": 0.006398991570670531
+        }
+      }
+    },
+    "shared": {
+      "heldout": {
+        "recall_at_5": {
+          "mean": 0.21598577530790838,
+          "sd": 0.03840250539870907
+        },
+        "top1_accuracy": {
+          "mean": 0.10352337866973824,
+          "sd": 0.035480701128478245
+        }
+      },
+      "labeled": {
+        "recall_at_5": {
+          "mean": 0.29811207680817775,
+          "sd": 0.030363589279784296
+        },
+        "top1_accuracy": {
+          "mean": 0.13341708233315477,
+          "sd": 0.013560577122411982
+        }
+      },
+      "overall": {
+        "recall_at_5": {
+          "mean": 0.26523885520601587,
+          "sd": 0.0032235491429898366
+        },
+        "top1_accuracy": {
+          "mean": 0.12094010945444265,
+          "sd": 0.008960274774974429
+        }
+      }
+    }
+  },
+  "config": {
+    "candidate_rule": "distinct5_walkdown",
+    "checkpoint_dirs": {
+      "123": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed123_dropa3_r1",
+      "42": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed42_dropa3_r1",
+      "456": "<REPO_ROOT>/artifacts/results/e2_bge_clean_seed456_dropa3_r1"
+    },
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "source_configs": [
+      "apibank",
+      "appbench",
+      "autotools-food",
+      "autotools-music",
+      "autotools-weather",
+      "craft-math-algebra",
+      "craft-tabmwp",
+      "craft-vqa",
+      "gorilla-huggingface",
+      "gorilla-pytorch",
+      "gorilla-tensor",
+      "gpt4tools",
+      "gta",
+      "metatool",
+      "mnms",
+      "restgpt-spotify",
+      "restgpt-tmdb",
+      "reversechain",
+      "rotbench",
+      "t-eval-dialog",
+      "t-eval-step",
+      "taskbench-daily",
+      "taskbench-huggingface",
+      "taskbench-multimedia",
+      "tool-be-honest",
+      "toolace",
+      "toolalpaca",
+      "toolemu",
+      "tooleyes",
+      "toolink",
+      "toollens",
+      "ultratool"
+    ],
+    "source_dir": "<REPO_ROOT>/artifacts/results/toolret_sparse_heldout_e7_r1",
+    "source_summary_sha256": "8c3539f15a4e69a4a1d805db7a84d477ff16a54c01e83d6e0bee2da40a773155",
+    "tool_count": 5140,
+    "top_k": 5
+  },
+  "paper_eligible": true,
+  "repo_commit": "683817e9352bccdd1bf1baa825871853ce50a048"
+}

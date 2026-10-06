@@ -1,0 +1,78 @@
+{
+  "docs_doc_count": 5140,
+  "docs_native": {
+    "heldout": {
+      "n": 1651,
+      "recall_at_5": 0.0030284675953967293,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0
+    },
+    "labeled": {
+      "n": 3403,
+      "recall_at_5": 0.006171025565677344,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.000881575080811049
+    },
+    "overall": {
+      "n": 5054,
+      "recall_at_5": 0.0051444400474871385,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.000593589236248516
+    }
+  },
+  "docs_only": {
+    "heldout": {
+      "n": 1651,
+      "recall_at_5": 0.004239854633555421,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0
+    },
+    "labeled": {
+      "n": 3403,
+      "recall_at_5": 0.0073464590067587425,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.001763150161622098
+    },
+    "overall": {
+      "n": 5054,
+      "recall_at_5": 0.006331618519984171,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.001187178472497032
+    }
+  },
+  "eval_query_count": 5054,
+  "heldout_eval_query_count": 1651,
+  "heldout_tools_sha256": "975dcc401fbe5f60fad69796c67c55ec56493228c6af64364a1af07e934b5583",
+  "labeled_eval_query_count": 3403,
+  "seed": 42,
+  "shared": {
+    "heldout": {
+      "n": 1651,
+      "recall_at_5": 0.0,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.0
+    },
+    "labeled": {
+      "n": 3403,
+      "recall_at_5": 0.4128709961798413,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.1454598883338231
+    },
+    "overall": {
+      "n": 5054,
+      "recall_at_5": 0.277997625643055,
+      "shortfall_count": 0,
+      "top1_accuracy": 0.09794222398100515
+    }
+  },
+  "shared_doc_count": 5957,
+  "shared_minus_docs_heldout_recall": -0.004239854633555421,
+  "shared_vs_docs_mcnemar_heldout_recall": {
+    "compared": 1651,
+    "docs_only": 7,
+    "method": "exact_binomial",
+    "p_value": 0.015625,
+    "shared_only": 0
+  },
+  "visible_heldout_tools_sha256": "93e2df9c39c448990be81a63b80d80b5f22e1695a000284ae14183503d8441c2"
+}

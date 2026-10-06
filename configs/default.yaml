@@ -1,0 +1,5 @@
+seeds: [42, 123, 456]
+retrieval_k: 5
+candidate_rule: distinct5_walkdown
+leak_threshold: 0.95
+heldout_tools_sha256: 8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260

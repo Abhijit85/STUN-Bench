@@ -1,0 +1,15 @@
+{
+  "arm": "local_only",
+  "completed_queries": 600,
+  "elapsed_seconds": 296.541,
+  "latest_query_id": "14628",
+  "mean_rerank_s": 0.030970846267688708,
+  "mean_retrieval_s": 0.0007005820943353076,
+  "mean_total_s": 0.03171161060919985,
+  "running_accuracy": 0.42333333333333334,
+  "running_recall_at_5": 0.5033333333333333,
+  "seed": 123,
+  "stage": "arm_progress",
+  "timestamp": "2026-09-10T05:13:01-0700",
+  "total_queries": 729
+}

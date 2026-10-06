@@ -1,0 +1,44 @@
+{
+  "built_at_unix": 1790578135,
+  "clean_checkout": "/tmp/FederatedRAG_release_b9fe3e08",
+  "commit": "b9fe3e08bfd6c5508393c76fe0ed79f83e82ce18",
+  "dirty_entry_count": 0,
+  "files": {
+    "filter_items.jsonl": {
+      "bytes": 101208924,
+      "sha256": "f8f7d782cf2f0ef26c96497e31cca51d9af43561112a59706c838caede6591dc"
+    },
+    "progress.jsonl": {
+      "bytes": 59171,
+      "sha256": "2b0f6744892c166b45cebc9acc605327c0ecdf8039f66c0464c78b09bacf2eb3"
+    },
+    "status.json": {
+      "bytes": 5557,
+      "sha256": "8fd1f403e1d36f966dc89d264542c07de89246c404a43903cee9282a2cc31ffa"
+    },
+    "summary.json": {
+      "bytes": 5462,
+      "sha256": "a1ceeb8f4c9e51a18d8f3e74681e42aea85030fb535b58c6d0fc72e5e88c0df8"
+    }
+  },
+  "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+  "kept_after_all_filters": 90704,
+  "paper_eligible": true,
+  "provenance_note": "Use the git bundle or pushed git tag, not only the source tarball, when checking that cited run commits are ancestors of the release commit.",
+  "public_filter_items_note": "Text-free row/removal manifest; rebuild from upstream data should reproduce release_manifest_sha256.",
+  "public_filter_items_sha256": "01e03e5bf10e05d1222d83ffa45a7fe50106280e21b3038ed674f6712f7825e7",
+  "raw_train_count": 201774,
+  "release_manifest_sha256": "750ffafecee965d59ff79074a7384be2841ae6129efdfc52c24864f61f4dcf4f",
+  "release_name": "stabletoolbench_filters_v16_20260927",
+  "removal_reason_counts": {
+    "heldout_label": 20289,
+    "heldout_mention": 103403,
+    "junk_tool_filter": 5751,
+    "leak_exact_eval_query": 745,
+    "leak_near_duplicate_eval_query_cos_ge_0.95": 1171
+  },
+  "row_id_uniqueness_assertion": true,
+  "row_key": "row_id",
+  "supersedes_tag": "stabletoolbench-release-v15-20260927",
+  "tag": "stabletoolbench-release-v16-20260927"
+}

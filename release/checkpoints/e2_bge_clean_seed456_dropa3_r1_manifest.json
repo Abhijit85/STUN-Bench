@@ -1,0 +1,36 @@
+{
+  "a3_drop": {
+    "dropped_queries_sha256": "c50bf680cfba622e5e231136f287eb032fc5fce5a147428232017cff44b6f0c4",
+    "dropped_query_count": 4,
+    "enabled": true
+  },
+  "assertions": {
+    "A1": "pass",
+    "A2": "pass",
+    "A3": "dropped",
+    "A4": "pass"
+  },
+  "base": "<HF_CACHE>/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+  "batch": 128,
+  "checkpoint_sha256": "ce09c79f213d724217b16d7cb342f2cbb1f974dd633a775802ab0d9fc8d20893",
+  "dev_after": {
+    "dev_recall[at]5": 0.7925009100837277
+  },
+  "dev_before": {
+    "dev_recall[at]5": 0.43829632326174006
+  },
+  "epochs": 1,
+  "heldout_sha256": "cfffbae8c0e16b3b8023515a47973ea1a6b2a383c554cdacb3f68790320b283a",
+  "implementation": "direct_transformers_inbatch_negatives",
+  "lr": 2e-05,
+  "max_len": 256,
+  "n_dev_pairs": 2747,
+  "n_items": 90704,
+  "n_train_pairs": 134645,
+  "pairs_sha256": "0adbc89a224d8ca588cac7903198dc9ffbfaa697f6f19542cba3d8030f36f047",
+  "query_prefix": "Represent this sentence for searching relevant passages: ",
+  "seed": 456,
+  "test_queries_sha256": "275dd4b249a9067d7f8bb3828adc666bca40e09cae2219a8be69c82231c3ba4f",
+  "tool_docs_sha256": "a9463ca6cff9208d4424f48a3716e93b30f59ad2b4a2d5ec949c2347b4c6967c",
+  "train_seconds": 552.4
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+external_datasets/
+models/

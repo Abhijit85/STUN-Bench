@@ -1,0 +1,88 @@
+{
+  "arms": {
+    "query_classifier": {
+      "group_metrics": {
+        "G1_category": {
+          "count": 134,
+          "mean_accuracy": 0.014925373134328358,
+          "mean_recall_at_5": 0.0,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "count": 152,
+          "mean_accuracy": 0.039473684210526314,
+          "mean_recall_at_5": 0.0,
+          "sd_accuracy": 0.0
+        }
+      },
+      "mean_accuracy": 0.027972027972027972,
+      "mean_recall_at_5": 0.0,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.027972027972027972,
+          "sd": 0.0
+        },
+        "per_group": {
+          "G1_category": {
+            "accuracy": {
+              "mean": 0.014925373134328358,
+              "sd": 0.0
+            },
+            "n": 134,
+            "recall_at_5": {
+              "mean": 0.0,
+              "sd": 0.0
+            }
+          },
+          "G1_tool": {
+            "accuracy": {
+              "mean": 0.039473684210526314,
+              "sd": 0.0
+            },
+            "n": 152,
+            "recall_at_5": {
+              "mean": 0.0,
+              "sd": 0.0
+            }
+          }
+        },
+        "recall_at_5": {
+          "mean": 0.0,
+          "sd": 0.0
+        }
+      },
+      "sd_accuracy": 0.0,
+      "sd_recall_at_5": 0.0
+    }
+  },
+  "config": {
+    "arms": [
+      "query_classifier"
+    ],
+    "build_only": false,
+    "client_count": 5,
+    "data_mode": "toolbench_train",
+    "embed_model": "jina-embeddings-v2-base-en",
+    "groups": [
+      "G1_tool",
+      "G1_category"
+    ],
+    "junk_filter": true,
+    "local_embedder": {
+      "device": "cpu",
+      "local_only": "1",
+      "model_path": "external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "322d4d7e2f35e84137961a65af894fda0385eb7a"
+    },
+    "merge_policy": "conflict_log",
+    "partition_mode": "category",
+    "reranker_variant": "V1",
+    "retrieval_mode": "entry_topk",
+    "retrieval_pool_size": 5,
+    "seeds": [
+      42
+    ],
+    "top_k": 5
+  },
+  "synapse_hashes": []
+}

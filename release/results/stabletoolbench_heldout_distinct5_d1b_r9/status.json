@@ -1,0 +1,8 @@
+{
+  "arm": "synapse",
+  "elapsed_seconds": 9511.024,
+  "merge_policy": "conflict_log",
+  "seed": 123,
+  "stage": "arm_merge_begin",
+  "timestamp": "2026-09-10T04:13:35-0700"
+}

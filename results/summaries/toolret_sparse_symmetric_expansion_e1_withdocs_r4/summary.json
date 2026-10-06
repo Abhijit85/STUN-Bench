@@ -1,0 +1,199 @@
+{
+  "aggregate": {
+    "capped_synthetic_plus_experience/bge": {
+      "heldout_recall_at_5": {
+        "mean": 0.002936191638108002,
+        "sd": 0.0017052157492648732
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.34818472147077684,
+        "sd": 0.04104918002896214
+      },
+      "overall_recall_at_5": {
+        "mean": 0.21677027339622834,
+        "sd": 0.024073434407653867
+      }
+    },
+    "capped_synthetic_plus_experience/bm25": {
+      "heldout_recall_at_5": {
+        "mean": 0.0009814741617632454,
+        "sd": 0.0012751620871152697
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.3972781388551359,
+        "sd": 0.04285407113679292
+      },
+      "overall_recall_at_5": {
+        "mean": 0.24652873148379634,
+        "sd": 0.02637840499004925
+      }
+    },
+    "capped_synthetic_plus_experience/jina": {
+      "heldout_recall_at_5": {
+        "mean": 0.0021286002793355413,
+        "sd": 0.000488295703431489
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.35618401617271805,
+        "sd": 0.04731245823553167
+      },
+      "overall_recall_at_5": {
+        "mean": 0.22169018045724917,
+        "sd": 0.030143264484497567
+      }
+    },
+    "synthetic_docs/bge": {
+      "heldout_recall_at_5": {
+        "mean": 0.006178123144822603,
+        "sd": 0.0025774276948501446
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.009075437745151389,
+        "sd": 0.00204385746150775
+      },
+      "overall_recall_at_5": {
+        "mean": 0.00784074405040304,
+        "sd": 0.00048205747518241
+      }
+    },
+    "synthetic_docs/bm25": {
+      "heldout_recall_at_5": {
+        "mean": 0.013974846971991455,
+        "sd": 0.01512997765935678
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.016823222382969693,
+        "sd": 0.009279098456779256
+      },
+      "overall_recall_at_5": {
+        "mean": 0.015822315005756402,
+        "sd": 0.00036671712709707323
+      }
+    },
+    "synthetic_docs/jina": {
+      "heldout_recall_at_5": {
+        "mean": 0.006309980210438418,
+        "sd": 0.0019524318206686007
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.008390036785590046,
+        "sd": 0.0015501951042910206
+      },
+      "overall_recall_at_5": {
+        "mean": 0.00751020103158139,
+        "sd": 0.0002658218789275575
+      }
+    },
+    "synthetic_plus_experience/bge": {
+      "heldout_recall_at_5": {
+        "mean": 0.002198641053412842,
+        "sd": 0.001317959908607302
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.3443200571530767,
+        "sd": 0.03906259181632788
+      },
+      "overall_recall_at_5": {
+        "mean": 0.21414143947636982,
+        "sd": 0.023266669145295803
+      }
+    },
+    "synthetic_plus_experience/bm25": {
+      "heldout_recall_at_5": {
+        "mean": 0.0009814741617632454,
+        "sd": 0.0012751620871152697
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.39677100849257724,
+        "sd": 0.04359840903111108
+      },
+      "overall_recall_at_5": {
+        "mean": 0.246200205458182,
+        "sd": 0.026632738734113925
+      }
+    },
+    "synthetic_plus_experience/jina": {
+      "heldout_recall_at_5": {
+        "mean": 0.0021286002793355413,
+        "sd": 0.000488295703431489
+      },
+      "labeled_recall_at_5": {
+        "mean": 0.35445830740866036,
+        "sd": 0.04764703755928427
+      },
+      "overall_recall_at_5": {
+        "mean": 0.22062051497974494,
+        "sd": 0.030316558159861073
+      }
+    }
+  },
+  "config": {
+    "allow_dirty": true,
+    "bge_model_path": "<HF_CACHE>/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "cap_per_tool": 5,
+    "embed_model": "jina-embeddings-v2-base-en",
+    "embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "322d4d7e2f35e84137961a65af894fda0385eb7a"
+    },
+    "generated_query_file": "artifacts/results/toolret_sparse_symmetric_expansion_e1_withdocs_r1/generated_queries.json",
+    "generator_max_new_tokens": 192,
+    "generator_model_path": "<HF_CACHE>/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "generator_prompt_sha256": "330816d6d9714d286f9753891d67f89b9b4ffee1c90b2c59e903e2779fa877ef",
+    "generator_temperature": 0.7,
+    "output_dir": "artifacts/results/toolret_sparse_symmetric_expansion_e1_withdocs_r4",
+    "retrievers": "jina,bm25,bge",
+    "seeds": "42,123,456",
+    "source_configs": [
+      "apibank",
+      "appbench",
+      "autotools-food",
+      "autotools-music",
+      "autotools-weather",
+      "craft-math-algebra",
+      "craft-tabmwp",
+      "craft-vqa",
+      "gorilla-huggingface",
+      "gorilla-pytorch",
+      "gorilla-tensor",
+      "gpt4tools",
+      "gta",
+      "metatool",
+      "mnms",
+      "restgpt-spotify",
+      "restgpt-tmdb",
+      "reversechain",
+      "rotbench",
+      "t-eval-dialog",
+      "t-eval-step",
+      "taskbench-daily",
+      "taskbench-huggingface",
+      "taskbench-multimedia",
+      "tool-be-honest",
+      "toolace",
+      "toolalpaca",
+      "toolemu",
+      "tooleyes",
+      "toolink",
+      "toollens",
+      "ultratool"
+    ],
+    "source_dir": "artifacts/results/toolret_sparse_heldout_e7_r1",
+    "source_summary_sha256": "9f42d0b361baa4b1f452f5fe2d818bc892daf22bbb1f0ecd1e1ee3ef338c5734",
+    "synthetic_per_tool": 5,
+    "tool_count": 5140,
+    "top_k": 5
+  },
+  "leak_report": {
+    "exact_matches_eval": 0,
+    "generated_query_count": 25700,
+    "max_similarity_max": 0.8980079889297485,
+    "near_dup_090_count": 0,
+    "near_dup_095_count": 0,
+    "similarity_model": "<HF_CACHE>/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a"
+  },
+  "paper_eligible": true,
+  "repo_commit": "d6100e342a10ecad69e51e2734bbd0726c0293ce"
+}

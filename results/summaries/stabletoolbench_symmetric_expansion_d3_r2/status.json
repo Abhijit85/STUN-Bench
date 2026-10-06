@@ -1,0 +1,10 @@
+{
+  "arm": "capped_synthetic_plus_experience",
+  "elapsed_seconds": 3258.001,
+  "heldout_recall_at_5": 0.5566343042071198,
+  "labeled_recall_at_5": 0.7166666666666667,
+  "retriever": "bge",
+  "seed": 456,
+  "stage": "arm_done",
+  "timestamp": "2026-09-11T21:40:59-0700"
+}

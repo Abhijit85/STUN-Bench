@@ -1,0 +1,133 @@
+{
+  "aggregate": {
+    "full": {
+      "0": {
+        "mean_accuracy": 0.5852766346593506,
+        "mean_recall_at_5": 0.7242798353909465,
+        "per_seed": {
+          "123": {
+            "accuracy": 0.5925925925925926,
+            "n": 729,
+            "recall_at_5": 0.747599451303155
+          },
+          "42": {
+            "accuracy": 0.5843621399176955,
+            "n": 729,
+            "recall_at_5": 0.720164609053498
+          },
+          "456": {
+            "accuracy": 0.578875171467764,
+            "n": 729,
+            "recall_at_5": 0.7050754458161865
+          }
+        },
+        "sd_accuracy": 0.006904283891422728,
+        "sd_recall_at_5": 0.021558619541154598
+      },
+      "60": {
+        "mean_accuracy": 0.5843621399176955,
+        "mean_recall_at_5": 0.7242798353909465,
+        "per_seed": {
+          "123": {
+            "accuracy": 0.5925925925925926,
+            "n": 729,
+            "recall_at_5": 0.747599451303155
+          },
+          "42": {
+            "accuracy": 0.5843621399176955,
+            "n": 729,
+            "recall_at_5": 0.720164609053498
+          },
+          "456": {
+            "accuracy": 0.5761316872427984,
+            "n": 729,
+            "recall_at_5": 0.7050754458161865
+          }
+        },
+        "sd_accuracy": 0.008230452674897082,
+        "sd_recall_at_5": 0.021558619541154598
+      }
+    },
+    "subset_g1g2_instruction": {
+      "0": {
+        "mean_accuracy": 0.5930232558139534,
+        "mean_recall_at_5": 0.7403100775193798,
+        "per_seed": {
+          "123": {
+            "accuracy": 0.5968992248062015,
+            "n": 258,
+            "recall_at_5": 0.748062015503876
+          },
+          "42": {
+            "accuracy": 0.5852713178294574,
+            "n": 258,
+            "recall_at_5": 0.7286821705426356
+          },
+          "456": {
+            "accuracy": 0.5968992248062015,
+            "n": 258,
+            "recall_at_5": 0.7441860465116279
+          }
+        },
+        "sd_accuracy": 0.006713375223135131,
+        "sd_recall_at_5": 0.010254850042886027
+      },
+      "60": {
+        "mean_accuracy": 0.5930232558139534,
+        "mean_recall_at_5": 0.7403100775193798,
+        "per_seed": {
+          "123": {
+            "accuracy": 0.5968992248062015,
+            "n": 258,
+            "recall_at_5": 0.748062015503876
+          },
+          "42": {
+            "accuracy": 0.6007751937984496,
+            "n": 258,
+            "recall_at_5": 0.7286821705426356
+          },
+          "456": {
+            "accuracy": 0.5813953488372093,
+            "n": 258,
+            "recall_at_5": 0.7441860465116279
+          }
+        },
+        "sd_accuracy": 0.010254850042885965,
+        "sd_recall_at_5": 0.010254850042886027
+      }
+    }
+  },
+  "config": {
+    "full_rates": [
+      0,
+      60
+    ],
+    "git_commit": "1a4ecbeb9cc3e1cffdcfea847fd119640fa9154b",
+    "local_embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "/tmp/fedrag_launch_b978562e/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "unknown"
+    },
+    "model_path": "<HF_CACHE>/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "packages_roots": {
+      "123": "<REPO_ROOT>/artifacts/verification/stabletoolbench_clean_anchor_seed123_r4/packages",
+      "42": "<REPO_ROOT>/artifacts/verification/stabletoolbench_clean_anchor_seed42_r4/packages",
+      "456": "<REPO_ROOT>/artifacts/verification/stabletoolbench_clean_anchor_seed456_r4/packages"
+    },
+    "rates": [
+      0,
+      60
+    ],
+    "reranker_variant": "V3",
+    "retrieval_mode": "distinct_tool_topk",
+    "retrieval_pool_size": 200,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "top_k": 5
+  },
+  "paper_eligible": true
+}

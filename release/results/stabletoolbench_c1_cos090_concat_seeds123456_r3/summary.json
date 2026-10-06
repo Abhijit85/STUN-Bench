@@ -1,0 +1,73 @@
+{
+  "aggregate": {
+    "full": {
+      "0": {
+        "mean_accuracy": 0.5288065843621399,
+        "mean_recall_at_5": 0.6844993141289437,
+        "per_seed": {
+          "123": {
+            "accuracy": 0.5198902606310014,
+            "n": 729,
+            "recall_at_5": 0.6831275720164609
+          },
+          "456": {
+            "accuracy": 0.5377229080932785,
+            "n": 729,
+            "recall_at_5": 0.6858710562414266
+          }
+        },
+        "sd_accuracy": 0.012609585947085205,
+        "sd_recall_at_5": 0.0019399362995515881
+      }
+    },
+    "subset_g1g2_instruction": {
+      "0": {
+        "mean_accuracy": 0.5484496124031008,
+        "mean_recall_at_5": 0.7112403100775194,
+        "per_seed": {
+          "123": {
+            "accuracy": 0.5465116279069767,
+            "n": 258,
+            "recall_at_5": 0.7093023255813954
+          },
+          "456": {
+            "accuracy": 0.5503875968992248,
+            "n": 258,
+            "recall_at_5": 0.7131782945736435
+          }
+        },
+        "sd_accuracy": 0.0027407239580873985,
+        "sd_recall_at_5": 0.0027407239580873985
+      }
+    }
+  },
+  "config": {
+    "full_rates": [
+      0
+    ],
+    "git_commit": "5fbf5a9552b4a4d215f1a26637d0b6c4586c751d",
+    "local_embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "322d4d7e2f35e84137961a65af894fda0385eb7a"
+    },
+    "model_path": "<HF_CACHE>/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "packages_roots": {
+      "123": "<REPO_ROOT>/artifacts/verification/stabletoolbench_c1_cos090_distinct5_seed123_r2/packages",
+      "456": "<REPO_ROOT>/artifacts/verification/stabletoolbench_c1_cos090_distinct5_seed456_r2/packages"
+    },
+    "rates": [
+      0
+    ],
+    "reranker_variant": "V3",
+    "retrieval_mode": "distinct_tool_topk",
+    "retrieval_pool_size": 5000,
+    "seeds": [
+      123,
+      456
+    ],
+    "top_k": 5
+  },
+  "paper_eligible": true
+}

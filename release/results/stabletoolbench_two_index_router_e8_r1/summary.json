@@ -1,0 +1,126 @@
+{
+  "aggregate": {
+    "bge": {
+      "union_rrf": {
+        "heldout": {
+          "mean_accuracy": 0.1941747572815534,
+          "mean_n": 309,
+          "mean_recall_at_5": 0.3117583603020496,
+          "sd_accuracy": 0.04042069901875986,
+          "sd_recall_at_5": 0.0409782522399624
+        },
+        "labeled": {
+          "mean_accuracy": 0.5436507936507937,
+          "mean_n": 420,
+          "mean_recall_at_5": 0.7134920634920635,
+          "sd_accuracy": 0.01755027332340951,
+          "sd_recall_at_5": 0.02312508299100548
+        }
+      }
+    },
+    "bm25": {
+      "union_rrf": {
+        "heldout": {
+          "mean_accuracy": 0.2632146709816613,
+          "mean_n": 309,
+          "mean_recall_at_5": 0.3969795037756203,
+          "sd_accuracy": 0.011365322279237047,
+          "sd_recall_at_5": 0.007473789892422348
+        },
+        "labeled": {
+          "mean_accuracy": 0.6365079365079365,
+          "mean_n": 420,
+          "mean_recall_at_5": 0.8174603174603174,
+          "sd_accuracy": 0.01374643498070539,
+          "sd_recall_at_5": 0.004956347617776489
+        }
+      }
+    },
+    "jina": {
+      "docs_plus_experience_backfill": {
+        "heldout": {
+          "mean_accuracy": 0.5188781014023732,
+          "mean_n": 309,
+          "mean_recall_at_5": 0.6116504854368932,
+          "sd_accuracy": 0.00373689494621119,
+          "sd_recall_at_5": 0.0
+        },
+        "labeled": {
+          "mean_accuracy": 0.5515873015873016,
+          "mean_n": 420,
+          "mean_recall_at_5": 0.7214285714285714,
+          "sd_accuracy": 0.013113263207824064,
+          "sd_recall_at_5": 0.010378330817953947
+        }
+      },
+      "union_interleave": {
+        "heldout": {
+          "mean_accuracy": 0.511326860841424,
+          "mean_n": 309,
+          "mean_recall_at_5": 0.6321467098166128,
+          "sd_accuracy": 0.006472491909385092,
+          "sd_recall_at_5": 0.0018684474731055628
+        },
+        "labeled": {
+          "mean_accuracy": 0.5396825396825398,
+          "mean_n": 420,
+          "mean_recall_at_5": 0.7261904761904762,
+          "sd_accuracy": 0.019967850199062095,
+          "sd_recall_at_5": 0.00858464589396191
+        }
+      },
+      "union_rrf": {
+        "heldout": {
+          "mean_accuracy": 0.23408845738942827,
+          "mean_n": 309,
+          "mean_recall_at_5": 0.33117583603020495,
+          "sd_accuracy": 0.017823852903838516,
+          "sd_recall_at_5": 0.00934223736552791
+        },
+        "labeled": {
+          "mean_accuracy": 0.5111111111111111,
+          "mean_n": 420,
+          "mean_recall_at_5": 0.6730158730158731,
+          "sd_accuracy": 0.02738957766148792,
+          "sd_recall_at_5": 0.00991269523555304
+        }
+      }
+    }
+  },
+  "config": {
+    "bge_model_path": "<HF_CACHE>/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "e6_dirs": {
+      "123": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed123_r4",
+      "42": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_r4",
+      "456": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed456_r4"
+    },
+    "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+    "local_embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "unknown"
+    },
+    "repo_commit": "afc51b9efeb644f0b848860f0c9f53342d9f2136",
+    "reranker_variant": "V3",
+    "retrieval_pool_size": 20,
+    "retrievers": [
+      "jina",
+      "bm25",
+      "bge"
+    ],
+    "rrf_k": 60,
+    "rules": [
+      "union_rrf",
+      "union_interleave",
+      "docs_plus_experience_backfill"
+    ],
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "top_k": 5
+  },
+  "paper_eligible": true
+}

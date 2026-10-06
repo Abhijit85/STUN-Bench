@@ -1,0 +1,5105 @@
+[
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "a917ca757ac59f9d568616140c2f72362fc2722ab277e7b5019008f280f17beb",
+    "row_id": "588",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "1de4d95a81eb1780d5c21a880a8be6595306670af426e40872b2a03c5cfb9996",
+    "row_id": "608",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "be1722b1d104ffb2753260682954754d9757b986013823c5df20f28e0f74e655",
+    "row_id": "1073",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "9c05d48bbde0b1ecdc68706e9c4a536de566f35deb45d66ad6d8261689164dfc",
+    "row_id": "1572",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "c17ec73c802422d05391fbab496c2c62d81885e435bb313ce4446e049809c675",
+    "row_id": "1856",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "b8dc2c143be8994682b08461f46487e05874e59dd9ab65cf973e3a3c67a763aa",
+    "row_id": "2121",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "db6529e972a44a4db65c3f460fe66b7313138626d813d03fc7942eaa55327001",
+    "row_id": "2144",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "88cf986449b61aeba90a4baedfaeba95cc12e8d04dedfebe53b78dd29fc0a4ac",
+    "row_id": "2213",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "680f612e343a47d47b7cb130ce72420f3679399bdaae57f85fc63b0b01bfce5f",
+    "row_id": "2354",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "3b25e0d5df8f8001725cde4476e96f163548426c2ac14f6755e5285cfcd75690",
+    "row_id": "2399",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "a4c42a3f5f7103ddb1042c34864a1bd8e7854308d80ab8b4bf41eb46ad62b3dc",
+    "row_id": "3308",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "cad6a6cdd207df506aab2f1ad1dc92a50183459a1e323b1b7c5ffe6547d953d1",
+    "row_id": "3510",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "2c80c314a06d8420bb22af474b6ac8763c65d15826169997804240f7f34eb3dd",
+    "row_id": "3723",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f0eab88acf23e27842103370ed4fd13441881e47fe9e004ac4e52864978c55da",
+    "row_id": "3922",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "4817ddb54d7a527a5cb1e069434fdfb5350bfdc910cc6a3aa35b54a4036b9809",
+    "row_id": "4505",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "4694198984395866f16672b054993e24292cdfd7524af731f7db024a62e3271d",
+    "row_id": "5116",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "04b4b3a7ae750771cca31b135c8287d4a3ec9a2d74fd512c474712c321a34029",
+    "row_id": "5810",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "41ef81d7f6b07faacbe378c5000a776ced4f12016112c6baa1950ae894dd204e",
+    "row_id": "5965",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "e55da9707bf55146e88ca4bbc75b1450e7051a7f81f974f2520fe1c160da6c79",
+    "row_id": "6618",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "15aefc83749af078486ccde85b7f17f9b40fec0bce7612b1a75910868f7aad2e",
+    "row_id": "6736",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6d9f4eaf4b640b1ef6a5cacc1254e1ebc5271e003724ce4bf782d28c4be61cba",
+    "row_id": "6959",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "3714b7f3b386c9febddd7990fe3f5dc95fbfc6e30dc04bdd3d76c03916d1f742",
+    "row_id": "7043",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "fc6177b04a212f55655a2e3f1dfc313c191ff4288d14d7ffd59bdd1448c1fe7f",
+    "row_id": "7497",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "fa2fd37dfe0f812d3dc55fb445a1a4d04b95032b6753f0d4943313655bd3f8e8",
+    "row_id": "7658",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "89318a103722e26c214e30af015546b2cff2a38fc010627fa903fe8b690913e8",
+    "row_id": "7989",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "dc55f7cfd39dd0d3fc79512416ee1b9757fef0289a7ebb539b1d28259d8df499",
+    "row_id": "8025",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "a896653291d864fbafc95dbe32b23b301994906cc054c4a07f38f1f8bdfacf0f",
+    "row_id": "9921",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "a72ee2ce95a69a578e4cad1a7ccc7b289b3fbc90d5c1f51f3c8302191ddf2f03",
+    "row_id": "9984",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "1ca5d0aa97c49e27c62c85eda135ca5e9471afec0f870a583a64d7808cdd0a33",
+    "row_id": "10160",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "d847f0598621450f52849fad30dd74f56d9af871a5dad02ddabab92092e95835",
+    "row_id": "10770",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "65d769c3b509edc5330e43dccf7c46898d1b450cbc3f0ada65245b2853e2f0ef",
+    "row_id": "11653",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "06c5c96215f97d1d6bb807e92b462184a12eb090281c49b86df83762e1a798c1",
+    "row_id": "11686",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "d8bf4374be15f8084f8b13bd1aa4772391ad630c3af6bc6f4b8bb4c496a3c104",
+    "row_id": "12204",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "8bf5b76ed05f5efbfb474cdb5cc2590441dec9f71af97536f85714bddabb0010",
+    "row_id": "14714",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "868c7d83ee7819eff594b87fdb6a63f3887e5f7bd388e1216c3f49ecd307a8d7",
+    "row_id": "16196",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "295da4bd4ab522869adb2bfe35f06bfbd9fc46e575d87e56e415e84183813b21",
+    "row_id": "16970",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f273d90a08314a070861b1f95f1cd64bbbddc0aa1457291b41bef0a75ca5070c",
+    "row_id": "17038",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "0882d5541ce199056ac5ff2c7ac0ad60cfeb2c0f3d7132b65d84d58910bd354e",
+    "row_id": "17223",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "0abe1b008e37697d60391129deac748704d6105881949c60dff38453777ffb43",
+    "row_id": "17952",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "95fdc618500e9409d2a5a32eff6802d8975510da92dc01fdadc21d8de8526f50",
+    "row_id": "21596",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "01c91cf1f3c9e568f8d2a04978b5cdd987b27667abb6cad7303a2bd0a6b44a91",
+    "row_id": "22781",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6227254c289b9536d685f40e6dc90456e122073223d80dc0a01f6b5a77393087",
+    "row_id": "23163",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f93706b5d0ee14f635edcd0ee2f2c06ed39afc8872ae24d441ee28c7b26bb56e",
+    "row_id": "23248",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "7ec7276223f58a5d10caef82589738c88670919020178be42be506d4342a316f",
+    "row_id": "23982",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "187526313b1d656f0dcbc4fe45cea200737140d6308dcfce47c79f72ebe5bd51",
+    "row_id": "24146",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "207dab2a6d2505aa0e2ae963fe57ca8ecc93b387c7bee51641f8f18677c89321",
+    "row_id": "24810",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "961cecb58184068b3b4181edf3321cfb8e9a1d333682fa667474acffbb0a2246",
+    "row_id": "25052",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "bb282ebd9817c42ae49fb1ced7fcd88ffa71b7b45bddf6a0ab9a098d69bf248a",
+    "row_id": "25658",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "3253708cb2909eafc5f1054e68fb85a45b2d07ea7421e325ff748c5e24aaf6cf",
+    "row_id": "26063",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "44edef41cd623576b96dafce7e33aedc5bda4992576e1ed5ca5040abdebc8961",
+    "row_id": "26752",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "59164d241629b4d0d50d14f74c68b1f9d66456a572f4fef263972f0fa4e163be",
+    "row_id": "26892",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "c40e0e63af01a30fb0ded4b99d66024cce58b4b912681314ddcb2f26219033b8",
+    "row_id": "27847",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "64adefacfe82a093134e0af369cc1d350e5c510eff735dd8fa6ae57d4ed307b4",
+    "row_id": "28751",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "af3917251b85a42e22d8f7020801a83d13afa74a5f10ba5ee7bb7dab62e9aaac",
+    "row_id": "29059",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "32307bd0c7b0e279e940b1e24d16511924590950dcc57d06cd7bf5a5af99664d",
+    "row_id": "29291",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "e7ac9b85758a1c2aecb7daa64809ef9a91ed6d6bf3c2cb2ee35c584f3ba8c9b4",
+    "row_id": "29322",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "1067284d1808e85d9172865b09d132679187103644fb36354141919355fa9758",
+    "row_id": "31117",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "3d482755725e195315983deb5a2f365c094d8c83ce4571bd84bd4198cb1f573a",
+    "row_id": "31267",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "d61c1b10ec5ceb93892af469967f5d9234b112f69cc56bb790ce6ad8a3318656",
+    "row_id": "31402",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "631a411ce2743f82a4acb6fe81f171b80affeb50fcce7fd4378e66ac890ff1a6",
+    "row_id": "32001",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "47da159ea5d03977e4bab2ec7ad9a2911cebfab3695099ad8cc6bb7111a98b96",
+    "row_id": "32285",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "5b61776cc16aa04ba6b6166eb1029beb4c4676e40e080c4c170faa0027fd7496",
+    "row_id": "32309",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "cec6d64a7334e027e9c1d55bc9829f9f140cec9a5c1bc1b60e2da7b1284162ec",
+    "row_id": "32652",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "caf8d530b1978d2e39c27cc7e7a104b8efaab04fe1a8a7815c28ffd3f0cb6e64",
+    "row_id": "32807",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "443ddbe26d3bef958ebf6ab51693ae5cbad645394976bd68a2da5098124d61dd",
+    "row_id": "33330",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "43eb40c759dc5731bdcc5a50f4694d7b5451e2f1de042c99e4c010f86b2c88e5",
+    "row_id": "33889",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "29f8e8cca1935645f2f575607b23c156568f075cf6826fd62a5ced94e32b0a07",
+    "row_id": "34266",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "236aed414e9adc979deccfc82ba77dffcd002bda4f07d09dea1d91e3a2929f33",
+    "row_id": "36197",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6777d66cdceb3abe105f0756d4bc554f85f7a8fa03bd919167f12f604c781ec2",
+    "row_id": "36717",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "0740dd72b81eaa2b65b4eb30a9e8fd964a9e9498092a67c0ef608e9c2c750d3c",
+    "row_id": "37421",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "0bc7dac18f822e28d2b361fd0e25c3fa5e992cb052c5f4946153b45a4e308805",
+    "row_id": "38494",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f08b02a9a28f6dfd43b4f830bc7aeec625245579dfeb844d177612d200978122",
+    "row_id": "40019",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "a30a06cf5a4e6b7f0b337baecf06acd66992128d5f68420e62ad2406759e8bbd",
+    "row_id": "40054",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "2a1ff30ab693f59dea389a4b12b3de2a14bcbd09aa65e3397fb1c1fbd98e75c0",
+    "row_id": "40436",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "a5e7d69ea37f75f37ef1d4d155ed14e863f8a7ae77d0c0b40c76389c8320ccd0",
+    "row_id": "40699",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "2df9b259827fcdef1c4f4282b46763b7a4403dca4f3f24bcbe97b9f71bf6003f",
+    "row_id": "41389",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "ca842053c715d035e0ff062133ba78dd121c29fce7a3127e8fcbf5c963b146d2",
+    "row_id": "41444",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6b7868ea83f93eeae1abf07c62c8aaba502b71867b19be61728dc2ddc34062ad",
+    "row_id": "41806",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "2fcc9502172b22cc73f55d57ad6f3954be475f1627ad0f5171e415ad16f522d3",
+    "row_id": "42351",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "0d66077d83e4321d522c821617539720d30d1a956c09a593d25daaaea220ecd2",
+    "row_id": "43269",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "5742d92861b3928bad9094676946b3d1d17980a605df07bc3aa3102ed7a1ff2d",
+    "row_id": "43821",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "7fab58ef00fd978042fc0811d63509e26824dd86d7357963c0514d206bbedc1d",
+    "row_id": "44482",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "e1ede78697a866b4683732071d462de4284afa5dc83223353c8b267be1a5c03b",
+    "row_id": "44533",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "8293c9a576bf73bc8458dd1f5f4382b3c50f1d2272cd1e47c0e2c20ce5a71877",
+    "row_id": "44619",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "9cdf48da69a9c87a38b9c47eeea22b3d9dc2c9997049e29d3e7ee454da29d169",
+    "row_id": "44774",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "d58fee19b438f48569ba637925d9e8fc5a21b7a145beb3e5c5a438e39da96f18",
+    "row_id": "45490",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "b378c88e27ffcc4b154d477b5a51bc439b3454c3af3c39777651464b46e95eb6",
+    "row_id": "45775",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "9453b1d9140c50a88578ba0dd0a2bdacc4d61916c9b07010014884cb51bb3617",
+    "row_id": "46403",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "e6ad40035043e87a27b9a00718c2e628d9d3ba9441054605bd1e70f15cdd21ad",
+    "row_id": "47301",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "b65ade3b8ecf325db8917d5d1b59c209238588f5b08a7584273e204eb5c664cd",
+    "row_id": "47838",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "79589936803cc606ff86d8457df81e2a3fe81beb3e5f8633aa22ef49682c542f",
+    "row_id": "48059",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "4a92e8815793b627b5e9d9a191b4f3f667c61490bc40abbe04cfe13b3d1c7fda",
+    "row_id": "49267",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "b3d7201e141982ac74a8c74e9fdf88aecc5dc729fe587c95775b6f85939809f6",
+    "row_id": "49991",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "1e87c1612ee4393b441b03d03142bb3a93c747c0b278662fa9363e615d37464c",
+    "row_id": "51043",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "addcec4fdac212ee3f443335f8ac58447dfe9ed8b2b8f91a17b05538982cda83",
+    "row_id": "52534",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "7137f48669c7c0ddeb2de9df6bdf8f45a4f40515cc77fa4e7e4217c4290a6874",
+    "row_id": "52734",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "2643d325a4455bc67c0da8196eb7c3fdf150d646099277c564892eca5f2f10c8",
+    "row_id": "55223",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "36fc893d9e5027cb833f063310d7e62b3c9ab14b60098ff11bc79be0563530a8",
+    "row_id": "55323",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "5f49bbb026e1502012f5a2616893b19d91a739a56e0c1df7f7a210585af86a70",
+    "row_id": "55489",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "41273c96e8f0e46eb9c3855053000ff83c43db6e31e3ee08f8458800bc9e896d",
+    "row_id": "56226",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f2f3e7cdeeb9d88704074153ca546a29e24081faad46bb37ab104f1a6d390e67",
+    "row_id": "56236",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f645bd821a9a225a6208013b60fdb8d4c97a15f215c6d8243db365ac3e8440db",
+    "row_id": "56666",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "683633585940dfbb9c752cd1ce8969391f9c5db1631e0698a35e6e14c3319bf5",
+    "row_id": "58096",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "91d79f75dbab09a99af0c363c8f5f087579d90db8c828e5e8fc5d8bfd8763f3d",
+    "row_id": "58949",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "9c69a78c416b307b076c2d773848957b20d3dda64ba0b14888aee12b28685ffe",
+    "row_id": "59266",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "fe4c7beb5839049437afabf0910f959fbd41f243b3a3bd0ba183e23dc810732c",
+    "row_id": "59954",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "bc8bf7abc7e9f90ee8487b13f1b3d649492a90825ef913e8ae7612d3276a47c9",
+    "row_id": "60837",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f433a1d1054d5915c54c4804ab6524ede138e8ac645a496b20ab4230192154c4",
+    "row_id": "60936",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "c23cd515e96063e8208121344826b459fe32218c639931d6973b8ab4574b5377",
+    "row_id": "61654",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "00b57579e4a9d816527eeb60ef1362001d0932d9b4c8bf9fe68ab986d5c43c87",
+    "row_id": "62012",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "3181febaa3a1ad87aebae8e714b6c31675e9b41a16db869ddcb5dd45c0024530",
+    "row_id": "62757",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "2dfda889abce7d95d91a240ef99aeb9d8944871f0961c6a7cdedc36813e8b8fa",
+    "row_id": "63730",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6d8ce633095bab26295c405c552cf5f296416ec6a5db1723e385bb842f71ba76",
+    "row_id": "63962",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "97edea85bc35beac9a23fa802bf6899cc9c61d6a53f2b57c22a9d5a26f286511",
+    "row_id": "65637",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "7aa51d87dcc9f70967881c8449a7e333dfff912745d4ac4d9509ee7f52d9ae4f",
+    "row_id": "66018",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "7a701956a459211889feab738243ab20ba116dc2a6aab9fcd4305fdba83ab70a",
+    "row_id": "67007",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "82408c7a4b954de43c66b618c5d5374010d38a7c0e0f76daf588a82f8a568956",
+    "row_id": "67522",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "26a37aef0607342a8afded04d5c4a66026f9f69d1204024f0712ba5b38bd7e0a",
+    "row_id": "67966",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "70e2e8100b813a09522bfdb87109b95e7b1edc8457c6c066ec4cf3c839caac53",
+    "row_id": "68221",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "98f39934b2d1a21d0730a9fb058f66d52836bd20067bd9cf6a272d2c339c6908",
+    "row_id": "68327",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "26b1e0cf9a504e1b0cc7f1d0b357eea09d1199e3b734a1f8e6e0c696169d7614",
+    "row_id": "68335",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f3f216b08e78d5e5c63c12586bfbcc39d1abaa24cb2ec168cb701a2fe451950f",
+    "row_id": "69206",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "528e39f0789ea7d0028b978ec2c01047c8926baaddfb766ed550679fbe0cfc67",
+    "row_id": "70610",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "eb7caf45c21bbb1612891cce79800406a099c490cb23fa771a7a5e587dd68280",
+    "row_id": "71402",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "1e8bd407c6f466179b189a463361e4f88c93dd2c1203666f47a30fb94333e9ce",
+    "row_id": "72373",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "7234c8b09ffc36afbda28a3b05e52f059e807e7a4bb9aaf7e9d953bb38b07f66",
+    "row_id": "72659",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "76a64825260d8bdaae9a8efd5155d421107850a3d3fd92d56f4eb3a6725d8cdc",
+    "row_id": "73529",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "56f2af47a3ca40b1699c9fad3073fc2153bb3e192ceca904f4beeb96f214d537",
+    "row_id": "73762",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6940ac5a5744ea841cc3408227cbd866d4ee0326c2ee9caad0ec51fee7395354",
+    "row_id": "74322",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "4da1602cf90d9ac16ab05dc8ca01869f1acdb9a63cfc04124c607e935b41d390",
+    "row_id": "75338",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "d473c477ab8cf6e1c6d6a2a044eaa2fa120c6d8b7158a00c8584072be4a7c4d8",
+    "row_id": "75390",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "ff34f9805149e9522fe83de1dace7e207c0af0116da340e4b71685904eb936b6",
+    "row_id": "76554",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f1ead1ca9425e47311b2a17aaa9543bf74fab1ee898b5a84b64b340d67c2138d",
+    "row_id": "76957",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "64c8e4cac6effc1ee7c975445a9361ba4f6f055ced90e0c8b588dfbdc74141b2",
+    "row_id": "77471",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6af4a6e52fe4d514dcea629fbc965907554d16793e5a1dcc9871bbb988b87501",
+    "row_id": "77514",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f5d316ef617056203e6de77f08a499a7d595bd88eaac721853f3ed5feb8b8e9f",
+    "row_id": "77855",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "fe34918d15bbdc186b0e64ba1556ead181deabc96cc53c2017b1c379f1a35751",
+    "row_id": "78406",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "908e462cc0e7519fdbd99e5791bc1e3bf9d1ff6b887dd2d1180601aa3b68e73a",
+    "row_id": "79053",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "e1ed53055c6de9d1e2f9bb965b182c0ee82146a1889fa5a569c32e5cc92b3adb",
+    "row_id": "79620",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "1346d4734a8dad23f1f4b7865351a36171f65c162f8d1598c91a1d72272bf36a",
+    "row_id": "80884",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f7f07eac093179f49c0c04e82ebd09b2ad9bc44d0e3f928015312fc0d7ac30e7",
+    "row_id": "81195",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "647c39207a53af0baf7c4945088be987af3387c37735c0784d7b301ee49e1b4a",
+    "row_id": "81581",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6d7d5d5e925843250413d0b2f21206230b46ae9fe4acbaf5c7b2797962b0a7dd",
+    "row_id": "82314",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "78ee8724172a37f576578aa04493992074a022e6926852d90b9b770404ac1a43",
+    "row_id": "82701",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "db59fdc57d2ca6b23b27242763be94d6d22c28dfd5cb233fca343943f6a39213",
+    "row_id": "83742",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "f659f5b2f9ebed5baead9e36b4bd6fa80c6c7b96a6df70b660e179e5200e9eb2",
+    "row_id": "83819",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "b0f0a7ac5c91346f53dcd4df3fe3caafa8e143f318aa4ed6eaaa80886640eaca",
+    "row_id": "83950",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "b7a14629fd7e2e9c6111984e3d9427e898fc62da0cb3066125b8567358d0239a",
+    "row_id": "84845",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "a61b0c265538fc8029409fcdb7ceeb00ad87ce7b1ba9ac6702a0d5d8fd2a5dc0",
+    "row_id": "85152",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "5590f61892be967c38c86f381cf1430d362501f88aa9c58bc5a36e705818d6df",
+    "row_id": "86084",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "d2830c8268602e6dab54f2dfd2fd1059e55c216cf45196de3889ef12ba2b378f",
+    "row_id": "86143",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "6e218e31fab7425a06060355d4577c6f100e4ac5925474edf710073943cceca7",
+    "row_id": "87632",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_instruction",
+    "query_id_hash": "88fe08163c246943a965144cd4cd0903823f26bd3babcfd441296ecc76c33363",
+    "row_id": "88193",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "04d19fde0a08b17aca69491e714bea43565384d12a63626e08477662cc03780e",
+    "row_id": "394",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "4cc3d9cba4633096fadf09ea1106b4b321ab81b1d461c3d6994f0e303f631249",
+    "row_id": "692",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "67aa578ed1fd0fa4198a7f1cc37b1ab20331cb472f7eb766f687f870a53a0670",
+    "row_id": "1617",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "93e2a45037eb149bd13e633f2cdd848b0caaa04a4f048df7c49de10fb41a3d16",
+    "row_id": "2412",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "479f8ec909fe2e84ad23cb8a55e3fc41bc84659e81be514db4b989a89a9bd2a0",
+    "row_id": "2513",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "ce83293c66150ed42f52747cca6a91b85332c740cde625195b15f1abb4b90196",
+    "row_id": "2701",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "7e66b5dd3d158d14ba3300cad5702ee6d72befaec37890eed25c91687bb649df",
+    "row_id": "3007",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9a094988ee453389615f0706c2467b3f4ac80ea300d3ba1f20d3698d5f5dbafa",
+    "row_id": "3215",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "a762afde67e034ebaa109a994329ccd09efa8676e4fab6ceabb99e119d4d725f",
+    "row_id": "3221",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "bd7f4d53f4b1c920bc3e1cc023bc47005296479a6df29fd5ccd65d152d266660",
+    "row_id": "3287",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9e7ff86f87e27d39bb32e058072b3eff18c36a083cd3ee4a156980d21caf8556",
+    "row_id": "5085",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "5d81730c174ab8ceefc2187c6a748648cc69303b043354de4fee81e91ca23979",
+    "row_id": "7474",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "f86cb6f7591d46450676ed84dfa0a070b7f060e6167fe31328416b622f722eeb",
+    "row_id": "7971",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "0f13b329aacbaa4cedd43078c4c9cd23e53d83a229fe96551e015e8973038cbb",
+    "row_id": "8129",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "e998d857e5637aa94c02419c98be82013f1571b2f4be936b9c79eae57c17dd2f",
+    "row_id": "8443",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "0a729a9062c551e19ba0a182ddd119db8959610597d588ea0f314057a9895c25",
+    "row_id": "8655",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "b35b291416984646240a337c00fc176246e4e7c02c2c0e6a7a28ab4f34b50f1d",
+    "row_id": "8722",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "3b32bab39d4e9afec33da525885b21eb3259d25bade19fe1a169db31b647f12b",
+    "row_id": "9039",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "b1d705bf58a21fff38bfff26ec5e7d368a15694cf506d0c5a852a3629169fdd0",
+    "row_id": "9238",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "4ea8129e4c7a1b7fc983c3542c0c6ffba978a1d2f472e05c39a298ea458c51b0",
+    "row_id": "9792",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "637dab24bb4c101d73c21cdd95e71f2ca445ef28e00cfd9a1e247f2e4b4fcdea",
+    "row_id": "9956",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "637ba1f3b72dfa3393bdd4ea934d54e19e167153d02c67068a8eca70406d0379",
+    "row_id": "10221",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "d6dd88c390d2c1f1049f3efc47cd94543c81f789d2159e32482d4b3e34434673",
+    "row_id": "10277",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "12c8b3c288f27c5628649f2cec727a5ae9e9e385860679f07b970a6dab9ecc50",
+    "row_id": "11924",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "40f6461449ca9c11a4e7bf125b67626759976a171b4a72cc7822f00bb5566363",
+    "row_id": "13495",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "a890f7511cd3bf8a717a9406c63504c020e6a9522b00971665d3722c4e9d58fd",
+    "row_id": "13497",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "23c8e3a71e032ab8a5ffc2205887d15a21d6c81913c98e63b07db91a06fd1e26",
+    "row_id": "13499",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "22d87226467336764e175f49f4e1b53babd58ca4eb6ec98fc5254813e035e142",
+    "row_id": "13537",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "c0650c2d13bc4962def4abddf5a0f65860ed3683cbd5b45b39cc2de130a17bc3",
+    "row_id": "13826",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9d25864abe3a65d44be27ecced589e0075d4c8ab5900ada41a6568428631c96b",
+    "row_id": "14198",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "c5fab5e286d5f8b596bd6ba3f8a274ee3cedb092b6116bd5a2d325698a17d34e",
+    "row_id": "15058",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "e57ab5c0dd28595e7af8d8dd58673bc9b1395a4c8b908e89be7c7b21f0616eca",
+    "row_id": "15931",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "c6c08a2f616815832699581d816332da13a2ffc77318531c0bef421cc5b35e6e",
+    "row_id": "16133",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "bdc433b08671ee58cb78f8e84f22b34ccacd8993ff47155bfe3d3e061a398c7a",
+    "row_id": "16700",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "c220777a3969d97f8c08265becbb6fcd9bddfab7c48456e450fed01101f16a76",
+    "row_id": "17978",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "360556f5d665cee75e05cc4d208e90972af8a4babda672e2b27f9a70fc86e0bc",
+    "row_id": "18761",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "20eba8ccd2c31554e21b8070f75e9344930fbd1fbccadb4698fe94529202863e",
+    "row_id": "19662",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "b351264521c20050a8b2a045367c3c52bc79b0321948fde98e319feaa19e74d6",
+    "row_id": "19696",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "6947cb09d2c60cd9511c4725152fedb8c2adf6769450a1c069447eb3d44c7d89",
+    "row_id": "20358",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9353e832a86411c8282dea33d5be35c1860888586359178ccb7f070074e54e4f",
+    "row_id": "21785",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9a72540b319a01ece2b6a3c8481287442fc483a4930ba14e49b42e5fff196d75",
+    "row_id": "22077",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "31b9d190e94df25f2050850b2c823a76551c1a4d92f8fbecf79a16b54a65330c",
+    "row_id": "22514",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "3faee68416a53f9c372df1981b0d5ee0f20d2dd9a10492eff1d7c38d2a17ff10",
+    "row_id": "24777",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "a8ac10fd44ad510ea085a0450f3a8f335fb8b7c07047f12b4a92d4326905e3d8",
+    "row_id": "25164",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "2165b605291656c03c4dd07da5bc523238349b6ff7d769838a71ee58cf2d9a25",
+    "row_id": "25483",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "d47f89f3eec8e59ccab26e60fe0c386957dbc427e61a0226eca855bc959bfdbb",
+    "row_id": "25687",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "f1b9701cd29c36dfdd58383751c683e77acdf77735389f52dea65dc3f960011f",
+    "row_id": "26542",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "07b80db10c00654acd45ae2cde60ff732af3939bc0504afe83e7ab6f2c246f20",
+    "row_id": "26820",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "fe824d59ace282bb41220de8185389ae595a1479fb9575641ddfd784151d7384",
+    "row_id": "26961",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "ef5fa45bf75a04063046c78a9ea0222536f42251cb01d5dc146e5b93b43f612e",
+    "row_id": "27819",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "7b6773878d0a1183e40d700cd74591ccc1ca3e6428682134396ca65f22720d1c",
+    "row_id": "28028",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "a123d985546355792b4efd96db7921b4829dc993fe6b6336d8699bad328241b0",
+    "row_id": "28229",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "c2815704045c457800725582575cde5edd0a7b77505b46b524d82b3b9f9f3cd2",
+    "row_id": "28240",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "15a342018576e809c491a1374389d31515987c6fa1044a01bf9a26f20faf07ea",
+    "row_id": "28788",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "5f96238548088e9c3ac4c9ff5129f2b69f5c11d99e5d229468410ad46c15e15d",
+    "row_id": "30660",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "6cbf5f12d478a00865d21ca06d5962a2c63290c1e49332fe5e0944687237cd1f",
+    "row_id": "31708",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "e3964a993bea1602fd9ec1a156b7e406bc23a7e11ae47b7033de05c996c23b4f",
+    "row_id": "32177",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "c2f6dc44c9b80a7edf1cd622aacc393758824d7217d7f1ccf35b8cdc8abb6ecb",
+    "row_id": "33971",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "737b8836ed29e1e09ad606534daa2942e805f5337d9b7a4dcd174bedd846eb4b",
+    "row_id": "34211",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "ce2348fb135a48c9c87c913aca274b39c78d70c742a2e240d2d8aa863aa71ef8",
+    "row_id": "34696",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9433b99e50c238eb6347d0a89465141ea1a48c7743032d3e7f6df16d49707fe7",
+    "row_id": "34946",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "df0bf6c9fbd101f46b2b9986f2afedad41b031225e7429023ec1af739c9746cf",
+    "row_id": "35056",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "22d56b1ab22abef99c427613ff658d0aa047637eab9cdd907cd6931143203109",
+    "row_id": "35382",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "43611424ff60503b5ac29ac13192033af1d87fda6d257e4a97682570e9e997d5",
+    "row_id": "36378",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "d5027ebe17e1299eb0829ef806cfb0947292f4f359cb37ac94087a46117773ae",
+    "row_id": "36687",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "07a0133171ee52344555bb2b302c39e4996668759fcb1eccadc08e5df3a1ba03",
+    "row_id": "37553",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "d263afaf906cf8fae90de5e3f0c3904a21e8337fc0493a1c221c5f1a7fdbe1e1",
+    "row_id": "38414",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "b79a2eeb798ff6bcf9316a15f291dc36c916a0a06c75b3a050cecdbe8c179e4d",
+    "row_id": "38551",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "ddfdfd94b4dd8cc1136efb186824aa31dc572e9cf0eba57dfcb9e4af57a74e11",
+    "row_id": "39392",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "a8769e202407da7d044856e55ae8a17a7aa1421ac8e87644e58149cbb754745d",
+    "row_id": "39393",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "075f562e5d039c62cafab77c2b041e68767f971e1c58fe8bf5ab859b1f94757d",
+    "row_id": "42077",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "d1cfc3b4e5712a29f081f6c7ef01228d5e302765ba7bcfd54c67f156d96e98e0",
+    "row_id": "42348",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "fe50012615bcfeef2edc4a03c06a5976eae9426095745bafa5b21b54836a8382",
+    "row_id": "42934",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "c1f232577c2cab8ace2e14a5aef910ba1b25cd801f5e7380d46abf0502450f50",
+    "row_id": "43110",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "24800156f78afd742249aed920847dc2fa273a9c514d18304160475e558eeb79",
+    "row_id": "43557",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "0f621df3932bb665ec6633013d6044ac4527027e60e549aee18210d5cb34c73e",
+    "row_id": "43585",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "63b94ae7f9a34606607a64a44b2315e3c754dd6e215b7759422a8d1f97666326",
+    "row_id": "43933",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "5207d5d62aa52388901a215051edd3d0567470929ba1c7a3001056b078db36e1",
+    "row_id": "44066",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "acad6d5b85bbfacdaca9e634e14b19b7fe1883081cb12a79827f19a23a08a372",
+    "row_id": "44793",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "dd3d4689da8057d8f95cf1a55cdd0648572971ebf1ec427523d17f224ae73476",
+    "row_id": "44845",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "dabfc5a63e6a1298efb540fd193e1fe79f39dc6c2c86c6022e04c10d427eb56d",
+    "row_id": "45370",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "acf500ba1a91c9bbf5cca985fee47c08ac361c52265a552d1e723afe43d4b259",
+    "row_id": "45371",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "107306d60077f7c0a51598d902f65ec979593d1ac636b6a2cc1d6c72fde86dd4",
+    "row_id": "45418",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "e8f637c8ac41ed37f2447af07e94570f136699493cd7d2b0203860bf7fbcd46b",
+    "row_id": "45422",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "10e36ffc42bc41ef270893a9a70708c20a625f6eccc3d28e49720d9a7a49cf1e",
+    "row_id": "45533",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "dbd638ce6c5336fb9c30ea231f0e7e1d90115621959fc7d5a3ecf2781c7da64a",
+    "row_id": "46409",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "fcaa1590f67975a5e2144805af3ddddafe5300a56e02fa504e6dbe09dffe5cf4",
+    "row_id": "46413",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "7d072bc8fd3e2cc9c48b60747f5d0b8eb7d129d50c6ce32e0beeb2b07ef6c4cb",
+    "row_id": "47032",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "e3faa6605d2e341cdc9fb60933d4015322c412cd4a14a1ca8a6f2e43f1b62363",
+    "row_id": "48480",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "25400c1621a4cfd8c096247c0aa41de5a9b57d0b97d5cd0a6635ed8b7a3d988b",
+    "row_id": "48483",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "50a21cc71967a93eb1298058e7ed38528ab1df9f7b9677eec508b4fe2f364b27",
+    "row_id": "49173",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "f573e0bf6ba4b3cc64bbb6b07f7e96d4c2e8236d01d4bafc7e965cbed146437f",
+    "row_id": "49529",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "b94bd6e909b5bde1aa0c8990b9a5e9b5b007c14d527290c845e19d7c6366e42f",
+    "row_id": "49531",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "6f9db7db95fc95bbd8b7443e70440f0be2a5374e5100e25eb83db87ad0afbd8d",
+    "row_id": "49830",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "96f13ffa645dc2be11b15662aee63df372739e9f91ea521a23267d608bf6baa1",
+    "row_id": "50984",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "7c89a45035ceed368862902da5f34d95c092275cd6c62f6009fb0c6c0efde8cf",
+    "row_id": "51600",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "ecbf43233db85bfdac2099323ce6836561cb54c96ad70ebd6a01e1d5def39806",
+    "row_id": "52332",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9d29ec45faeb90990f359c04355af4781478af273daf271ba12877b0d5fc7c9e",
+    "row_id": "53120",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "703695addd918b50002c57d48c6f2e536ec5819a5e318e124234f63e76e3830e",
+    "row_id": "53924",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "acab3908b869fa6d21a7de6ea3d416d28eae1ad725c587d1f5d88a710e562201",
+    "row_id": "53959",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "693f7a6ce79519c8b62e498ca53e6a69ac076fe45fecb9cd84f618499a3547c7",
+    "row_id": "54421",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "a6154abcf1aa90f1b5ff1d30d293a38c2fdec37414b8794b9f0b8be0d223ecf7",
+    "row_id": "55589",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "16a583fe52cb2f7531faad7c2113553c53cc5135eaa8cf4d776aa6c873fbb9ce",
+    "row_id": "56495",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "a1aea4dab15b8feafb1b0e1dac8409c64783ac8723728f29c200114a5218208a",
+    "row_id": "58412",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "8e220899c506adadb3181cc9f017643647b4d4938438c34f66ec82c26e34bbd6",
+    "row_id": "58705",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "cce405048b19b0f78b61bd269f563c72315319e1b119916d6dc3a7e8cf325c56",
+    "row_id": "58826",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "09e48df6bae9fc1e7bc5c428f87337ee65a9c34184beb49de0e8469b361d9969",
+    "row_id": "64662",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "5c7c8d5657bb153712f5d27da13e9b4a49b2c0f0a4fb4860b03a27c3e73296e0",
+    "row_id": "65119",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "45c6fc2cba51d3967fda13abc27427a5f5c9fd609b41aec2b08c944b39f5bf4d",
+    "row_id": "65125",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "6b90ffbddc38d1dd5d6e673b48e18c582decdf2081e550a8e2179e6a24a2e8d5",
+    "row_id": "65425",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "1ef51c85ce418c5659933ea89946625ee929b98541949c16f85657619c14d458",
+    "row_id": "65584",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "167b7d015313d4d8806220f58cb752cae7b75f46e16c2d3c71e3771e4954e12e",
+    "row_id": "65624",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "27bc48b6f02822e2931a01bcd8e8dff7f743fc51603b6a49e7e5bb0cc136a788",
+    "row_id": "65673",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "b02a5b20aca46d871c2ec211714f8d4bb78276bf484be51cb9fb18a2cfb3e167",
+    "row_id": "66052",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "f698c507fbc86ba49e0f5b0efb699a5d850494dd56bca1c5e96c6b033e3e69d6",
+    "row_id": "66927",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "8dd4cad433e794a2adb1112459489c2a5ede476d944392bd7955560a2fb391e5",
+    "row_id": "68228",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "6cb28abb3e8ff4fb4312bb95f2189b9b37fbf9dfe307b128c4fc95b0469c4936",
+    "row_id": "69319",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "df02a6dd50f4eacfb0d3c2a424674754d120091b8d20bfe443b8540d023c7577",
+    "row_id": "69540",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "22c6a8dccbbc5ea5bf368bf60cac450641312168a27221bde94ceed82ac2474d",
+    "row_id": "69717",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "6816efb2142acbff09f270eb1b9adfb3a7fdd82e0ca79d274dfa69b5ca2dff78",
+    "row_id": "69972",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "4296ad557b0366097a7e1bb40d6ff5e8b775f36d4a5c1bb307a46c6494141122",
+    "row_id": "69973",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "87cf9565a99da7af86c2dcc80b88ec6c3c695881c46b5fb8aa7af4c599b4d1eb",
+    "row_id": "70158",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "4cb2eed01e1eaa5a558c6b320b74581a33c7d4b1a9bd3ef7cc981c6d69874bc4",
+    "row_id": "70359",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "780cd89c557e211bd2b2ef7e0e4b833595870ea237ff2b35e8c3d0337a77c4bd",
+    "row_id": "70672",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "289685b48b199ea18aff3e9960124bffb7e7a0e7b13409972cd84deb6bffc060",
+    "row_id": "70835",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "94d68b5e85a3bff4a2d0f769bab24d30095dae792d6259da22f5569bd47cd009",
+    "row_id": "72543",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "163de336da56f60cc2a04cf8b007e5512736c914a6647e1be6b5d23603eb66c4",
+    "row_id": "73151",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9f9646e998de1c90de53cfce42fa374acc5455eaf54c18619a4d44daafeab449",
+    "row_id": "73587",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "8fc79ad491725fdf2bf0f17642bcc1780b0307a888bf6809cab80ab42a8ac66a",
+    "row_id": "73739",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "cdace0d5c4fc8543bccbc7b2f7c4ca8ac6a582955cdb1384f82bb8624cc8c3a3",
+    "row_id": "74709",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "17094ef3d78373a7254d2e687e7416c34a0028d2db89b6ab2862b4cc085fa024",
+    "row_id": "74989",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "f15e49411a25bea5712276416285d1f6f82a9c9b108d4b7befdb9c0509d8a494",
+    "row_id": "75659",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "1864a1a194de2350e0af21b4413d76beb229892e5c36d11435ca2b3b55bddfca",
+    "row_id": "76706",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "d24d161c7b6f685293b2cf498218e3de44a6b2e0c2ad39d7910c284877740ea6",
+    "row_id": "76740",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "b4b42390ed2580109efaf5a7f5e936c537f0a040608cb8702d3b6fdd46c13626",
+    "row_id": "76966",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "9dee8067fbd320bf9970f4f3b91c6acf4a9b0a37c17407fe0d9482e915c49b79",
+    "row_id": "77375",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "1399075ed22192af91522d4350de19acf8e5a6ad7625e09f6506bf13ff6aae0a",
+    "row_id": "77908",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "2938e59b13e69ac4c858781eb13567eae945f407518a18032d85e5f6eadc7f8a",
+    "row_id": "78490",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "00f44bfa9fd08924f584c3cd0b63d2a55952b9b134a5ad12029419eab3610fd0",
+    "row_id": "78791",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "0491806f7f394cef752acb022c36f8381ada9b1bfbfa0ee11bbc1f864e5bf043",
+    "row_id": "78994",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "fac88ff6758291372c0f556cdb97c8acb1c3b12872b9d9733ec10e78cfeba13d",
+    "row_id": "79741",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "0aa325af9209732aacd61cb928dc8cd14fdfeb9ee5f3e1fce6c304ea1456fbff",
+    "row_id": "81549",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "d028d25c379cf3e91b2957a1e278c154161efa82e9eaf865bb177b2c1fe3a038",
+    "row_id": "83931",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "6a6b333ef2a5ad2cd10ed8399d9d45489d014f4792b194b8c7dbf1cb8e6058ec",
+    "row_id": "85155",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "ead6bd02c194195c1db19cab8d31826f332c657aa97cc2ca85ce10a8d9b6c58b",
+    "row_id": "85562",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "91e8e008048ffc1fa859eb70b9bd031035cdd7b56ab1357e5ba32d797ab429c4",
+    "row_id": "85582",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "8c0e97fcf61ec1742b0e7a39d6069f88e59d2738e65f02120af15df63796b7b0",
+    "row_id": "86105",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "0597b857b907ad0235bf372458ae64f9cde70129264fdf7cd91a5edda8600e4a",
+    "row_id": "86735",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "cb7d8f2ec2c753975ff9e283ad9651447650b74985b7243f2ddcd9584abd48dd",
+    "row_id": "87540",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "7e996dbc1aa4366b97226ded8d785a0cb2f3e23a95b548ecd32e09ebc8b86a23",
+    "row_id": "87616",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "14510f89879e5a4369f9aed53171e283d4ffbb076820ed398808fca5369214d3",
+    "row_id": "87714",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_tool",
+    "query_id_hash": "16bd13d5abd80459388422ac4ecfdd91984dbf01974a87f8d74eacabdb4a5ef6",
+    "row_id": "88197",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "59e19706d51d39f66711c2653cd7eb1291c94d9b55eb14bda74ce4dc636d015a",
+    "row_id": "28",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "35135aaa6cc23891b40cb3f378c53a17a1127210ce60e125ccf03efcfdaec458",
+    "row_id": "29",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "c18a8ad752fb7e649161dcabed2d1fb96fa38265866c1e8d123ba292aa23f1de",
+    "row_id": "1198",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "0f2cb44170f42cc966535f392a10dcd4499426df69dc476f1bf36609f7fa8c1e",
+    "row_id": "1301",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "173deaaf2f52bf79f028106fdbb995142cd7d77fc8b15cfa2a82d93c13f76f3c",
+    "row_id": "4266",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "864e30ed8784e9cd8adca9764fb524791ccd9d36e6d2a31067369a5173b6eb25",
+    "row_id": "4273",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ee7f28fec27a3a9095984b0b7169b77d04aab54acc57489b042ba3b1f396269d",
+    "row_id": "4286",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "24f692ed38057c7cf08eb9ee47e79fc72d0116f77252e7b9719ba400c11170b7",
+    "row_id": "4328",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "3e7c3d4cf5be91eca62500b41e292c3474ecc0329156d11f682b609c42828df7",
+    "row_id": "4343",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "37bf713760c5cbad0600a2741cb115f3becc4b2469d6dd7b3346ded41395f43d",
+    "row_id": "4366",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "8f4950b33cf777286354b1cc8667f1c612f7c81efb26811f15c0d2c0cde70fbb",
+    "row_id": "4415",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "5bebfc2ba621db4cc176072fa05c2e4b880afb0166efa41bd49d71239db0b778",
+    "row_id": "4465",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "067ea1716caf605b5ba53949a46af0142ec2578bca0da293c2ac48b46d1bd2bd",
+    "row_id": "4471",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ca9ceb6158f6b3bb85d1dd150d647de101e584146cf45e2a54009a96a9863db0",
+    "row_id": "6504",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "3eb19a2c641a87726fef96d5c3488fbfebcef5124ac7b47bb19bd72275ae1506",
+    "row_id": "6511",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ee763a42d50fbbe9ddf43145d0cfc88e2b4409a1b961de59fa2c96949ac3084e",
+    "row_id": "6521",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "6c80cf1e44d265f12435bf5b72b846543dcc8e524319a16037fb37190fa17b65",
+    "row_id": "9604",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "781cc9c313659214a5fee181cb887e76eb27ff2af96c51beef4820f011ceaf00",
+    "row_id": "9679",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "e78afb1cad622de5660fe370b94b1d8a2b75723c1c8cbc8bdc38335c7bd32b9b",
+    "row_id": "9708",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "19c52b3336e86e568529a5064addc3ec049adb1c1c4ad7f426ee116e174fcc97",
+    "row_id": "12535",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "734ad78c1d3735125527200025cd2e2c36d283c70e07cc9a1e758d9108144f0b",
+    "row_id": "12671",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "c831b826b3a18428727bff56e7c036b8d773b6cbec6a857c4c99473020e07295",
+    "row_id": "12688",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "8a6d64d015b340bf191de4b2393106e3f79ef7ec2d5087bef1cd8e4fe0683bf8",
+    "row_id": "12744",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "02a7d9f584ed8bb8c5be7ae60e2824d1b6ba83e505f7d7a5265b91b09b1eb74e",
+    "row_id": "12759",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "15c28a498e592070d1c3a293a28ca310c69d1396754acc4fe1127ce1dcec19cb",
+    "row_id": "12770",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "7c7acf903ec43c5c029c8c486f817b066bbb0cac508f03f0c206a1cbb71938aa",
+    "row_id": "12788",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ba0ee2da58eb13f6c4c872b99d960b7c7cf09bdf80a51cd3d8d0e3c96a3add9c",
+    "row_id": "12790",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ae7bf145e2412c78982cf08af5e81d2cefcc3f1cab11c93661193ad1cf4db196",
+    "row_id": "12805",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ea467b8f84951889b4ef4af4a61dc364963521e783ff73db4e472c8f7bf880ea",
+    "row_id": "12819",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ffc8ada2434f0fda84b5805769a733023d1cfce3a06ea8192ef9f833c91eb858",
+    "row_id": "12875",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "a47d74af6f265eb732f1534b2a1e6bd31dafbb85b0e7003b1b1eea8b0379548c",
+    "row_id": "12884",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "fd50b2f619daa37d5f3c60a0662f4917e76b598dad023d8c7639bed58d6bd6ea",
+    "row_id": "12954",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "83245004971dc7b9c7a7a5707e81a9f067808bd6a5e3e62e4c9cf3dc85affc02",
+    "row_id": "15137",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "20957b3d58a94ed0034b27e4c1ec64f6c9be3112440150e8b41bb5099ccf7264",
+    "row_id": "18268",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "f9e5a02a2e7859f2b7951647c09f9d7efc8446699e1745978b08aa46b2b7ab4d",
+    "row_id": "18286",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "27ae30b15e1b103f82d6592826079b593080a999e906bdf3119c9548479eadd4",
+    "row_id": "18319",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "67ba4979295f35e01a1e643cf6e46a20676fd99c492a87cd544769460f863903",
+    "row_id": "18337",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "c396fcae62127512a6b77aef7844ab7bd500370ccbf89e826c479f32ef489c8c",
+    "row_id": "21313",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "f389899fd0021c35c57cf63f20f2641e0d3dd879c25444e2be83530dd42738dd",
+    "row_id": "21400",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "e3bcb9d283d0d66aea6451a0aca125379aa75caa7e18f9dd5bf7ad7591d1056a",
+    "row_id": "21447",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "506140e1ba10d66ab7ced26665a32c6edafe618ec173bfb55b8747421381f14b",
+    "row_id": "21453",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "3d81c44aaca8354cb568af59f035028e35f9c861bb33fed692497cb72c747848",
+    "row_id": "21518",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "fb6e568b97c622fcf65865a916da3878146e8bbb4691ff1fb774edd31dd187a1",
+    "row_id": "25341",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "0788404dc6de6b88c3ad29014bdd7e5a46f8dfc2fef6e570c6da90d9eafa0080",
+    "row_id": "25344",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "2c048594d7f575e1bd361baf0f02146de563309610da85a3ef9b94b5097eb654",
+    "row_id": "25348",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "18d7e1833e419f0763e389bb8383e19f6466355ddba6d3964b859558745d55e1",
+    "row_id": "26577",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "d34360f002ba6de70ce2f9988da3c3d404e9d106ca183d4e46fd7c03b809ebb2",
+    "row_id": "26613",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "54a252d4f22a37d092ba89a10f022c23a0b2344478c13ec79f625cdf94070b19",
+    "row_id": "26661",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "f1d4e9d3259695f52b975fd5ba24b7964d7d016a79785b5e2860481057b39d91",
+    "row_id": "26698",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "0e3d312d76dc041ff38dc1c65255d086a11f71793ae417550cdb9bccef55bf99",
+    "row_id": "26701",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "c521d0ff7f160db5dd8c3b8e3b5542528a4bd92802b3aaf14c8284565332f4ef",
+    "row_id": "29592",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "55bcd0e5f1995f8d7af34bb47d969ad39041605914a612fb7c6e7c00e9c583c5",
+    "row_id": "29647",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "e668f6efda2ed57eaf8a16c33e51f9c41377d75d2f0f58ab5742d3a5edd42378",
+    "row_id": "29653",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "2d494105d3f4c9c8a0acb3eca50951194ee6d7631eb0a051e6327a5c76741231",
+    "row_id": "29719",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "38bfc7bf50463aead2d374f8a8ffb75a08736dcac70005a5aa90082ba5aa131a",
+    "row_id": "29724",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "2408543a7ca271eba84dd46dd5eaedbf20f60abe53046647472b7baf638c6036",
+    "row_id": "29746",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "43083e7a542abd8f36b47c3bab6259d4be361863c3efeeea56776b7b07679739",
+    "row_id": "29778",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "a101378a9d41ec46ac8e01737d5afff9bbaf9cac51868e7850157a893abc395a",
+    "row_id": "29816",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "c8b9731c48a8155c1765e42ab97bba95440d340f3cd2fb83bb16d4093f2aa43d",
+    "row_id": "29824",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "566321b484cd5e007bb356d58129bac1100141138cf865d8d066dfe47b87a2a5",
+    "row_id": "29844",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "65a3e16223b56f9f1bd484a039ba1d04b1f50bef36f5a17ab9ba88a427e84f45",
+    "row_id": "29859",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "6cf43ee5bd505288312fe9f0f19bef7d0b52b28458df64d50cae912fa4ee86cf",
+    "row_id": "29917",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "0fe8e2eb86ba433c8e5bfdd7913c1034e256f37c1d18deec42ed3ad3ba29a82b",
+    "row_id": "34747",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "b48f1ea52eac503bcda8ca98e35cc52ef085da0e675f25cb355539516bc190a8",
+    "row_id": "34773",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "52ea5a12038961c5cb67728b9df054f17e64c27f1a1853c6e957cbb3deb71b80",
+    "row_id": "34774",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "f34bac941d292918f2cd065dc1d238e058a6c0f73e5607c4bf470cbe1119e4b0",
+    "row_id": "37847",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "b1f979d7ab6eba907038715f10c31a0db7d5e3d033e2fa30b69d073b05accfcf",
+    "row_id": "37876",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "0a690e9293e36405805c1b69ef8225346d538aca486dc0c5e11d872199285578",
+    "row_id": "38008",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "299a149a9d8e99a5df39434c697b2400182245463c64e6f4d8c7d6590c49ff3d",
+    "row_id": "38021",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "f9ff7d959b669b2631cfa725ea3dc69343e157db7906d22ef12f740358838e14",
+    "row_id": "38028",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "580ee1d4e81593fdb26d14469052368df226374d2f060595ab7c2484ee846196",
+    "row_id": "38045",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ddbc4324fffc68290435cf7222b3f04763c42604912b7416901e592addb79d64",
+    "row_id": "38099",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "d3312621bf2b461035b1deaf169c8ce8b7a394c6e79df1cb2beb8318a74ca48e",
+    "row_id": "38125",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "704f6421e35c9427aa47be7f9f4a0974f06df9c57f02f07897a3c7924059e00d",
+    "row_id": "41983",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ee3f78086a637e80d73d5097a9ba251e206f73ab77179fc9fb8873ac7ce1d449",
+    "row_id": "43312",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "de232f3ed9951dcacc2ab923ff1b108c07fba4a38de48243fd92d1dc7c3de465",
+    "row_id": "43364",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "707ad49d448adb784c27474fbc0cc1c1c13e3e767c31847458ecd9ea73af75b9",
+    "row_id": "43375",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "c4c9dcde0192176b355ba0c4fef380108bf231846863f81c9b78bae02aa85639",
+    "row_id": "46424",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "6f441e2efe0af89151098ecddbc341d9ff3aa201a529837838162eefe5fbf603",
+    "row_id": "46455",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "20be884f42c30d780fa05fdc344477803a8f33d97563511043a93551390f81b3",
+    "row_id": "46528",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "fba4b9b0034df5910a9433bbb36772ccaf3d775b6adb5f66b96d4c0cc27fa95d",
+    "row_id": "46662",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "1d581aa7876ef9dba9bccdeb82ff054902b10a7ee1a05a071221fd8459b806ba",
+    "row_id": "46676",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "99020dd7d9dbc49d4719c622dcc4eb079889136278225a1cb1e7ee77b6d6d6a2",
+    "row_id": "46688",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "35de84e881e6f7558e891c7181f9abf70e0d868f1cdb17401a1c8a129edb3906",
+    "row_id": "46760",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "fccd260670590c5241ba4e25a8235338ba9923b9b6aaaac27e1f94cab15035f9",
+    "row_id": "51809",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "e77ba24aa6f1e64c723d49593327610fbd9c81e9d31e2d8e88caac7c0653d7fd",
+    "row_id": "51817",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "fbb7fb82f5ad21215ff1b52421a80c5c226b5a261dff7540b0d7e747af187dcc",
+    "row_id": "54484",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "c2309603538994de3210f2daf8912fa68c29afd86ae3a6c0e2f7be94309bd9b6",
+    "row_id": "54640",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "e994ddbbf3a6e50984265c6a1ee7b7e57a90fd8be93eeb28f60792ae653fac83",
+    "row_id": "54658",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "f8fdaa021ea5c4bbea0e8ff0742eea8649169d876904b2a12d619a211090e36c",
+    "row_id": "54697",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "1f19a0a4202dd9be40f639f995bd5f7025e5fa7f656ee31a6f0bd07f792417a8",
+    "row_id": "54801",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "8c12686293758a5d8ccfd252e8eec6e4c1846eae73df47053f2d673280e17bea",
+    "row_id": "54844",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "5e307edde84676bce4a36c41f6b97466f4d9c8be79779d0da7d9012b4719b072",
+    "row_id": "56809",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "8aac5c01d7817eeb225cb4f1fb69af893d46a88558e1b1974d87e80ece406fda",
+    "row_id": "59862",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "8f84e708c82d9e3457c3399e5245ee141030624cc60bd3fec577f1cc36306e02",
+    "row_id": "59890",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ce4b50224813df9a9c49f9dc0771abcd3064c142750e4180707f41ef77303fb2",
+    "row_id": "59905",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "f1bb2d6246e8182bda612b78ef97192490ebab0eedd2012de81bd483b1becb4a",
+    "row_id": "62960",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "fd397306ecb3d2fa277fc843672cd6a81ff80ce3a0e6498b77adb029fe3a1968",
+    "row_id": "63066",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "93417251e5e728023ccb1d2bb9bb06720399a7cce933d1433e6508a4c960b1f0",
+    "row_id": "63151",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "bb1a2683192bdaae6c515e7c43eed7a5be98e3f5cd75145ee126f9235cffbb61",
+    "row_id": "65185",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "38f67e82fe27759dd5ef92cd4c07e2ca11382173383b7b26d2ee07e9b562ea50",
+    "row_id": "67087",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "91875a85821be418eb1116ce35c49d03183bfc2f5bd3f5e244131d0c18e3c654",
+    "row_id": "67089",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "3bd0ad1a20bd916262029ffaa8125a001767460ef8e617e4c2baedfe655e5d9e",
+    "row_id": "68407",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "d95c64a9b78f797de81d3ad9136214dbba97e2029e171c498256ac85623099e1",
+    "row_id": "68448",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "4e2f9fa19e11f2198c405a42dc9067a441718453e7ae6e63c0b964bbc85b449b",
+    "row_id": "68470",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "312fd4a77a7c89d11df17fe61b9b1ae24ae5c9d6495ad2365416331f9c4b35c0",
+    "row_id": "71583",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "da807042df2d1c97ea18f46f7af75f68dbefe204daf8d068e607c573f9a81670",
+    "row_id": "71638",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "b30c17b6cd66eeed7c2343b0299311b8605b9d1a7cf394488ce283760f7eb37c",
+    "row_id": "71685",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "4c1177cf5545e41c8b4e437ae22343c8449514f3f7518b11d240519a3980cef9",
+    "row_id": "71692",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "e8a0afe729ad4d50cedab37d11003bddadda774c4822fbb8f49a81ed4fa857cb",
+    "row_id": "71741",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "dac82c9228f731537e2abd6a3d5ed0ff17c3c9efc91a113e2fdd2b3ec6fe8f90",
+    "row_id": "71801",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "101ede8907d554c55503f9166958986d0aa2461b15f16d7f1ca54795af0c86a0",
+    "row_id": "77144",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "d4e1c02d10495c0e65880be9ede55ec81b13b964c0380ea6b5388b81b8aa03ef",
+    "row_id": "77171",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "641acc4c2a6b1d2c35299a173a73d8146f5ac7674d759cae4d62b8a0703ae568",
+    "row_id": "77200",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "68cc39e2ef3a28cf6c6e703d0fc02977e3c6a0e267885fb01553f40f052fa70f",
+    "row_id": "77247",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "3e4fd87b9a4d17291b6c9f6cc7a0b94dd3d9ad7e9a97889c3ec48aa7df22dacc",
+    "row_id": "77261",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "705b72362eec8d03e1ccc5e7d23eb89dc58c2349fab0ae238533950f2f122c63",
+    "row_id": "80170",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "2debdea33f596ff0594c1682a82590a64df3877234c49f45851c778ae96c4668",
+    "row_id": "80175",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "b21d716e9502dda7a43e7b8d20359b7f3fd88fe0b4deabd250811e5ffba4845d",
+    "row_id": "80248",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "4312afafd4592c710283c40a17e120d14a4247bbbde820b05db924d7c6d13d26",
+    "row_id": "80298",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "99d05638c97b4dc2d3ffc242a399eac7594c0a352f88a40971ad428c457717de",
+    "row_id": "80500",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "4c382ac66887f19488157bf3f581da78c5fbbf0f58816a40fdaa3babe4f5f8f4",
+    "row_id": "80504",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "edac9dc59746282a18aab45033b8162f2d71f2057c745cce621ef0cf1d2a2775",
+    "row_id": "80519",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "ab0c75bd0574432cb2d7a27a3472f6dee0de4e76500e33ac56ae4733ed81c681",
+    "row_id": "82434",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "29d263118841cffc713c742506a9986c5ee8680c85a8cd28ebde302adc8dd551",
+    "row_id": "84974",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "2f328846944480f6439a80a3209d757a07e3513f806f1c9e79e75664d4ca9eef",
+    "row_id": "86069",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "4cad4b18b6dc85351ea6ceffd64ffcd5dbc275ca4a50d7f97a015b65a357c9ed",
+    "row_id": "86231",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "675aebd1eb27ad281e931c4b38797467a0a9df389ebe80f12cc929e57391c3e2",
+    "row_id": "86251",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "9b31d7dcc168b0619f8330ba9ca6c7b209975cb5e991c6a4fd93bb77a3e8e60a",
+    "row_id": "86288",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "84371b40da03ab01fc7170a49917762afd77f7383a2639909f598901996505cf",
+    "row_id": "86297",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "277499aa719faa4db6ae36a526b4dae0f250a613d63c4864a311f402c1c6c815",
+    "row_id": "86335",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "cc2d4f4fdf17d52a5583ac6ff205b199fe26e45be659fb3897d5f8b0f3d37a20",
+    "row_id": "86488",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "cc10ed9a5f65130fc8b9e1204723efe62d71250f1b28e74f844f4e2a1c50c8c5",
+    "row_id": "86502",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G1_category",
+    "query_id_hash": "a3da28763485a0fe6ef3c83edb090f1823b7e34c047120e77f4875f8894d7ba0",
+    "row_id": "86535",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "1b9fc6751bc015632376866fc870c6fbe6ceaee88b4a7107e4018567a7c0a77f",
+    "row_id": "1643",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "2293091e01f7ea667a55ac74798d2e822b22ad40809cafe2d6fedf9a70807385",
+    "row_id": "4746",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "96c5f63935aff2e9887df4e3307aa342ce43fe8a750000daac86c933eee2ba99",
+    "row_id": "5744",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "5a026936ecb80476cc027f08fd21a0f7d8d85748b4a53a9918704072c1edec8c",
+    "row_id": "7257",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "382c03434980ac37b16a907ebcef301b16d4ed2622f7775a81b67c2f4665a3df",
+    "row_id": "9834",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "3022082f133eed9e22ca72986a3702f53e21a74c90da1f7ab60211ff55da6f68",
+    "row_id": "9957",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "dfb90e7d2ff815628508f477dc2d1091e2ea4086c4b1cadff914ea8110696abb",
+    "row_id": "9959",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "bc1f7bea11c366334c2338b1c060829da9713225c18e1af024ae16054fd7396f",
+    "row_id": "10097",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "2d4bb122893037ed15212bd31d4ee53ff61b2799729757c44c49c3d087fa48d9",
+    "row_id": "10941",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "9642ba8bc42691bc4402f47b47ce7c498d0e9e8fe2f1bcf071b7bb73b5ad9338",
+    "row_id": "11627",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "49e8a26e33be0db58dc30baba3d4875c5684ef9be69e7a2485c914d6d154f43b",
+    "row_id": "11820",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "cc169aeecced3d07aaeb261e5a86ef7dade3b70f825c187b4fb0389a15c8be0c",
+    "row_id": "12034",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "29e03cf006b526b575a46ec7bbcae557520fe49a1cc412a50f72487cd63c0ca1",
+    "row_id": "12142",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "644fa664b5a5fe09a0dd3675df860d3c4f1c743ee529d5f4443bb7eb98e44cff",
+    "row_id": "12507",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "36e9bae8ed048434788a4e34d0004a8295ac34cccc0b2583bdd569ef88a8ac70",
+    "row_id": "12509",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "568b13a982d679c4cc9c8240cb3d8fb1338b9eb31932bdc4d825cbf4b1b0b342",
+    "row_id": "12634",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "9f5923259bf6c7b9bb3b3c584d5bd925a8aaeaefc903d60e587fde76c39626e5",
+    "row_id": "12742",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "f653fb0d49b18e94e7c0cafbcf99859fdf93439cb8c26a730e0f7345eb562b36",
+    "row_id": "12773",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "80710f80bafba6362ec4be515cb0ddb164b3ab0e0ff5bee102cafcfe35c3f5c7",
+    "row_id": "12894",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "692c63b9d0341c0b088b83c9f46341fba5be05591fb0783122b95dc147f3742f",
+    "row_id": "12961",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "2dc3f48b3ee8d4b534f1fa1625405bc98916114725241db5397dd3f898ca3832",
+    "row_id": "12974",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "46c935ec041f6a6e426959332186eb6c4f94d0731730b54822da7fac33f4abab",
+    "row_id": "15067",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "8d3645e0e56c7842aab96df78a406dcd59cc456ab994acf45d0e2988d8c905e2",
+    "row_id": "15439",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "30ff7274e8ee61e0c2859cda6d5a00811badc8976b36018180b8388cf4ed21fb",
+    "row_id": "15929",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "1ce4eb51dc2ffac87f4c9650d5e636dc77d5791c16a7413ba33a34cd56c437a8",
+    "row_id": "17233",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "b9e05be1929c704fc6b0c13bfb4bb3d0243bf862da4f7dfd50daee67417f881f",
+    "row_id": "17864",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "56f4f5ed633543e2545ab6b93200731944553fe98a3148808277830a4c17b90f",
+    "row_id": "19186",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "d350d840c1a8db798c7aa32ec61ec2dcefa5180fe43663a7335aac0610e72a4f",
+    "row_id": "19850",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "36d84be37e388b3181ca0f8979c4e9e1f459e6de67bebf35bf925ed8c90ca21b",
+    "row_id": "24131",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "506973ea1a2862e36d932dcecafc15afc8d198958a3b7e65b080530c486c9c30",
+    "row_id": "25866",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "72657293812db59fc5791118339bd37148942da8510d122d4684a17ffef1c6b5",
+    "row_id": "26341",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "2b1348eebe95abb652a8adaa2c869f8e0fb31534c0929b498ccc8aeadcee3234",
+    "row_id": "26837",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "40ac9718457323d20850b8ecdb4602e82c8141dfe8cdc248d9d5e0319e0df060",
+    "row_id": "27543",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "c37ee1cd96e0ae62498fe86e1f24fe5ceecde2f6f24fdec67a539e4134a18dd8",
+    "row_id": "29044",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "e908bea5801b8dd320c97a0d2d8abc891a9de61501af7d5137ef1051a46abeec",
+    "row_id": "29499",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "b10ac0f15f1b0f5dd0364abf200aea8084fd9db6b928f776775ead93a876acda",
+    "row_id": "30246",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "07cc4fde977f15d7c018b3ec072e3ba331ebb56fc64e7e6c300c12aba8f3fc2f",
+    "row_id": "30501",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "3975ff2438a3298824fc980b3dddeb7e26c5a1ce7bbdebc41dff43b91f89af7a",
+    "row_id": "34056",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "4be24ed1f49547689e652dd1650d17ae129ba6a9f282c5e0b6d619fb11907ce8",
+    "row_id": "34437",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "a83699855071275f255b430403fca0c7393c7b3dca8470032432f1c3b3500338",
+    "row_id": "34667",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "5bd1b4272bcecf9a7e0f52fc55946745c4e6fbd9e59dcea7cc84eb741b886571",
+    "row_id": "34980",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "28f4c1cad027ba24577d46e80a862ab5cfc1c08ef27c287379a183ffaf8020ad",
+    "row_id": "35139",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "a1c63ec9e0d2b1eceb032eff08f09b18ce79022b200244868249b05dacf0dc41",
+    "row_id": "36115",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "1e02bec32c697d9c66802e5fd52713cd7ed074ab0ee88c3b79251931100a1492",
+    "row_id": "37074",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "ea70d448e302c3e55a81858f3bc149798480c91e86cf515a612e919c0da80484",
+    "row_id": "38666",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "ec052fbd8cf6fc64a8498174a1869c260b4f43bf4161b3d11f3c1b663372f4ce",
+    "row_id": "44321",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "d9057422dd4342fbd582f6aaefa21fbdc39c597131ee37fda0c52b6d0917474e",
+    "row_id": "45688",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "d86c9acb719feef4e4c4453c2ce59104ff86120ca04636ebccfec17da2b85416",
+    "row_id": "47748",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "f04284f60e894b70dfb8c87f99b49618c4fe6ef4b4a1c63d4efc4acefb10e1f6",
+    "row_id": "48039",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "890b4b86985d8468e5621b8d267d6dc00336b20e98cb5de2651368a704266389",
+    "row_id": "48770",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "d1318da4efdbf0c6f2e5715f529457ce0771a7ff8bc8b889702c1ce6a022b6fd",
+    "row_id": "49308",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "c2a586edbaadb9a1b2733c658c7c6fb4a941773a110eac8570683f064eb9a313",
+    "row_id": "50058",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "3be70ee72e8492089533d685fd903b2dc794b4449ef7c87010e55d4cefd6f2bc",
+    "row_id": "50406",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "c7c6e4796544c76369f54f1167b2a51915aa91950c3fe6fe60394f6e35ced465",
+    "row_id": "50656",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "264e8a5eddd04a0354c6486a8f8447dbb0ac46fbab68d50976a747ba8bb08456",
+    "row_id": "50658",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "6e533b96149930db8ff9da9aca5f6714e77a214c90b157ad788b3dc29536743a",
+    "row_id": "51289",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "5927eb4b48f7db969f95fa0fa5896bdbaa8281f0099f5bcb16aec3a1e610b9b9",
+    "row_id": "52115",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "235c10e7686e542989b29b6821afaa5efa93bcea3b0bd8936523c9da9c2b307c",
+    "row_id": "54151",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "5308171c12d9025e804c790164a1f0a72788229d1b6cb623fb9075a26048697e",
+    "row_id": "54246",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "f1311ebc59af7e7a9259465d31d67d2c7fdd7477fcaeb56aaf39c3d2063a6d27",
+    "row_id": "54739",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "8df376233adec814682e923c3acc96f528e5920c2ef63ccae1209f4331d79eb3",
+    "row_id": "54775",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "800f2f64d36e7967aca638f4530e7a0421e5bf3c3e19070c39654d9d78489cfa",
+    "row_id": "54793",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "5f8c93665720162b6d76a494740f9731a5d91c2f11dd6a0885f80364518c62ac",
+    "row_id": "55251",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "a3acf3a44255762ec334f8aea8c8b505f840c865824155809e1c450b30004eb5",
+    "row_id": "55671",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "e59878fb9036402e55c3582acdf8d378bacb5a63f7b072fbb649fbec544cb4a6",
+    "row_id": "56101",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "dbb4fe9bc7f20362b6ba0023cdc2581e7b71c6082bcb760eda14d9474caed83c",
+    "row_id": "56133",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "9bb166baa915c493b2138cb4f3d78eadd4311ca245aa84a87bf97c930bea4b02",
+    "row_id": "56155",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "145a191d0b8718b2a5e7718519fd7d24574ffa4b1fa9c272fbda617959874766",
+    "row_id": "56266",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "65e3b66a55dfc7c377a03af2f908b602845ad576f24e2bbab9ecb577c26d8d36",
+    "row_id": "62997",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "c28e40db9f1f4e676eae6526bdb0089587690a838f68276751d0a20e05ab3d49",
+    "row_id": "63490",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "4cb3f4c126706a88346d9b82e3f6f08d9155e3fa713f99b82befba29965ae587",
+    "row_id": "65457",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "2690a30e5786889fb3600641611a6fd3565bb9dc092400a38840489bac92d840",
+    "row_id": "65468",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "c44f6465cecc3abbdbc36d0baeb54a7c61f2e69aa26ab367729e268631840a60",
+    "row_id": "65521",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "b0b31d4b0506559c40ecb688c1f528504ce79f77a4d8666fde21e94dfe7ffd1f",
+    "row_id": "65607",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "b4c91e374d3b7ab9facda3a2573af0e2fb5d369119d6ef3803b0769d43a11e28",
+    "row_id": "67514",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "4b2e2f664022d3ee72d3d1fd5c79a307e4466fba2ce37f4effded7aa0f679287",
+    "row_id": "67887",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "785a6c9ac51d033d0b39827902a9e21978b359f48950dac9b42e340e326a985a",
+    "row_id": "67969",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "e3b96dfffd3887ebf391568d518b5d73ca741e7d4f769a5b24d3f3582fde7441",
+    "row_id": "68308",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "50176a5cdf16771087aef9d2c0a2cd9537ca90da214f585cb0edc39bd28a31bf",
+    "row_id": "69637",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "571f86fc3763d861ea8e0734520cc1602a99ede0a24fd9d70d97e82a9d4638f0",
+    "row_id": "70369",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "b8e27314ba5ecc1df24b551622237315568b11efeb2a9fa055939e5495c954ce",
+    "row_id": "70435",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "16dbf555090d226b43e56c2415abb2e460bd3f8f68a9616c7a18af11e9f529e4",
+    "row_id": "70543",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "d41592b6f1fecc91518ee032800ccc5106241b1587d5ffb8457d9a6ef5481729",
+    "row_id": "73783",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "0080d175e871e89e9f17e07ceb23908485a522b754109dc92d4a4bab75ad934f",
+    "row_id": "73991",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "6c8637948d91abc5dcb3ba737e029a3dee5968b4abb10d92de90382a95b3925c",
+    "row_id": "75279",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "0c19bf0d6c3f7f3a78497c883f0762c071b95ff1d27c3aaa3618c8f7c0779c21",
+    "row_id": "75958",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "f2f84b41b881d6f12259dd29d39eb1cc3440d2a30ab8ad4357e932ee2a1acdb9",
+    "row_id": "76230",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "ab45f58fb28b542df6c08d88bf96ec24db2636f828aa7291625dce379c5201d0",
+    "row_id": "76512",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "ac5917abe04c8d08f5ba12f61f395285cdb1da45d43001408a499beba57cb152",
+    "row_id": "78631",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "53937be1c18485eb04fa94edf5ca0759765b48a738e4cbbecd69a17a87fbef8c",
+    "row_id": "78838",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "0d8cb540f426f46720bb927fc99f5253fce7bfe2db2576c778f7dc88cfa229de",
+    "row_id": "79476",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "9776cc772261a11c271c5db2cb36cc2e18c103063c3fa4330a585931061669c5",
+    "row_id": "79633",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "3f78e5358de3f7724adfc56a5798eb8fd32e7dc1378f55183e134e6ba41fca81",
+    "row_id": "79640",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "0ca564be07130c381f5c7da3f62af6977495439c20ae1d6201a1245faffe1044",
+    "row_id": "79644",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "d2c0acb8030810ec9d8277fc66d4e2c72a681b19d4ee1738df5ea2f4a3889481",
+    "row_id": "79645",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "8d6641ffdfa331ef4cbb159fa8f435c927504ce0cfc42d8a68ebaa23c76d0c6f",
+    "row_id": "81337",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "f8cf77b981fb145752f7d1b04cb48cd14139f1f147f9a7935c90ee16c9dfcb15",
+    "row_id": "83220",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "cb64e91572520b9a796d698ea2d2b9adad9e2cbe6c85016ac2616dcc1c8d74e2",
+    "row_id": "83236",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "64a0cb56f05921ad40225c355f010fc7b8fc0b6dc535f8e9914aa5a0c2fbe4b3",
+    "row_id": "84074",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "297bc0051bb3884c0c62df52fd485fa4d48d7552566edda3cb5536096471445a",
+    "row_id": "84585",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "92939b133dd1c77650db1d6dc9c1a58ef4982ab13cc4441e1633ce4650667598",
+    "row_id": "84593",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "b365ded01aeb0e3e3b3f27a1593bdda3bd54220816a1a0bd87c24061e2d9bd81",
+    "row_id": "85051",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "fc83aae7b2e3580d4b0c6df71f3eec644be057f5164043099f0f68ab4d9672e8",
+    "row_id": "85129",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "c112355bbb99ba266a50d13bc66e4973031d5b0e57313138aff97571c3fe4733",
+    "row_id": "86555",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_instruction",
+    "query_id_hash": "4e2a345c5e1cda0675a2b1ba60df47ff095ea29444b396675bd9de0dd28a9eb4",
+    "row_id": "87064",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "44cb730c420480a0477b505ae68af508fb90f96cf0ec54c6ad16949dd427f13a",
+    "row_id": "43",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "d029fa3a95e174a19934857f535eb9427d967218a36ea014b70ad704bc6c8d1c",
+    "row_id": "61",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "f369cb89fc627e668987007d121ed1eacdc01db9e28f8bb26f358b7d8c4f08ac",
+    "row_id": "75",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "bbb965ab0c80d6538cf2184babad2a564a010376712012bd07b0af92dcd3097d",
+    "row_id": "83",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "a898a8776c1b93c5718bf0d1c5f4e90fc60d7bc54c8699bc676cf9f60ce2aec9",
+    "row_id": "3432",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "82bd3b63e2f8767c07670f6dd062aa27d01fd09819cfcfbea5f5b8c4c27323b0",
+    "row_id": "3442",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "ceaa28bba4caba687dc31b1bbe79eca3c70c33f871f1ce8f528cf9ab5cfd76dd",
+    "row_id": "3456",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "516d51b2955c0082c429e7d58d5130a619a26a2e4a3219645a635f8297ff0349",
+    "row_id": "3463",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "0dc5713ce820f08291d115ebb644ecdf6b6344453d861961eead41ed87788561",
+    "row_id": "3482",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "fc952bb014fc5706d37a69df457c83637959ff94fac3a822d96a8af0b3a3c597",
+    "row_id": "3494",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "0673c84a150ae556f1a43d32ad8f08fadb2690f7e25f8d1c9fe052bfd977d7d7",
+    "row_id": "3534",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "83a0a0655c53f1f157b2695b6a30192c495c3440cacb3f5680de43e85b70f075",
+    "row_id": "3558",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "66eba0f8578c53acb353d399405165153f066adaf9c6567bdd25b31fceb8a83e",
+    "row_id": "3609",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "81aacf180df34c201f6a2e365d48ff3e2881985e51514703f1938e2901318a52",
+    "row_id": "3640",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "62fe739825059f3098bcdba9e0ee2d62b18c24b8bb98dbb385551e9a04526b3c",
+    "row_id": "3645",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "3fd388b5f0aea188259f583480d8ed5d023ee42c1c6f156e66cfd9d90c755af4",
+    "row_id": "3652",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "9e40f86360ba8c10c865546e324f0c4c3028101e30b46193c84c3d2843108596",
+    "row_id": "3672",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "c630fa554a3327d2a262e8705178781847b4d64a421fb94362214e718c4fb578",
+    "row_id": "3786",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "51e197d549d75965d0ad6aefd98d474c53347f196d303ee9d311be2a0608e2b9",
+    "row_id": "3843",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "b782385fafdd20c39cbaeab6019e47cabec79e5da40fa6be5001198808132e28",
+    "row_id": "3929",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "7c2355534ecc3a59cd73d88e363d9be9f597807c5229b4daaf8e9f719dfa8b42",
+    "row_id": "3942",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "ef501c2555ae9e3de6e23ae39393d64dac510d6d681ba6c1a8536ae15bfee1c6",
+    "row_id": "3990",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "817fbc1c4386fe2dcc2993b009d5f76fa9acd8a0f4aa601e513b632392c4d428",
+    "row_id": "4006",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "2559813bc6529f6938ba78a2fc60a6b4e8ccdc67cd41a2c4acf159a14304ce0c",
+    "row_id": "4031",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "1afc50560ae4c6f49a38e10441181bb585ddb88e44b88ec76248defe2e6b1c04",
+    "row_id": "4095",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "f0f131c311ca28a0075e103fd4011d37859bd53c46b90c92aec859c578994ac3",
+    "row_id": "4176",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "0b94cd5e95afb17f118c0ed090fa2621bae55c692e2f7b13948c7d805985974e",
+    "row_id": "4271",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "3dd4878eedbd996b902f8b2aee2c018c851745816c4c125674584b03980f9d3f",
+    "row_id": "13338",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "0e6a07c0e0cca88537a9f6f3e515141d2a4b2cde9f96612aa3336969a1795553",
+    "row_id": "13354",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "598800d77add6ca54072b07644106fda1bfe84b30444744adb2e08a11e50f23a",
+    "row_id": "13384",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "d8224bcc3493730209ac7476f25e8ab8b80225050e449674364ed6dd2d45928f",
+    "row_id": "13385",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "e3560047fe3c82c2f0c8106af4a16ed9b887209c93e3a3f915f162f3a312f7eb",
+    "row_id": "13487",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "9461c3dfd20dade433170b38d4636622f06b6416d35ae8699c9ee7421af0cfef",
+    "row_id": "13517",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "088ba1fb63cf90fc136fc47ef147f6c8d1868d63be594c43a9970683b27a2b89",
+    "row_id": "13533",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "ab6db0a993735081e579a6277bc8c2d245ba039a797e004da1ebe2e9a33100d9",
+    "row_id": "13555",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "f6a405fda16104fb38f6d88931e32ff56d92548549587b6389283a0aa108d442",
+    "row_id": "13559",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "56025eada03a061479ec64b3f40050e80ac5d7ce69df63cbd0dba6400ffa5a77",
+    "row_id": "13586",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "725f284f12677a172c9d2fd1d1db2edc4de87371f47c72c930db8e31f0630d05",
+    "row_id": "13592",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "a76e4ce6243e519f7d4bf3515decb3f1729bca49c8f7bcbd13b8406053d86a54",
+    "row_id": "13639",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "c9cb935a58ae47db4f8e60882ea41aca84277d155cbc0e48a59f44e3ad2729f0",
+    "row_id": "13699",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "b534010e13bea3a13dcc1a0f5cb3fd3365f21af4d7a0d5ac1b97b4d1deb9c154",
+    "row_id": "13745",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "ce0d840751defacdc0bc88649dd8d07e542ab0fb191fb7fd1d89b020a01d2f5c",
+    "row_id": "13778",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "64e14e2ad48c0dabdb79104640fb706efff67faa8ed3c20d6fb07ae83616b248",
+    "row_id": "13795",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "cccd626020f072af763194609bfd5fde62bf8215cbccaff553c0218723a523d1",
+    "row_id": "13838",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "1a7f057922da4e02393dad1807d42a73079aa14d9328d404162829deabc5fbe4",
+    "row_id": "13951",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "a5a3f29c89f777f2eb2e484cfb97ec5c9af165982848fe2a6fa4b50bf4a95225",
+    "row_id": "14036",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "85475eed163899ce19dd5c750568819d40c3db60ea960cb03c1f98c10535f28b",
+    "row_id": "14117",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "5a702680e39415f774a0d1e5a4222ead630b1aa691528f53b991bcd02330fcbb",
+    "row_id": "14161",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "19c0d5b05f2008b19051aa504ba9704111231a57b5ef733650fabc16d2e8cbb4",
+    "row_id": "14185",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "f9a459fa3ddd5b14d229dc44184452d5ad5700ded46bca132647340ff5778ab1",
+    "row_id": "14333",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "5c73fdec275f141d5fabc1116b37ee7027f9de2537ba055f2606cb527ed1ae37",
+    "row_id": "14384",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "5be21fec7f4c958e2d23dc67d760036b956859a35612c89ff8bfbd766a094cad",
+    "row_id": "14400",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "739a6e720875495ba7ebcd4e8c866967c0122897598b7f635def4789a9655d99",
+    "row_id": "14533",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "c60bf32d32fdcfb02996fdf8985b985d23f6d9e2bb2bcee4f29672e35c2bbc3a",
+    "row_id": "14595",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "d5815b3cb6d358649db4cc1b38ad78e5b45349214bb9a74603839bf94985ef00",
+    "row_id": "14605",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "0e8f1c3731f56ff55d9adf99ec62226660cec0bb21e24ccec34fb1f1919b39d7",
+    "row_id": "14628",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "4b9d7337a115ddc7d9fd1d58679c2103d7e55fd8eeaa7233c3e48246948d1208",
+    "row_id": "14732",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "95db85f998543c1987b6cf61b78b2ac892bb5ffeba5105956f4193ff781e513d",
+    "row_id": "14802",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "854e17c361427870067a6387b8538ea255f08e908cb2cef1b0d2ca4f20bc142a",
+    "row_id": "29606",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "c5b537ab8f185531956e802bb3e7a9b7b8f7258b0e67fd2714735e4a4cc6995f",
+    "row_id": "29701",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "d32a8e73c1bed2dfba1fd7758f3bfd1a8e037813377aa28264dc40bb08ef0d66",
+    "row_id": "33046",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "af84d31d6d078015de6e45f2e584258136a67ead0f9f1c62234f1600d9ada3f6",
+    "row_id": "33055",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "5567f6d6e9d9db8804a56dbfb21b60eaa84250dc4ffd55c8478099d705f878a6",
+    "row_id": "33156",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "0471f16f09662ad98a0101ea2041d7f13968cb6c00e2a3150af199ca5c68952e",
+    "row_id": "33171",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "0f781d6d18e3a82535d347d1ee3ca9e00ccbcb66fd613c8f8634d588fe2ff863",
+    "row_id": "33255",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "a640edbc968ad9e9827e549776292f39ef56f4b2616bf794af06dcc3de7252bd",
+    "row_id": "33263",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "05bec204aced135a5cbeeb528b258d73937454aefb2a8f61a03b645d226bd1f1",
+    "row_id": "33271",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "9749e62c871851f36468979e29e956423efc7f0c80a7a52ab21d283eae2928db",
+    "row_id": "33295",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "02861bf8a9db7aca9b5b436751df13caa59ae6612517931f34bb08605a2ef701",
+    "row_id": "33431",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "ab433520cabe8daf9fd325077ae489b7608395932ec26870e1c756b6cb9e33be",
+    "row_id": "33457",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "a8af19cbc19b5b2c831f97abf0d3686fb918c1925194b1563ba1b34fc51212ae",
+    "row_id": "33481",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "1ad51f551af7d3ce854d95f51c433c56425de2f30502224cd82d0ca93920c860",
+    "row_id": "33632",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "e4c1efb6a88d919a4c8c14fac41371f14788561bc6c0ab930044d453ee07ce62",
+    "row_id": "33716",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "b82e0c6d7fe6bf3c5f4b42e58e19cb27043ef04e517fb8a777a0b750c8695896",
+    "row_id": "42534",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "3545a66ce1e9381efb43f9bdf7eba65580518223ab097528b32374dc829a96cf",
+    "row_id": "42547",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "a6a59a977c6e64c2a2d0e98215173ec975948fde74185f56a65143a37edace9f",
+    "row_id": "42608",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "786611fe003e9236eacdab011eab0e2b9ba0fd23df4ae633e2dec6636b5e34f0",
+    "row_id": "42635",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "fdfd66abea24e5bb89b13906374afcab4a9f479b783e25a1bc96ebe3b5a255c8",
+    "row_id": "42649",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "3e9858c3ca0e3d4508c52bd3780a390a1fc62aeada6dff8de0bb19607d9127e4",
+    "row_id": "42701",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "011a576dbca4d8b4293fd189a403ded533c8c4f8aa579a32b21ba7a0eab1dddf",
+    "row_id": "42708",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "aa498dbc573d6825c69f1448db546d2da6e0b23698cf8231d130e474609c596b",
+    "row_id": "42729",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "6502a5ac60c605c0ecf4a1e2e442ce72cd372b9607224d3aa702982dd42aa79a",
+    "row_id": "42748",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "72adcadc641767ec8d6d2957d10aa37007393af1cac3c88fb585d3dcd16b704b",
+    "row_id": "42882",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "ec388ffc9fef0b800e559797edef8375da454b1b0adb1d53d7a68346d338fab1",
+    "row_id": "42885",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "739689e66fc842c91e1ccd7b55c5b99969061b975dd601bbc2a42c99c778e963",
+    "row_id": "42957",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "0ff95c6bc43bfc99e9674c27fc49834533133ccb7c06e2fd84b0c26a33b30fac",
+    "row_id": "43070",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "a70056c276614bd23afdf23ee7a39c47b1a82ae27f5f702c66dc5163555923bd",
+    "row_id": "43076",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "be3ab050141fb4ae44068d03ecebbad4da803fe65676615b3057c589dc518abb",
+    "row_id": "43102",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "054c9fd7a4163e3be29662190e532c6101daf3b0d2416894a2f36827941d245e",
+    "row_id": "43200",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "655dec6b75987493ae3b16b9287ae7407a88c9dde964d4a9fcf14d9d7aadb6ee",
+    "row_id": "43201",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "4b70373f3974b6fa09e3964b35d1a7b1f7ff6700b65d0d2c8f20c598d805f1c4",
+    "row_id": "43230",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "5b0f38db20b794279b5daf3d2ee40373b4295cf80f8771eb8df01c3835cf4fcf",
+    "row_id": "43258",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "7b15675da82c5e3837df36127ede27a563078613765bdaa4f492da3a625d5efc",
+    "row_id": "43316",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "f60ab969fe43ddde2b4ab167531ff3ce0cd2907c95e05efe683053a8a038d9f9",
+    "row_id": "43368",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "93638df9e884274e8cec47d34495e1317d4de933d7cb345cdc18b1914b272a99",
+    "row_id": "43505",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "f59de36956d96fbe9e6ab683a28fd17abfb1c6b0bdad18b9b0bba60b9ab15c58",
+    "row_id": "43612",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "69f2ca5557aebd665713280240e908eedb481d04bc57e82af5c8be1c6ff8fdd8",
+    "row_id": "43663",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "c817d8f1fdfc46af329ca41e2834a9e5107449944ec71f0d3d0fc851d02948f5",
+    "row_id": "43713",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "b21ff7cdbce78a935ae4399eef3300fc916c60fe6650497200cd2aa1cd4f00c6",
+    "row_id": "43724",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "cee9260baacd17ebc3469cf1691fc98a679aa06dd120fda7a605d1b620819b98",
+    "row_id": "43994",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "c5bb00d2471f8cdcd9575324f983785c5d8e909567b3f16d1f98a8f43f893fb4",
+    "row_id": "44010",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "7d731b509bb23c2890d836cd9b3356bdcea58b90702cf7ba10306b6b42c0a12b",
+    "row_id": "44040",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "e2127c3f54b464c62cb4f81480eacc80ff093d53c2ee4f3d730bab5675cabf16",
+    "row_id": "50937",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "c1fbfaf78274635382630536af3937de9a36810b7e4aa729704723e6db54f1c5",
+    "row_id": "62159",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "7b678b84af36e3a873ca9930e3b2dfc20df33e8c98a8c353ac208b889e0cfcd2",
+    "row_id": "62261",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "d21a22f8bc45f48416a19895801b52cd40b2e13ead750af8012ab36e8282cb62",
+    "row_id": "71363",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "a8f8613f76bcab6ee1bdce7e48a6f37a8d2d14b0596beca5858c02f9d0ba931b",
+    "row_id": "71501",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "cd398f00fc03c061060e4e025aa7a078e0f158aa8bf79935721294af3dec9e02",
+    "row_id": "71675",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "66bd272c26aaefd27ecd5d0292f134b4d1afe1508ec621f86a3816dabd29c230",
+    "row_id": "71756",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "113ae58b13a2d0428bf5698f3d2305dbd668b6603bf2668522e6b3524d8c3ae3",
+    "row_id": "71980",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "03170c93d53fb0647eb0aaf279aab89e58e8b852de3a58eea96e43912cd0372b",
+    "row_id": "72000",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "9ed96da6bb318591a56a39e3e60af3c8b5c64e1382664fbc4b61f5819cf16089",
+    "row_id": "72004",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "11bcc6bd7bf5ba1d8ec0dcc8659292328ac1247359768827d12db2a19fa88cbd",
+    "row_id": "72040",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "88dde1c0872da6e772e79b670a08efad158f73e3ec6f28402b555edfcff8ea78",
+    "row_id": "72118",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "d23f113f948df02d95f3f6542b613f489e19686cbd9954195f39491188deab04",
+    "row_id": "72271",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "4506a7acc9d259c780ff69a6004d25581c4de8e8beaab1a3ca851937829089bd",
+    "row_id": "72274",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "4e2469eefc2e64b679b7399cbdddcb65bc93492c48e645e45559f19f838387bf",
+    "row_id": "72357",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "c7d75f32dc9eb5dae9732c869aefead860fd2f3db1680115548d867d315257f9",
+    "row_id": "72406",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "36a55f2a171db7f6adca15dbd8610ea334f6ed9dfc8eb25c88ea9bb5773f2d6e",
+    "row_id": "72458",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "3e56ca95c5f6bd567eeda3620bd6ac2751e080527e3f6311ea99fb6f9b2dbc23",
+    "row_id": "72585",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "18a1157ab46f55f5ddc7190e4d1ddbea4271c3025c1fef79ec3fc0e92331a619",
+    "row_id": "72618",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "e195154287772cedbe7f5c8e1f8ca14ef6e5540a5bce31184b671d49693f3542",
+    "row_id": "72827",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "b33a4e571a0646a2ffcdb3ff9e6fd8ac5009ece7f5bcf2d65c41d38a43fb7f21",
+    "row_id": "79652",
+    "stratum": "heldout",
+    "subset": "heldout"
+  },
+  {
+    "group": "G2_category",
+    "query_id_hash": "d4446f487c66c31d0f5b23b0c82277d6f45d5f08552ae48905d76094ec488805",
+    "row_id": "79681",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "f626051bc94422f26f4b774a2bca105e122df36a2f32f51bd7ee470daa620b0b",
+    "row_id": "455",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "b3a8e0e1f9ab1bfe3a36f231f676f78bb30a519d2b21e6c530c0eee8ebb4a5d0",
+    "row_id": "456",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "353767b239099863e13ca954e20a66c9d75f777baf239f56e399958de49bf79d",
+    "row_id": "457",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "42f0bec3310ddd8a55e8d62817337ca49c55a898c14ab073d07c16dee24d73d4",
+    "row_id": "459",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "841a05fd378a2c067058585e3691c2a3f5399206fded7a580fdbbc281003168e",
+    "row_id": "460",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "52bb7cc738dbf5e5eee2c76754d87904e6750c63eda5e0a866197d2e16d9c142",
+    "row_id": "1983",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "4dea5c7cb70f50322ec9d734aa4aa078be9227c05251e18991c596f387552370",
+    "row_id": "1984",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "78e370b587b145920213731b7c7c725e512b3b6577c51c800218a7c764c532ae",
+    "row_id": "1985",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "9113b98df80f877c7a2ee5d865a04c9514b4e9bf25a49d315b0b15f115d2f0d2",
+    "row_id": "1989",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "8e9b669109df89620b94f2387dc53206a82ddc71d658f8f7a2b3a9b417370d3e",
+    "row_id": "1991",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "f87ff9f55f70af6675b1a6a63996bae0d5e59abdbc84db79fa28265e535f830b",
+    "row_id": "5863",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "6b96c2140a07bedd5f72b604e2759a4b4573e13dfbb6e8ef17ea6cd310e560c9",
+    "row_id": "5864",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "2b242e622756a3178c15d17e9acbb3325a462343dfaa99f8840afc1ea9b1a84e",
+    "row_id": "5865",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "23ca67ce89b12809fd1a00b86ebbdbfc4786677e2bb02ea6788805d59458e48e",
+    "row_id": "8031",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "956b610def69ac2d1d4e86acb8baf2a3c1fd39f47baa081e1061cb8006f92f73",
+    "row_id": "8032",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "eeba9af98eb63324e962080dd0459dfc4fa3701c9554e9d44fdc704946ac9cd6",
+    "row_id": "8034",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "c08a1a2684950b2e0cbfa5d8f8d13350b30faa398bd7d32333ed703a78b1dd40",
+    "row_id": "8334",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "a3adef724ce899f5dac011fcb148a1c74465745cb70b9e5e6554071a6d7689d8",
+    "row_id": "8335",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "557f5337d3e677163ab18acb9b41e0d29e9aa83fd90943ff6ad3baaa90bb51a5",
+    "row_id": "8337",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "29d41fae5f59df0fdb2e64f1df4016530f43bacd97e3138405e0fe1aaa065933",
+    "row_id": "9341",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "4e3c5e205b598b4834efe1ed895ef5a7b05b17be9167534ff69f6c53c2096b41",
+    "row_id": "9343",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "72c61fcbb07da983d3d37c5b816750561fded53566a2acec1f54141bbdb7d182",
+    "row_id": "9344",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "a4ec28637201b5e6679fb0f0ce029bc0afba3475a8ab1c2a01ea84df1885b072",
+    "row_id": "9345",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "f4fe9ed65d4fea83120c8e959bd64696a75e9ee839b52edb6a38ca30533ac9f8",
+    "row_id": "9346",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "0d326e09800891fbc9b35ae697a3889817b6dc094f4d68b7d99f9ada813b8f9a",
+    "row_id": "9349",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "d54da1b840cb7478bab03131074f4ed32249b2e902c875d202ec61ec8e3ffad8",
+    "row_id": "10898",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "7ef5c3627c0b4a64b549adf041666daf678ec0634bd374e7f38c5f151578a875",
+    "row_id": "11644",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "cab5eacb9fb59868a37f1c9372d2893c5f8529a1f19f7001e90e2eb82edc9bcf",
+    "row_id": "11645",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "0eba3ddff8b8400d5279ac894949f81ba9384c53be4a45f11644168ce6421dd0",
+    "row_id": "11647",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "2022966b9224c9f9c3ce9971f009830c52a9f4efa346d84ec8f2550e97b786ff",
+    "row_id": "11648",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "760175f4b2579ec4c48d98370d35a970fc1f32228ca03498755627ebf33a3bc9",
+    "row_id": "11649",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "71d9855458fb112e65c767565e7711cd25553ac4775e15aa9a18e341c0415666",
+    "row_id": "11650",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "2c65b6128ebcdc624bb6ac82e8d4fbf98e130c6e73a0d62530b2fb671f658f01",
+    "row_id": "13773",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "423359e0a0ad21de32b01ac85bf4f11c95e3d1f3b05f254e0a80f333c0d07fcf",
+    "row_id": "13774",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "d88efaf7b775f0824202a8439f02a2de932a2ad1fb8de2ad180fc53587e8abd1",
+    "row_id": "13777",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "facf4163b39f243cc9a988e090646730b556591e97f5f57009f523cf7fc3582c",
+    "row_id": "13779",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "37859290e7d150c5026fef58c8614a4c31692572845f91410debc245fe6b9ffa",
+    "row_id": "13780",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "38fb740d5d2b20d24b968fe9a225416cb434529a1ce7dab2346edf71b96a3971",
+    "row_id": "14485",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "7b3504cdeb3b911cbde4ec0f7b6ad935aaf11dc4ab57631cb063345bda8cc11c",
+    "row_id": "14489",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "c4b921fb6551a3b8f95b22a082baa4f219d23c879ac9fcb09401cea491504390",
+    "row_id": "14938",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "4bd6fb30bbbaba340fb0267845a29e13ac60300746152fb9ce3fc7434586e207",
+    "row_id": "14950",
+    "stratum": "tx_one_owner",
+    "subset": "tx_one_owner"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "f4e9002e375945a179c0d06ab8c7a6285f68f2219f93c3a14ae2a8726bab6c0a",
+    "row_id": "18978",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "086a63075191b43930d4b3001ea21f4004bf3904e6ae6484245d1c5ecf529bf2",
+    "row_id": "18979",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "56b63b0ef79d67de85c9491bf811c4197b66b1b3d368ce000004fe2ed4a7adee",
+    "row_id": "18980",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "3a7deadb6be0019a047125695c69be3b267b9b6fdf94e09af567f4279ec9939a",
+    "row_id": "18982",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "7a7844bd013301dd40a6ec1abe2b4f61ee5b807a631c5b1fd88ef579b0dc9351",
+    "row_id": "18984",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "5b4c7cbb7ddd9b0d94ba8eeab1d59acea862237f39e121639bdf44323817dc93",
+    "row_id": "18987",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "bafb6bdc111d07427a35cc11569bc43a0528b7ea8d6cb9bfdbcc1a712387c996",
+    "row_id": "18988",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "1558a81d9988936e652db0ccfe3bb828f64e00545b2cc8ca82d136b10c0c1eb0",
+    "row_id": "18990",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "60b8ae9556b6ae944f857d94834d1411a5cc2a9b1718ff65bcf30420b0d195f1",
+    "row_id": "18992",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "0f96051ad52716c500335eb8704e1b4f9ba9018448f76be7ad7381adb4816149",
+    "row_id": "19272",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "8c7f4a7cb33c30bd215bf16aad244ed541abdd3e2bf14b03b236273647662d1a",
+    "row_id": "19274",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "b9fa142d8991e8183d489c3054036ff67929fb41efd77358ff834571a38a1571",
+    "row_id": "19281",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "c2db217ea7a34191c8f55a2acd4ac37c35611dc1946a7c0fd81e0524bc3369b1",
+    "row_id": "20022",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "dd7270edf479d8779827cbe5d0e45fea44390dc9f0685b12e88ea98d49a3350e",
+    "row_id": "20024",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "6c01b9f6a375679f1e1de93d29c82bf1963bda5aaa23accdf14c0fb0f990341e",
+    "row_id": "20026",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "0597f171a594e02d5052e9df649923709c3bf0e1137b87ca4ab1edfceb934ad9",
+    "row_id": "20027",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "a3c02c7b8b03e012b8d139f022c5edda4bb4389142da1635a7153ee71509f045",
+    "row_id": "20028",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "0dd1c3686e0d89e48b486d6798e1e6393e44e8fcb5f61bcef79de3f5744fd8d7",
+    "row_id": "20029",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "f4f41eee51646d44b0f223367cbb20e0c02619a8c9891b520a8ea783062924bf",
+    "row_id": "20030",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  },
+  {
+    "group": "G3_instruction",
+    "query_id_hash": "e42d1047feac466aa880c968bd5672edee272aa8a999b287a6bba565f73e3116",
+    "row_id": "21682",
+    "stratum": "other_labeled",
+    "subset": "other_labeled"
+  }
+]

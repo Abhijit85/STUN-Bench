@@ -1,0 +1,316 @@
+{
+  "aggregate": {
+    "bge": {
+      "concat": {
+        "heldout": {
+          "mean_accuracy": 0.3774193548387097,
+          "mean_recall_at_5": 0.5451612903225806,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.3774193548387097,
+              "n": 310,
+              "recall_at_5": 0.5451612903225806,
+              "retrieval_top1": 0.3774193548387097
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "labeled": {
+          "mean_accuracy": 0.5865921787709497,
+          "mean_recall_at_5": 0.7597765363128491,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.5865921787709497,
+              "n": 358,
+              "recall_at_5": 0.7597765363128491,
+              "retrieval_top1": 0.5865921787709497
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "overall_accuracy": 0.4787379972565158,
+        "overall_recall_at_5": 0.6460905349794238,
+        "partial_heldout": {
+          "mean_accuracy": 0.36065573770491804,
+          "mean_recall_at_5": 0.4918032786885246,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.36065573770491804,
+              "n": 61,
+              "recall_at_5": 0.4918032786885246,
+              "retrieval_top1": 0.36065573770491804
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        }
+      },
+      "docs_only": {
+        "heldout": {
+          "mean_accuracy": 0.532258064516129,
+          "mean_recall_at_5": 0.7322580645161291,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.532258064516129,
+              "n": 310,
+              "recall_at_5": 0.7322580645161291,
+              "retrieval_top1": 0.532258064516129
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "labeled": {
+          "mean_accuracy": 0.5670391061452514,
+          "mean_recall_at_5": 0.7877094972067039,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.5670391061452514,
+              "n": 358,
+              "recall_at_5": 0.7877094972067039,
+              "retrieval_top1": 0.5670391061452514
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "overall_accuracy": 0.5473251028806584,
+        "overall_recall_at_5": 0.7681755829903978,
+        "partial_heldout": {
+          "mean_accuracy": 0.5081967213114754,
+          "mean_recall_at_5": 0.8360655737704918,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.5081967213114754,
+              "n": 61,
+              "recall_at_5": 0.8360655737704918,
+              "retrieval_top1": 0.5081967213114754
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        }
+      }
+    },
+    "bm25": {
+      "concat": {
+        "heldout": {
+          "mean_accuracy": 0.3709677419354839,
+          "mean_recall_at_5": 0.5741935483870968,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.3709677419354839,
+              "n": 310,
+              "recall_at_5": 0.5741935483870968,
+              "retrieval_top1": 0.3709677419354839
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "labeled": {
+          "mean_accuracy": 0.6871508379888268,
+          "mean_recall_at_5": 0.8128491620111732,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.6871508379888268,
+              "n": 358,
+              "recall_at_5": 0.8128491620111732,
+              "retrieval_top1": 0.6871508379888268
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "overall_accuracy": 0.52400548696845,
+        "overall_recall_at_5": 0.6899862825788752,
+        "partial_heldout": {
+          "mean_accuracy": 0.3442622950819672,
+          "mean_recall_at_5": 0.5573770491803278,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.3442622950819672,
+              "n": 61,
+              "recall_at_5": 0.5573770491803278,
+              "retrieval_top1": 0.3442622950819672
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        }
+      },
+      "docs_only": {
+        "heldout": {
+          "mean_accuracy": 0.47096774193548385,
+          "mean_recall_at_5": 0.6774193548387096,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.47096774193548385,
+              "n": 310,
+              "recall_at_5": 0.6774193548387096,
+              "retrieval_top1": 0.47096774193548385
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "labeled": {
+          "mean_accuracy": 0.5307262569832403,
+          "mean_recall_at_5": 0.7150837988826816,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.5307262569832403,
+              "n": 358,
+              "recall_at_5": 0.7150837988826816,
+              "retrieval_top1": 0.5307262569832403
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "overall_accuracy": 0.49108367626886146,
+        "overall_recall_at_5": 0.6968449931412894,
+        "partial_heldout": {
+          "mean_accuracy": 0.36065573770491804,
+          "mean_recall_at_5": 0.6885245901639344,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.36065573770491804,
+              "n": 61,
+              "recall_at_5": 0.6885245901639344,
+              "retrieval_top1": 0.36065573770491804
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        }
+      }
+    },
+    "jina": {
+      "concat": {
+        "heldout": {
+          "mean_accuracy": 0.2870967741935484,
+          "mean_recall_at_5": 0.3419354838709677,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.2870967741935484,
+              "n": 310,
+              "recall_at_5": 0.3419354838709677,
+              "retrieval_top1": 0.22903225806451613
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "labeled": {
+          "mean_accuracy": 0.5837988826815642,
+          "mean_recall_at_5": 0.6731843575418994,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.5837988826815642,
+              "n": 358,
+              "recall_at_5": 0.6731843575418994,
+              "retrieval_top1": 0.5251396648044693
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "overall_accuracy": 0.43072702331961593,
+        "overall_recall_at_5": 0.5116598079561042,
+        "partial_heldout": {
+          "mean_accuracy": 0.26229508196721313,
+          "mean_recall_at_5": 0.4262295081967213,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.26229508196721313,
+              "n": 61,
+              "recall_at_5": 0.4262295081967213,
+              "retrieval_top1": 0.13114754098360656
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        }
+      },
+      "docs_only": {
+        "heldout": {
+          "mean_accuracy": 0.5064516129032258,
+          "mean_recall_at_5": 0.6387096774193548,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.5064516129032258,
+              "n": 310,
+              "recall_at_5": 0.6387096774193548,
+              "retrieval_top1": 0.4096774193548387
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "labeled": {
+          "mean_accuracy": 0.5502793296089385,
+          "mean_recall_at_5": 0.7067039106145251,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.5502793296089385,
+              "n": 358,
+              "recall_at_5": 0.7067039106145251,
+              "retrieval_top1": 0.4581005586592179
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        },
+        "overall_accuracy": 0.5281207133058985,
+        "overall_recall_at_5": 0.6721536351165981,
+        "partial_heldout": {
+          "mean_accuracy": 0.5081967213114754,
+          "mean_recall_at_5": 0.639344262295082,
+          "per_seed": {
+            "456": {
+              "accuracy": 0.5081967213114754,
+              "n": 61,
+              "recall_at_5": 0.639344262295082,
+              "retrieval_top1": 0.2786885245901639
+            }
+          },
+          "sd_accuracy": 0.0,
+          "sd_recall_at_5": 0.0
+        }
+      }
+    }
+  },
+  "arms": [
+    "docs_only",
+    "concat"
+  ],
+  "candidate_rule": "distinct5_walkdown",
+  "candidate_shortfall_refusal": true,
+  "e7_arm_amendment": "CONCAT is the pooled-experience arm; equivalence to SYNAPSE is established in Section 7.",
+  "input_repo_commit": "35e908e670b87f0570414d96398276a61d3c4beb",
+  "input_summary": "<REPO_ROOT>/artifacts/results/stabletoolbench_category_holdout_e7_inputs_r1/summary.json",
+  "paper_eligible": true,
+  "repo_commit": "07e8d696c267308f25e51ee7cfb8dcf96219266a",
+  "rerank_retrievers": [
+    "jina"
+  ],
+  "result_files": [
+    "artifacts/results/stabletoolbench_category_holdout_e7_concat_r1/seed_456/jina/docs_only.json",
+    "artifacts/results/stabletoolbench_category_holdout_e7_concat_r1/seed_456/jina/concat.json",
+    "artifacts/results/stabletoolbench_category_holdout_e7_concat_r1/seed_456/bm25/docs_only.json",
+    "artifacts/results/stabletoolbench_category_holdout_e7_concat_r1/seed_456/bm25/concat.json",
+    "artifacts/results/stabletoolbench_category_holdout_e7_concat_r1/seed_456/bge/docs_only.json",
+    "artifacts/results/stabletoolbench_category_holdout_e7_concat_r1/seed_456/bge/concat.json"
+  ],
+  "retrievers": [
+    "jina",
+    "bm25",
+    "bge"
+  ],
+  "seeds": [
+    456
+  ]
+}

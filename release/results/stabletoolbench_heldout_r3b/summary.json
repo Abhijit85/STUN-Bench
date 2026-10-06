@@ -1,0 +1,396 @@
+{
+  "aggregate": {
+    "centralized": {
+      "heldout": {
+        "mean_accuracy": 0.2481121898597627,
+        "mean_recall_at_5": 0.27292340884573896,
+        "mean_retrieval_top1": 0.21251348435814457,
+        "n_per_seed": [
+          309,
+          309,
+          309
+        ],
+        "sd_accuracy": 0.00814437371658119,
+        "sd_recall_at_5": 0.0067367831697933145,
+        "sd_retrieval_top1": 0.009342237365527925
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.26616915422885573,
+          "sd_accuracy": 0.011399442027253336
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.2631578947368421,
+          "sd_accuracy": 0.006578947368421045
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.4928571428571428,
+        "mean_recall_at_5": 0.5531746031746032,
+        "mean_retrieval_top1": 0.43174603174603177,
+        "n_per_seed": [
+          420,
+          420,
+          420
+        ],
+        "sd_accuracy": 0.02416402753593383,
+        "sd_recall_at_5": 0.021472617870585194,
+        "sd_retrieval_top1": 0.02676145285728152
+      }
+    },
+    "flat_pool": {
+      "heldout": {
+        "mean_accuracy": 0.5339805825242718,
+        "mean_recall_at_5": 0.6893203883495146,
+        "mean_retrieval_top1": 0.44660194174757284,
+        "n_per_seed": [
+          309,
+          309,
+          309
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.5373134328358209,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.5460526315789473,
+          "sd_accuracy": 0.0
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.5238095238095238,
+        "mean_recall_at_5": 0.6595238095238095,
+        "mean_retrieval_top1": 0.40476190476190477,
+        "n_per_seed": [
+          420,
+          420,
+          420
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      }
+    },
+    "flat_pool_oracle": {
+      "heldout": {
+        "mean_accuracy": 0.6440129449838188,
+        "mean_recall_at_5": 1.0,
+        "mean_retrieval_top1": 0.44660194174757284,
+        "n_per_seed": [
+          309,
+          309,
+          309
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.6567164179104478,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.631578947368421,
+          "sd_accuracy": 0.0
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_retrieval_top1": 0.0,
+        "n_per_seed": [
+          0,
+          0,
+          0
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      }
+    },
+    "local_only": {
+      "heldout": {
+        "mean_accuracy": 0.3779935275080906,
+        "mean_recall_at_5": 0.4355987055016181,
+        "mean_retrieval_top1": 0.3182308522114347,
+        "n_per_seed": [
+          1545,
+          1545,
+          1545
+        ],
+        "sd_accuracy": 0.006472491909385092,
+        "sd_recall_at_5": 0.006174363763216467,
+        "sd_retrieval_top1": 0.0075017642505776595
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.39104477611940297,
+          "sd_accuracy": 0.007897765107655491
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.3986842105263158,
+          "sd_accuracy": 0.00573539334676403
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.3603174603174603,
+        "mean_recall_at_5": 0.41555555555555557,
+        "mean_retrieval_top1": 0.30174603174603176,
+        "n_per_seed": [
+          2100,
+          2100,
+          2100
+        ],
+        "sd_accuracy": 0.014296292379933595,
+        "sd_recall_at_5": 0.014772141867685683,
+        "sd_retrieval_top1": 0.008141789589353743
+      }
+    },
+    "query_classifier": {
+      "heldout": {
+        "mean_accuracy": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_retrieval_top1": 0.0,
+        "n_per_seed": [
+          309,
+          309,
+          309
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.0,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.0,
+          "sd_accuracy": 0.0
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.6373015873015873,
+        "mean_recall_at_5": 0.0,
+        "mean_retrieval_top1": 0.0,
+        "n_per_seed": [
+          420,
+          420,
+          420
+        ],
+        "sd_accuracy": 0.009622504486493788,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      }
+    },
+    "synapse": {
+      "heldout": {
+        "mean_accuracy": 0.24811218985976266,
+        "mean_recall_at_5": 0.2750809061488673,
+        "mean_retrieval_top1": 0.209277238403452,
+        "n_per_seed": [
+          309,
+          309,
+          309
+        ],
+        "sd_accuracy": 0.003736894946211174,
+        "sd_recall_at_5": 0.0032362459546925737,
+        "sd_retrieval_top1": 0.009342237365527925
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.26616915422885573,
+          "sd_accuracy": 0.011399442027253336
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.2631578947368421,
+          "sd_accuracy": 0.006578947368421045
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.4992063492063492,
+        "mean_recall_at_5": 0.5642857142857143,
+        "mean_retrieval_top1": 0.4380952380952381,
+        "n_per_seed": [
+          420,
+          420,
+          420
+        ],
+        "sd_accuracy": 0.026118226463340215,
+        "sd_recall_at_5": 0.019488935171124874,
+        "sd_retrieval_top1": 0.018898223650461347
+      }
+    },
+    "synapse_oracle": {
+      "heldout": {
+        "mean_accuracy": 0.6483279395900755,
+        "mean_recall_at_5": 1.0,
+        "mean_retrieval_top1": 0.21898597626752966,
+        "n_per_seed": [
+          309,
+          309,
+          309
+        ],
+        "sd_accuracy": 0.027523949993900943,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.009342237365527925
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.6218905472636816,
+          "sd_accuracy": 0.004308584098430056
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.668859649122807,
+          "sd_accuracy": 0.031090892277977688
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.0,
+        "mean_recall_at_5": 0.0,
+        "mean_retrieval_top1": 0.0,
+        "n_per_seed": [
+          0,
+          0,
+          0
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      }
+    }
+  },
+  "config": {
+    "arms": [
+      "synapse",
+      "centralized",
+      "local_only",
+      "flat_pool",
+      "query_classifier"
+    ],
+    "client_count": 5,
+    "groups": [
+      "G1_instruction",
+      "G1_tool",
+      "G1_category",
+      "G2_instruction",
+      "G2_category",
+      "G3_instruction"
+    ],
+    "heldout_groups": [
+      "G1_tool",
+      "G1_category"
+    ],
+    "heldout_tools_path": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_r3b/heldout_tools.json",
+    "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+    "local_embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "unknown"
+    },
+    "max_items_per_client": 5000,
+    "merge_policy": "conflict_log",
+    "oracle_arms": [
+      "synapse",
+      "flat_pool"
+    ],
+    "partition_mode": "category",
+    "repo_commit": "1b9ed745611858fc2662951846fd29487064f873",
+    "reranker_variant": "V3",
+    "retrieval_mode": "distinct_tool_topk",
+    "retrieval_pool_size": 5,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "top_k": 5
+  },
+  "heldout_filter": {
+    "dropped_heldout_query_ids_sample": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "30",
+      "33",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "140",
+      "141",
+      "142",
+      "143"
+    ],
+    "eval_queries_removed": 0,
+    "experience_entries_dropped_heldout": 103403,
+    "experience_entries_dropped_heldout_mentions": 83114,
+    "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+    "pool_items_after": 90704,
+    "pool_items_before": 194107,
+    "pool_items_dropped_heldout": 20289,
+    "pool_sha256": "87934661c9a4db8219a5d76bf78d0ba084a946e6712724e1602abc641cb01b06",
+    "remaining_items_with_heldout_label": 0
+  },
+  "heldout_sanity": {
+    "G1_category": {
+      "distinct_gold_tools": 77,
+      "queries_with_gold_in_heldout": 134,
+      "query_count": 134
+    },
+    "G1_tool": {
+      "distinct_gold_tools": 95,
+      "queries_with_gold_in_heldout": 152,
+      "query_count": 152
+    }
+  },
+  "notes": {
+    "zero_sd_arms": {
+      "added_at": "2026-09-08T14:07:20.077118+00:00",
+      "arms": [
+        "flat_pool",
+        "flat_pool_oracle"
+      ],
+      "fields_changed": [
+        "notes.zero_sd_arms"
+      ],
+      "reason": "Docs-only arms have no seed-dependent client draw or merged experience input; identical metrics across seeds are expected, not copied."
+    }
+  },
+  "paired_mcnemar_synapse_vs_flat_pool": {
+    "123": {
+      "compared": 309,
+      "flat_correct_synapse_wrong": 92,
+      "same": 214,
+      "synapse_correct_flat_wrong": 3
+    },
+    "42": {
+      "compared": 309,
+      "flat_correct_synapse_wrong": 89,
+      "same": 218,
+      "synapse_correct_flat_wrong": 2
+    },
+    "456": {
+      "compared": 309,
+      "flat_correct_synapse_wrong": 90,
+      "same": 218,
+      "synapse_correct_flat_wrong": 1
+    }
+  },
+  "paper_eligible": true
+}

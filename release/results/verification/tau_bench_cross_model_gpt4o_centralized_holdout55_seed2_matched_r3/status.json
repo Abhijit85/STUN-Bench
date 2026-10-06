@@ -1,0 +1,9 @@
+{
+  "command": "env SYNAPSE_TAU_COMPENDIUM=<REPO_ROOT>/artifacts/verification/tau_bench_global_packages_holdout60_k3/centralized.json .venv/bin/python -m scripts.run_synapse_tau_retail --model gpt-4o-2024-08-06 --model-provider openai --user-model gpt-4o-2024-08-06 --user-model-provider openai --agent-strategy synapse-tool-calling --task-split test --task-ids 1 2 7 8 9 10 11 16 17 18 19 20 21 23 24 25 27 34 36 37 39 42 43 47 48 50 54 58 59 61 62 64 68 73 74 75 79 80 81 84 86 87 88 90 93 94 95 96 100 102 103 106 107 109 112 --seed 2 --log-dir artifacts/verification/tau_bench_cross_model_gpt4o_centralized_holdout55_seed2_matched_r3",
+  "completed_at": "2026-09-01T23:01:18-07:00",
+  "completed_pid": 740502,
+  "exit_code": 0,
+  "launched_at": "2026-09-01T22:45:30-07:00",
+  "pid": 723170,
+  "stage": "completed"
+}

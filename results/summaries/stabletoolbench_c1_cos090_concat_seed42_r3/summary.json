@@ -1,0 +1,61 @@
+{
+  "aggregate": {
+    "full": {
+      "0": {
+        "mean_accuracy": 0.5377229080932785,
+        "mean_recall_at_5": 0.6927297668038409,
+        "per_seed": {
+          "42": {
+            "accuracy": 0.5377229080932785,
+            "n": 729,
+            "recall_at_5": 0.6927297668038409
+          }
+        },
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0
+      }
+    },
+    "subset_g1g2_instruction": {
+      "0": {
+        "mean_accuracy": 0.5503875968992248,
+        "mean_recall_at_5": 0.7054263565891473,
+        "per_seed": {
+          "42": {
+            "accuracy": 0.5503875968992248,
+            "n": 258,
+            "recall_at_5": 0.7054263565891473
+          }
+        },
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0
+      }
+    }
+  },
+  "config": {
+    "full_rates": [
+      0
+    ],
+    "git_commit": "5fbf5a9552b4a4d215f1a26637d0b6c4586c751d",
+    "local_embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "unknown"
+    },
+    "model_path": "<HF_CACHE>/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "packages_roots": {
+      "42": "<REPO_ROOT>/artifacts/verification/stabletoolbench_c1_cos090_distinct5_seed42_r2/packages"
+    },
+    "rates": [
+      0
+    ],
+    "reranker_variant": "V3",
+    "retrieval_mode": "distinct_tool_topk",
+    "retrieval_pool_size": 5000,
+    "seeds": [
+      42
+    ],
+    "top_k": 5
+  },
+  "paper_eligible": true
+}

@@ -1,0 +1,237 @@
+{
+  "aggregate": {
+    "centralized": {
+      "heldout": {
+        "mean_accuracy": 0.2912621359223301,
+        "mean_recall_at_5": 0.343042071197411,
+        "mean_retrieval_top1": 0.20711974110032363,
+        "n_per_seed": [
+          309
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.29850746268656714,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.3223684210526316,
+          "sd_accuracy": 0.0
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.5261904761904762,
+        "mean_recall_at_5": 0.669047619047619,
+        "mean_retrieval_top1": 0.4357142857142857,
+        "n_per_seed": [
+          420
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      }
+    },
+    "flat_pool": {
+      "heldout": {
+        "mean_accuracy": 0.5339805825242718,
+        "mean_recall_at_5": 0.6893203883495146,
+        "mean_retrieval_top1": 0.44660194174757284,
+        "n_per_seed": [
+          309
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.5373134328358209,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.5460526315789473,
+          "sd_accuracy": 0.0
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.5238095238095238,
+        "mean_recall_at_5": 0.6595238095238095,
+        "mean_retrieval_top1": 0.40476190476190477,
+        "n_per_seed": [
+          420
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      }
+    },
+    "local_only": {
+      "heldout": {
+        "mean_accuracy": 0.4161812297734628,
+        "mean_recall_at_5": 0.49967637540453075,
+        "mean_retrieval_top1": 0.3145631067961165,
+        "n_per_seed": [
+          1545
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.4298507462686567,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.4355263157894737,
+          "sd_accuracy": 0.0
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.3985714285714286,
+        "mean_recall_at_5": 0.4961904761904762,
+        "mean_retrieval_top1": 0.30714285714285716,
+        "n_per_seed": [
+          2100
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      }
+    },
+    "synapse": {
+      "heldout": {
+        "mean_accuracy": 0.27184466019417475,
+        "mean_recall_at_5": 0.3365695792880259,
+        "mean_retrieval_top1": 0.20388349514563106,
+        "n_per_seed": [
+          309
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      },
+      "heldout_by_group": {
+        "G1_category": {
+          "mean_accuracy": 0.27611940298507465,
+          "sd_accuracy": 0.0
+        },
+        "G1_tool": {
+          "mean_accuracy": 0.3026315789473684,
+          "sd_accuracy": 0.0
+        }
+      },
+      "labeled": {
+        "mean_accuracy": 0.5380952380952381,
+        "mean_recall_at_5": 0.669047619047619,
+        "mean_retrieval_top1": 0.4523809523809524,
+        "n_per_seed": [
+          420
+        ],
+        "sd_accuracy": 0.0,
+        "sd_recall_at_5": 0.0,
+        "sd_retrieval_top1": 0.0
+      }
+    }
+  },
+  "config": {
+    "arms": [
+      "synapse",
+      "centralized",
+      "local_only",
+      "flat_pool"
+    ],
+    "candidate_rule": "distinct5_walkdown",
+    "candidate_shortfall_refusal": true,
+    "client_count": 5,
+    "groups": [
+      "G1_instruction",
+      "G1_tool",
+      "G1_category",
+      "G2_instruction",
+      "G2_category",
+      "G3_instruction"
+    ],
+    "heldout_groups": [
+      "G1_tool",
+      "G1_category"
+    ],
+    "heldout_tools_path": "<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_distinct5_d1b_seed456_r1/heldout_tools.json",
+    "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+    "local_embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "unknown"
+    },
+    "max_items_per_client": 5000,
+    "merge_policy": "conflict_log",
+    "oracle_arms": [],
+    "partition_mode": "category",
+    "repo_commit": "00e2b289b0c7ed35e620ded359ebe28c059f34b7",
+    "reranker_variant": "V3",
+    "retrieval_mode": "distinct_tool_topk",
+    "retrieval_pool_size": 200,
+    "seeds": [
+      456
+    ],
+    "top_k": 5
+  },
+  "heldout_filter": {
+    "dropped_heldout_query_ids_sample": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "30",
+      "33",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "140",
+      "141",
+      "142",
+      "143"
+    ],
+    "eval_queries_removed": 0,
+    "experience_entries_dropped_heldout": 103403,
+    "experience_entries_dropped_heldout_mentions": 83114,
+    "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+    "pool_items_after": 90704,
+    "pool_items_before": 194107,
+    "pool_items_dropped_heldout": 20289,
+    "pool_sha256": "87934661c9a4db8219a5d76bf78d0ba084a946e6712724e1602abc641cb01b06",
+    "remaining_items_with_heldout_label": 0
+  },
+  "heldout_sanity": {
+    "G1_category": {
+      "distinct_gold_tools": 77,
+      "queries_with_gold_in_heldout": 134,
+      "query_count": 134
+    },
+    "G1_tool": {
+      "distinct_gold_tools": 95,
+      "queries_with_gold_in_heldout": 152,
+      "query_count": 152
+    }
+  },
+  "paired_mcnemar_synapse_vs_flat_pool": {
+    "456": {
+      "compared": 309,
+      "flat_correct_synapse_wrong": 83,
+      "same": 224,
+      "synapse_correct_flat_wrong": 2
+    }
+  },
+  "paper_eligible": true
+}

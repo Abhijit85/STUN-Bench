@@ -1,0 +1,736 @@
+{
+  "aggregate": {
+    "capped_synthetic_plus_experience/bge": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6957928802588996,
+          "sd": 0.0056053424193167525,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.48759439050701187,
+          "sd": 0.015293901703082872,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6547619047619048,
+          "sd": 0.01259881576697426,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.4095238095238095,
+          "sd": 0.01091089451179961,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    },
+    "capped_synthetic_plus_experience/bm25": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.5296655879180151,
+          "sd": 0.0074737898924223155,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.3408845738942826,
+          "sd": 0.00934223736552791,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.8023809523809524,
+          "sd": 0.007142857142857173,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.5428571428571429,
+          "sd": 0.03095238095238097,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    },
+    "capped_synthetic_plus_experience/jina": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.5469255663430421,
+          "sd": 0.008562301977555333,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.32470334412081986,
+          "sd": 0.0130791323117391,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6325396825396825,
+          "sd": 0.009622504486493728,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.3952380952380952,
+          "sd": 0.0227128381289749,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    },
+    "synthetic_docs/bge": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6148867313915858,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.39158576051779936,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.3738095238095238,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    },
+    "synthetic_docs/bm25": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6601941747572816,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.42394822006472493,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6238095238095238,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.3952380952380952,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    },
+    "synthetic_docs/jina": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6019417475728155,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.3074433656957929,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.5428571428571428,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.30952380952380953,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    },
+    "synthetic_plus_experience/bge": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6084142394822006,
+          "sd": 0.003236245954692518,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.3861920172599784,
+          "sd": 0.001868447473105595,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6698412698412698,
+          "sd": 0.005991932091484759,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.4444444444444445,
+          "sd": 0.005498573992282162,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    },
+    "synthetic_plus_experience/bm25": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.48759439050701187,
+          "sd": 0.007473789892422348,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.33117583603020495,
+          "sd": 0.004943447351624419,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.819047619047619,
+          "sd": 0.01797579627445416,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.6,
+          "sd": 0.0023809523809523725,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    },
+    "synthetic_plus_experience/jina": {
+      "heldout": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.4617044228694714,
+          "sd": 0.001868447473105595,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.2535059331175836,
+          "sd": 0.007473789892422331,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      },
+      "labeled": {
+        "lt5_share": {
+          "mean": 0.0,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "mean_distinct_tools": {
+          "mean": 5,
+          "sd": 0.0,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "recall_at_5": {
+          "mean": 0.6849206349206349,
+          "sd": 0.006873217490352663,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        },
+        "retrieval_top1": {
+          "mean": 0.41825396825396827,
+          "sd": 0.01787036547491698,
+          "seeds": [
+            42,
+            123,
+            456
+          ]
+        }
+      }
+    }
+  },
+  "config": {
+    "allow_dirty": false,
+    "bge_model_path": "<HF_CACHE>/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+    "cap_per_tool": 5,
+    "e6_dirs": "42=<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_r4,123=<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed123_r4,456=<REPO_ROOT>/artifacts/results/stabletoolbench_heldout_retriever_compare_e6_seed456_r4",
+    "embed_model": "jina-embeddings-v2-base-en",
+    "generated_query_file": "<REPO_ROOT>/artifacts/results/stabletoolbench_symmetric_expansion_d3_llm_r1/generated_queries.json",
+    "generation_mode": "llm_from_description",
+    "generator_max_new_tokens": 192,
+    "generator_model_path": "<HF_CACHE>/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659",
+    "generator_temperature": 0.7,
+    "groups": "G1_instruction,G1_tool,G1_category,G2_instruction,G2_category,G3_instruction",
+    "heldout_tools_sha256": "8e84717a6e4fbe985efe03e41c258cd04d4f61917cc1efb15df9f5471e200260",
+    "local_embedder": {
+      "device": "cuda",
+      "local_only": "1",
+      "model_path": "<REPO_ROOT>/external_models/jinaai/jina-embeddings-v2-base-en",
+      "revision": "unknown"
+    },
+    "output_dir": "<REPO_ROOT>/artifacts/results/stabletoolbench_symmetric_expansion_d3_llm_withdocs_repro_42bc1c9f_abs",
+    "retrieval_mode": "distinct_tool_topk",
+    "retrieval_pool_size": 200,
+    "retrievers": "jina,bm25,bge",
+    "seeds": "42,123,456",
+    "stb_root": "<REPO_ROOT>/external_datasets/StableToolBench",
+    "synthetic_per_tool": 5,
+    "top_k": 5
+  },
+  "paper_eligible": true,
+  "repo_commit": "42bc1c9f5ab5a46c2e6aa63ded704603d060e518"
+}
